@@ -1,1 +1,200 @@
-aW1wb3J0IG1hdGgKaW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0LCBPcHRpb25hbApmcm9tIGdyb3EgaW1wb3J0IEdyb3EKZnJvbSBjb3JlLnN1YnRpdGxlIGltcG9ydCBTdWJ0aXRsZVNlZ21lbnQsIHNlZ21lbnRzX3RvX3NydApmcm9tIGNvcmUudXRpbHMgaW1wb3J0IGZpbmRfZmZtcGVnCgojIEdyb3EgQVBJIGxpbWl0cyBmaWxlcyB0byAyNU1CICgyNiwyMTQsNDAwIGJ5dGVzKS4gV2UgdXNlIDIzTUIgYXMgc2FmZSB0aHJlc2hvbGQuCk1BWF9DSFVOS19CWVRFUyA9IDIzICogMTAyNCAqIDEwMjQKCgpkZWYgZ2V0X2F1ZGlvX2R1cmF0aW9uX3NlY29uZHMoYXVkaW9fcGF0aDogc3RyKSAtPiBmbG9hdDoKICAgICIiIkdldHMgYXVkaW8gZHVyYXRpb24gaW4gc2Vjb25kcyB1c2luZyBmZnByb2JlIG9yIGZmbXBlZy4iIiIKICAgIGZmbXBlZ19leGUgPSBmaW5kX2ZmbXBlZygpCiAgICBpZiBub3QgZmZtcGVnX2V4ZToKICAgICAgICByZXR1cm4gMC4wCgogICAgZmZwcm9iZV9leGUgPSBvcy5wYXRoLmpvaW4ob3MucGF0aC5kaXJuYW1lKGZmbXBlZ19leGUpLCAiZmZwcm9iZS5leGUiKQogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGZmcHJvYmVfZXhlKToKICAgICAgICBmZnByb2JlX2V4ZSA9ICJmZnByb2JlIgoKICAgIHRyeToKICAgICAgICBjbWQgPSBbCiAgICAgICAgICAgIGZmcHJvYmVfZXhlLAogICAgICAgICAgICAiLXYiLCAiZXJyb3IiLAogICAgICAgICAgICAiLXNob3dfZW50cmllcyIsICJmb3JtYXQ9ZHVyYXRpb24iLAogICAgICAgICAgICAiLW9mIiwgImRlZmF1bHQ9bm9wcmludF93cmFwcGVycz0xOm5va2V5PTEiLAogICAgICAgICAgICBhdWRpb19wYXRoLAogICAgICAgIF0KICAgICAgICByZXN1bHQgPSBzdWJwcm9jZXNzLnJ1bihjbWQsIHN0ZG91dD1zdWJwcm9jZXNzLlBJUEUsIHN0ZGVycj1zdWJwcm9jZXNzLlBJUEUsIHRleHQ9VHJ1ZSwgY2hlY2s9VHJ1ZSkKICAgICAgICByZXR1cm4gZmxvYXQocmVzdWx0LnN0ZG91dC5zdHJpcCgpKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAjIEZhbGxiYWNrIGVzdGltYXRpb246IGF0IDk2a2JwcyBDQlIsIGJ5dGVzICogOCAvIDk2MDAwCiAgICAgICAgc2l6ZV9ieXRlcyA9IG9zLnBhdGguZ2V0c2l6ZShhdWRpb19wYXRoKQogICAgICAgIHJldHVybiBzaXplX2J5dGVzICogOC4wIC8gOTYwMDAuMAoKCmRlZiBzcGxpdF9hdWRpb19pbnRvX2NodW5rcyhhdWRpb19wYXRoOiBzdHIsIGNodW5rX2R1cmF0aW9uX3NlYzogaW50ID0gOTAwKSAtPiBMaXN0W3N0cl06CiAgICAiIiIKICAgIFNwbGl0cyBhdWRpbyBpbnRvIHNtYWxsZXIgY2h1bmtzIChkZWZhdWx0IDE1IG1pbnV0ZXMgZWFjaCkgdXNpbmcgZmZtcGVnCiAgICB0byBrZWVwIGVhY2ggZmlsZSB3ZWxsIHVuZGVyIEdyb3EncyAyNU1CIGxpbWl0LgogICAgIiIiCiAgICBmZm1wZWdfZXhlID0gZmluZF9mZm1wZWcoKSBvciAiZmZtcGVnIgogICAgd29ya19kaXIgPSBvcy5wYXRoLmRpcm5hbWUoYXVkaW9fcGF0aCkKICAgIGJhc2VfbmFtZSA9IG9zLnBhdGguc3BsaXRleHQob3MucGF0aC5iYXNlbmFtZShhdWRpb19wYXRoKSlbMF0KICAgIG91dF9wYXR0ZXJuID0gb3MucGF0aC5qb2luKHdvcmtfZGlyLCBmIntiYXNlX25hbWV9X2NodW5rXyUwM2QubXAzIikKCiAgICBjbWQgPSBbCiAgICAgICAgZmZtcGVnX2V4ZSwKICAgICAgICAiLXkiLAogICAgICAgICItaSIsIGF1ZGlvX3BhdGgsCiAgICAgICAgIi1mIiwgInNlZ21lbnQiLAogICAgICAgICItc2VnbWVudF90aW1lIiwgc3RyKGNodW5rX2R1cmF0aW9uX3NlYyksCiAgICAgICAgIi1jIiwgImNvcHkiLAogICAgICAgIG91dF9wYXR0ZXJuLAogICAgXQogICAgc3VicHJvY2Vzcy5ydW4oY21kLCBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLCBzdGRlcnI9c3VicHJvY2Vzcy5QSVBFLCBjaGVjaz1UcnVlKQoKICAgICMgQ29sbGVjdCBnZW5lcmF0ZWQgY2h1bmsgZmlsZXMKICAgIGNodW5rcyA9IFtdCiAgICBpZHggPSAwCiAgICB3aGlsZSBUcnVlOgogICAgICAgIGNodW5rX2ZpbGUgPSBvcy5wYXRoLmpvaW4od29ya19kaXIsIGYie2Jhc2VfbmFtZX1fY2h1bmtfe2lkeDowM2R9Lm1wMyIpCiAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUoY2h1bmtfZmlsZSk6CiAgICAgICAgICAgIGNodW5rcy5hcHBlbmQoY2h1bmtfZmlsZSkKICAgICAgICAgICAgaWR4ICs9IDEKICAgICAgICBlbHNlOgogICAgICAgICAgICBicmVhawoKICAgIHJldHVybiBjaHVua3MKCgpkZWYgdHJhbnNjcmliZV9zaW5nbGVfYXVkaW8oCiAgICBjbGllbnQ6IEdyb3EsCiAgICBhdWRpb19wYXRoOiBzdHIsCiAgICBsYW5ndWFnZTogT3B0aW9uYWxbc3RyXSA9IE5vbmUsCiAgICB0aW1lX29mZnNldDogZmxvYXQgPSAwLjAsCikgLT4gTGlzdFtTdWJ0aXRsZVNlZ21lbnRdOgogICAgIiIiCiAgICBUcmFuc2NyaWJlcyBhIHNpbmdsZSBhdWRpbyBmaWxlIHZpYSBHcm9xIFdoaXNwZXIgQVBJICh3aGlzcGVyLWxhcmdlLXYzLXR1cmJvKS4KICAgIEFwcGxpZXMgdGltZV9vZmZzZXQgdG8gYWxsIHNlZ21lbnQgdGltZXN0YW1wcy4KICAgICIiIgogICAgd2l0aCBvcGVuKGF1ZGlvX3BhdGgsICJyYiIpIGFzIGY6CiAgICAgICAgZmlsZV9ieXRlcyA9IGYucmVhZCgpCgogICAgdHJhbnNjcmlwdGlvbiA9IGNsaWVudC5hdWRpby50cmFuc2NyaXB0aW9ucy5jcmVhdGUoCiAgICAgICAgZmlsZT0ob3MucGF0aC5iYXNlbmFtZShhdWRpb19wYXRoKSwgZmlsZV9ieXRlcyksCiAgICAgICAgbW9kZWw9IndoaXNwZXItbGFyZ2UtdjMtdHVyYm8iLAogICAgICAgIHJlc3BvbnNlX2Zvcm1hdD0idmVyYm9zZV9qc29uIiwKICAgICAgICBsYW5ndWFnZT1sYW5ndWFnZSBpZiBsYW5ndWFnZSBhbmQgbGFuZ3VhZ2UgIT0gImF1dG8iIGVsc2UgTm9uZSwKICAgICAgICB0ZW1wZXJhdHVyZT0wLjAsCiAgICApCgogICAgIyBFeHRyYWN0IHNlZ21lbnRzCiAgICBzZWdtZW50c19kYXRhID0gZ2V0YXR0cih0cmFuc2NyaXB0aW9uLCAic2VnbWVudHMiLCBOb25lKQogICAgaWYgc2VnbWVudHNfZGF0YSBpcyBOb25lIGFuZCBpc2luc3RhbmNlKHRyYW5zY3JpcHRpb24sIGRpY3QpOgogICAgICAgIHNlZ21lbnRzX2RhdGEgPSB0cmFuc2NyaXB0aW9uLmdldCgic2VnbWVudHMiLCBbXSkKCiAgICByZXN1bHRzOiBMaXN0W1N1YnRpdGxlU2VnbWVudF0gPSBbXQogICAgaWYgc2VnbWVudHNfZGF0YToKICAgICAgICBmb3IgaXRlbSBpbiBzZWdtZW50c19kYXRhOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKGl0ZW0sIGRpY3QpOgogICAgICAgICAgICAgICAgc3RhcnQgPSBmbG9hdChpdGVtLmdldCgic3RhcnQiLCAwLjApKQogICAgICAgICAgICAgICAgZW5kID0gZmxvYXQoaXRlbS5nZXQoImVuZCIsIDAuMCkpCiAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyKGl0ZW0uZ2V0KCJ0ZXh0IiwgIiIpKS5zdHJpcCgpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzdGFydCA9IGZsb2F0KGdldGF0dHIoaXRlbSwgInN0YXJ0IiwgMC4wKSkKICAgICAgICAgICAgICAgIGVuZCA9IGZsb2F0KGdldGF0dHIoaXRlbSwgImVuZCIsIDAuMCkpCiAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyKGdldGF0dHIoaXRlbSwgInRleHQiLCAiIikpLnN0cmlwKCkKCiAgICAgICAgICAgIGlmIHRleHQgYW5kIGVuZCA+IHN0YXJ0OgogICAgICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgU3VidGl0bGVTZWdtZW50KAogICAgICAgICAgICAgICAgICAgICAgICBzdGFydD1zdGFydCArIHRpbWVfb2Zmc2V0LAogICAgICAgICAgICAgICAgICAgICAgICBlbmQ9ZW5kICsgdGltZV9vZmZzZXQsCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQ9dGV4dCwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICBlbHNlOgogICAgICAgICMgRmFsbGJhY2sgaWYgbm8gc2VnbWVudHMgcmV0dXJuZWQ6IHVzZSBlbnRpcmUgdGV4dAogICAgICAgIGZ1bGxfdGV4dCA9IGdldGF0dHIodHJhbnNjcmlwdGlvbiwgInRleHQiLCAiIikKICAgICAgICBpZiBpc2luc3RhbmNlKHRyYW5zY3JpcHRpb24sIGRpY3QpOgogICAgICAgICAgICBmdWxsX3RleHQgPSB0cmFuc2NyaXB0aW9uLmdldCgidGV4dCIsICIiKQogICAgICAgIGlmIGZ1bGxfdGV4dC5zdHJpcCgpOgogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCgKICAgICAgICAgICAgICAgIFN1YnRpdGxlU2VnbWVudCgKICAgICAgICAgICAgICAgICAgICBzdGFydD10aW1lX29mZnNldCwKICAgICAgICAgICAgICAgICAgICBlbmQ9dGltZV9vZmZzZXQgKyA1LjAsCiAgICAgICAgICAgICAgICAgICAgdGV4dD1mdWxsX3RleHQuc3RyaXAoKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgIHJldHVybiByZXN1bHRzCgoKZGVmIHRyYW5zY3JpYmVfd2l0aF9ncm9xKAogICAgYXVkaW9fcGF0aDogc3RyLAogICAgYXBpX2tleTogT3B0aW9uYWxbc3RyXSA9IE5vbmUsCiAgICBsYW5ndWFnZTogc3RyID0gImVuIiwKICAgIHByb2dyZXNzX2NhbGxiYWNrPU5vbmUsCikgLT4gTGlzdFtTdWJ0aXRsZVNlZ21lbnRdOgogICAgIiIiCiAgICBUcmFuc2NyaWJlcyBhdWRpbyB1c2luZyBHcm9xIEFQSSBtb2RlbCB3aGlzcGVyLWxhcmdlLXYzLXR1cmJvLgogICAgQXV0b21hdGljYWxseSBoYW5kbGVzIGZpbGVzIGV4Y2VlZGluZyAyNU1CIGJ5IHNwbGl0dGluZyBpbnRvIGNodW5rcy4KCiAgICBSZXR1cm5zOgogICAgLSBMaXN0IG9mIFN1YnRpdGxlU2VnbWVudCBvYmplY3RzIHdpdGggYWNjdXJhdGUgdGltZXN0YW1wcy4KICAgICIiIgogICAgZ3JvcV9rZXkgPSAoYXBpX2tleSBvciAiIikuc3RyaXAoKSBvciBvcy5lbnZpcm9uLmdldCgiR1JPUV9BUElfS0VZIiwgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCBncm9xX2tleToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKAogICAgICAgICAgICAiQ2jGsGEgY8OzIEdyb3EgQVBJIEtleSEgVnVpIGzDsm5nIG5o4bqtcCBraMOzYSBBUEkgdHLDqm4gZ2lhbyBkaeG7h24gaG/hurdjIMSR4bq3dCBiaeG6v24gbcO0aSB0csaw4budbmcgR1JPUV9BUElfS0VZLiIKICAgICAgICApCgogICAgY2xpZW50ID0gR3JvcShhcGlfa2V5PWdyb3Ffa2V5KQogICAgZmlsZV9zaXplID0gb3MucGF0aC5nZXRzaXplKGF1ZGlvX3BhdGgpCgogICAgIyBDaGVjayBpZiBjaHVua2luZyBpcyBuZWNlc3NhcnkKICAgIGlmIGZpbGVfc2l6ZSA+IE1BWF9DSFVOS19CWVRFUzoKICAgICAgICBpZiBwcm9ncmVzc19jYWxsYmFjazoKICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2soIkZpbGUgdsaw4bujdCBxdcOhIDI1TUIsIMSRYW5nIGNoaWEgbmjhu48gdGjDoG5oIGPDoWMgxJFv4bqhbiDEkeG7gyB44butIGzDvSB24bubaSBHcm9xIEFJLi4uIikKICAgICAgICAKICAgICAgICBjaHVua3MgPSBzcGxpdF9hdWRpb19pbnRvX2NodW5rcyhhdWRpb19wYXRoLCBjaHVua19kdXJhdGlvbl9zZWM9OTAwKQogICAgICAgIGFsbF9zZWdtZW50czogTGlzdFtTdWJ0aXRsZVNlZ21lbnRdID0gW10KICAgICAgICBjdXJyZW50X29mZnNldCA9IDAuMAoKICAgICAgICBmb3IgaSwgY2h1bmsgaW4gZW51bWVyYXRlKGNodW5rcywgc3RhcnQ9MSk6CiAgICAgICAgICAgIGlmIHByb2dyZXNzX2NhbGxiYWNrOgogICAgICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2soZiJHcm9xIFdoaXNwZXIgQUkgxJFhbmcgeOG7rSBsw70gxJFv4bqhbiB7aX0ve2xlbihjaHVua3MpfS4uLiIpCiAgICAgICAgICAgIAogICAgICAgICAgICBjaHVua19zZWdtZW50cyA9IHRyYW5zY3JpYmVfc2luZ2xlX2F1ZGlvKAogICAgICAgICAgICAgICAgY2xpZW50PWNsaWVudCwKICAgICAgICAgICAgICAgIGF1ZGlvX3BhdGg9Y2h1bmssCiAgICAgICAgICAgICAgICBsYW5ndWFnZT1sYW5ndWFnZSwKICAgICAgICAgICAgICAgIHRpbWVfb2Zmc2V0PWN1cnJlbnRfb2Zmc2V0LAogICAgICAgICAgICApCiAgICAgICAgICAgIGFsbF9zZWdtZW50cy5leHRlbmQoY2h1bmtfc2VnbWVudHMpCgogICAgICAgICAgICAjIENhbGN1bGF0ZSBjaHVuayBkdXJhdGlvbiBmb3IgbmV4dCBvZmZzZXQKICAgICAgICAgICAgY2h1bmtfZHVyYXRpb24gPSBnZXRfYXVkaW9fZHVyYXRpb25fc2Vjb25kcyhjaHVuaykKICAgICAgICAgICAgY3VycmVudF9vZmZzZXQgKz0gY2h1bmtfZHVyYXRpb24KCiAgICAgICAgICAgICMgQ2xlYW4gdXAgdGVtcCBjaHVuayBmaWxlCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIG9zLnJlbW92ZShjaHVuaykKICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3I6CiAgICAgICAgICAgICAgICBwYXNzCgogICAgICAgIHJldHVybiBhbGxfc2VnbWVudHMKICAgIGVsc2U6CiAgICAgICAgaWYgcHJvZ3Jlc3NfY2FsbGJhY2s6CiAgICAgICAgICAgIHByb2dyZXNzX2NhbGxiYWNrKCJHcm9xIFdoaXNwZXIgQUkgKHdoaXNwZXItbGFyZ2UtdjMtdHVyYm8pIMSRYW5nIG5o4bqtbiBkaeG7h24gw6JtIHRoYW5oLi4uIikKCiAgICAgICAgcmV0dXJuIHRyYW5zY3JpYmVfc2luZ2xlX2F1ZGlvKAogICAgICAgICAgICBjbGllbnQ9Y2xpZW50LAogICAgICAgICAgICBhdWRpb19wYXRoPWF1ZGlvX3BhdGgsCiAgICAgICAgICAgIGxhbmd1YWdlPWxhbmd1YWdlLAogICAgICAgICAgICB0aW1lX29mZnNldD0wLjAsCiAgICAgICAgKQo=
+import math
+import os
+import subprocess
+from typing import List, Optional
+from groq import Groq
+from core.subtitle import SubtitleSegment, segments_to_srt
+from core.utils import find_ffmpeg
+
+# Groq API limits files to 25MB (26,214,400 bytes). We use 23MB as safe threshold.
+MAX_CHUNK_BYTES = 23 * 1024 * 1024
+
+
+def get_audio_duration_seconds(audio_path: str) -> float:
+    """Gets audio duration in seconds using ffprobe or ffmpeg."""
+    ffmpeg_exe = find_ffmpeg()
+    if not ffmpeg_exe:
+        return 0.0
+
+    ffprobe_exe = os.path.join(os.path.dirname(ffmpeg_exe), "ffprobe.exe")
+    if not os.path.isfile(ffprobe_exe):
+        ffprobe_exe = "ffprobe"
+
+    try:
+        cmd = [
+            ffprobe_exe,
+            "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            audio_path,
+        ]
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+        return float(result.stdout.strip())
+    except Exception:
+        # Fallback estimation: at 96kbps CBR, bytes * 8 / 96000
+        size_bytes = os.path.getsize(audio_path)
+        return size_bytes * 8.0 / 96000.0
+
+
+def split_audio_into_chunks(audio_path: str, chunk_duration_sec: int = 900) -> List[str]:
+    """
+    Splits audio into smaller chunks (default 15 minutes each) using ffmpeg
+    to keep each file well under Groq's 25MB limit.
+    """
+    ffmpeg_exe = find_ffmpeg() or "ffmpeg"
+    work_dir = os.path.dirname(audio_path)
+    base_name = os.path.splitext(os.path.basename(audio_path))[0]
+    out_pattern = os.path.join(work_dir, f"{base_name}_chunk_%03d.mp3")
+
+    cmd = [
+        ffmpeg_exe,
+        "-y",
+        "-i", audio_path,
+        "-f", "segment",
+        "-segment_time", str(chunk_duration_sec),
+        "-c", "copy",
+        out_pattern,
+    ]
+    subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+
+    # Collect generated chunk files
+    chunks = []
+    idx = 0
+    while True:
+        chunk_file = os.path.join(work_dir, f"{base_name}_chunk_{idx:03d}.mp3")
+        if os.path.isfile(chunk_file):
+            chunks.append(chunk_file)
+            idx += 1
+        else:
+            break
+
+    return chunks
+
+
+def transcribe_single_audio(
+    client: Groq,
+    audio_path: str,
+    language: Optional[str] = None,
+    time_offset: float = 0.0,
+) -> List[SubtitleSegment]:
+    """
+    Transcribes a single audio file via Groq Whisper API (whisper-large-v3-turbo).
+    Applies time_offset to all segment timestamps.
+    """
+    with open(audio_path, "rb") as f:
+        file_bytes = f.read()
+
+    transcription = client.audio.transcriptions.create(
+        file=(os.path.basename(audio_path), file_bytes),
+        model="whisper-large-v3-turbo",
+        response_format="verbose_json",
+        language=language if language and language != "auto" else None,
+        temperature=0.0,
+    )
+
+    # Extract segments
+    segments_data = getattr(transcription, "segments", None)
+    if segments_data is None and isinstance(transcription, dict):
+        segments_data = transcription.get("segments", [])
+
+    results: List[SubtitleSegment] = []
+    if segments_data:
+        for item in segments_data:
+            if isinstance(item, dict):
+                start = float(item.get("start", 0.0))
+                end = float(item.get("end", 0.0))
+                text = str(item.get("text", "")).strip()
+            else:
+                start = float(getattr(item, "start", 0.0))
+                end = float(getattr(item, "end", 0.0))
+                text = str(getattr(item, "text", "")).strip()
+
+            if text and end > start:
+                results.append(
+                    SubtitleSegment(
+                        start=start + time_offset,
+                        end=end + time_offset,
+                        text=text,
+                    )
+                )
+    else:
+        # Fallback if no segments returned: use entire text
+        full_text = getattr(transcription, "text", "")
+        if isinstance(transcription, dict):
+            full_text = transcription.get("text", "")
+        if full_text.strip():
+            results.append(
+                SubtitleSegment(
+                    start=time_offset,
+                    end=time_offset + 5.0,
+                    text=full_text.strip(),
+                )
+            )
+
+    return results
+
+
+def transcribe_with_groq(
+    audio_path: str,
+    api_key: Optional[str] = None,
+    language: str = "en",
+    progress_callback=None,
+) -> List[SubtitleSegment]:
+    """
+    Transcribes audio using Groq API model whisper-large-v3-turbo.
+    Automatically handles files exceeding 25MB by splitting into chunks.
+
+    Returns:
+    - List of SubtitleSegment objects with accurate timestamps.
+    """
+    groq_key = (api_key or "").strip() or os.environ.get("GROQ_API_KEY", "").strip()
+    if not groq_key:
+        raise ValueError(
+            "Chưa có Groq API Key! Vui lòng nhập khóa API trên giao diện hoặc đặt biến môi trường GROQ_API_KEY."
+        )
+
+    client = Groq(api_key=groq_key)
+    file_size = os.path.getsize(audio_path)
+
+    # Check if chunking is necessary
+    if file_size > MAX_CHUNK_BYTES:
+        if progress_callback:
+            progress_callback("File vượt quá 25MB, đang chia nhỏ thành các đoạn để xử lý với Groq AI...")
+        
+        chunks = split_audio_into_chunks(audio_path, chunk_duration_sec=900)
+        all_segments: List[SubtitleSegment] = []
+        current_offset = 0.0
+
+        for i, chunk in enumerate(chunks, start=1):
+            if progress_callback:
+                progress_callback(f"Groq Whisper AI đang xử lý đoạn {i}/{len(chunks)}...")
+            
+            chunk_segments = transcribe_single_audio(
+                client=client,
+                audio_path=chunk,
+                language=language,
+                time_offset=current_offset,
+            )
+            all_segments.extend(chunk_segments)
+
+            # Calculate chunk duration for next offset
+            chunk_duration = get_audio_duration_seconds(chunk)
+            current_offset += chunk_duration
+
+            # Clean up temp chunk file
+            try:
+                os.remove(chunk)
+            except OSError:
+                pass
+
+        return all_segments
+    else:
+        if progress_callback:
+            progress_callback("Groq Whisper AI (whisper-large-v3-turbo) đang nhận diện âm thanh...")
+
+        return transcribe_single_audio(
+            client=client,
+            audio_path=audio_path,
+            language=language,
+            time_offset=0.0,
+        )
