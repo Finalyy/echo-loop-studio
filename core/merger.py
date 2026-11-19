@@ -1,1 +1,197 @@
-aW1wb3J0IHJlCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0CmZyb20gY29yZS5zdWJ0aXRsZSBpbXBvcnQgU3VidGl0bGVTZWdtZW50CgojIFB1bmN0dWF0aW9uIG1hcmtzIGluZGljYXRpbmcgc2VudGVuY2UgYm91bmRhcmllcyBhY3Jvc3MgbGFuZ3VhZ2VzClNFTlRFTkNFX0VORElOR1MgPSAoCiAgICAiLiIsICI/IiwgIiEiLCAi4oCmIiwgIi4uLiIsIAogICAgIuOAgiIsICLvvJ8iLCAi77yBIiwgIu+8myIKKQoKIyBDb21tb24gYWJicmV2aWF0aW9ucyB0byBhdm9pZCBmYWxzZSBwb3NpdGl2ZSBzcGxpdHMgb24gZG90cwpDT01NT05fQUJCUkVWSUFUSU9OUyA9IHsKICAgICJtci4iLCAibXJzLiIsICJtcy4iLCAiZHIuIiwgInByb2YuIiwgInNyLiIsICJqci4iLCAidnMuIiwgCiAgICAiZXRjLiIsICJlLmcuIiwgImkuZS4iLCAidS5zLiIsICJ1LmsuIiwgImFwcHJveC4iLCAiZGVwdC4iLAogICAgImVzdC4iLCAiZ2VuLiIsICJnb3YuIiwgImluYy4iLCAibHRkLiIsICJuby4iLCAic3QuIgp9CgoKZGVmIGlzX3RydWVfc2VudGVuY2VfZW5kKHRleHQ6IHN0cikgLT4gYm9vbDoKICAgICIiIgogICAgQ2hlY2tzIGlmIGEgdGV4dCBzdHJpbmcgZW5kcyB3aXRoIGEgZ2VudWluZSBzZW50ZW5jZS1lbmRpbmcgcHVuY3R1YXRpb24sCiAgICB0YWtpbmcgaW50byBhY2NvdW50IGFiYnJldmlhdGlvbnMgYW5kIG51bWJlcnMgKGUuZy4gJzMuNScsICdEci4nKS4KICAgICIiIgogICAgY2xlYW5lZCA9IHRleHQuc3RyaXAoKQogICAgaWYgbm90IGNsZWFuZWQ6CiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgIyBDaGVjayBDSksgc2VudGVuY2UgZW5kcwogICAgaWYgY2xlYW5lZFstMV0gaW4gKCLjgIIiLCAi77yfIiwgIu+8gSIsICLvvJsiKToKICAgICAgICByZXR1cm4gVHJ1ZQoKICAgICMgQ2hlY2sgV2VzdGVybiBzZW50ZW5jZSBlbmRzCiAgICBpZiBjbGVhbmVkLmVuZHN3aXRoKCgiPyIsICIhIiwgIuKApiIsICIuLi4iKSk6CiAgICAgICAgcmV0dXJuIFRydWUKCiAgICBpZiBjbGVhbmVkLmVuZHN3aXRoKCIuIik6CiAgICAgICAgIyBDaGVjayBpZiBpdCdzIGEgbnVtYmVyIGUuZy4gIjEyLiIKICAgICAgICB3b3JkcyA9IGNsZWFuZWQuc3BsaXQoKQogICAgICAgIGlmIG5vdCB3b3JkczoKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBsYXN0X3dvcmQgPSB3b3Jkc1stMV0ubG93ZXIoKQoKICAgICAgICAjIElmIGl0J3MgYSBrbm93biBhYmJyZXZpYXRpb24sIG5vdCBhIHNlbnRlbmNlIGVuZAogICAgICAgIGlmIGxhc3Rfd29yZCBpbiBDT01NT05fQUJCUkVWSUFUSU9OUzoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgICMgSWYgaXQncyBkaWdpdHMgZm9sbG93ZWQgYnkgZG90IGxpa2UgJzMuJywgaXQncyBsaWtlbHkgYW4gaXRlbSBudW1iZXIgb3IgdmVyc2lvbgogICAgICAgIGlmIGxhc3Rfd29yZFs6LTFdLmlzZGlnaXQoKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgICMgSWYgc2luZ2xlIGxldHRlciBmb2xsb3dlZCBieSBkb3QgbGlrZSAnQS4nLCBtaWdodCBiZSBhbiBpbml0aWFsCiAgICAgICAgaWYgbGVuKGxhc3Rfd29yZCkgPT0gMiBhbmQgbGFzdF93b3JkWzBdLmlzYWxwaGEoKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgIHJldHVybiBUcnVlCgogICAgcmV0dXJuIEZhbHNlCgoKZGVmIGlzX2Nqa19jaGFyKGNoOiBzdHIpIC0+IGJvb2w6CiAgICAiIiJSZXR1cm5zIFRydWUgaWYgY2hhcmFjdGVyIGJlbG9uZ3MgdG8gQ2hpbmVzZSwgSmFwYW5lc2UsIG9yIEtvcmVhbiBzY3JpcHQgcmFuZ2VzLiIiIgogICAgY29kZSA9IG9yZChjaCkKICAgIHJldHVybiAoCiAgICAgICAgMHg0RTAwIDw9IGNvZGUgPD0gMHg5RkZGIG9yICAgIyBDSksgVW5pZmllZCBJZGVvZ3JhcGhzCiAgICAgICAgMHgzNDAwIDw9IGNvZGUgPD0gMHg0REJGIG9yICAgIyBDSksgVW5pZmllZCBJZGVvZ3JhcGhzIEV4dGVuc2lvbiBBCiAgICAgICAgMHgzMDQwIDw9IGNvZGUgPD0gMHgzMDlGIG9yICAgIyBIaXJhZ2FuYQogICAgICAgIDB4MzBBMCA8PSBjb2RlIDw9IDB4MzBGRiBvciAgICMgS2F0YWthbmEKICAgICAgICAweEFDMDAgPD0gY29kZSA8PSAweEQ3QUYgICAgICAjIEhhbmd1bCBTeWxsYWJsZXMKICAgICkKCgpkZWYgY29tYmluZV90ZXh0cyh0ZXh0MTogc3RyLCB0ZXh0Mjogc3RyKSAtPiBzdHI6CiAgICAiIiIKICAgIENvbWJpbmVzIHR3byBzdWJ0aXRsZSB0ZXh0IHNuaXBwZXRzIHdpdGggcHJvcGVyIHNwYWNpbmcuCiAgICBBZGRzIGEgc3BhY2UgZm9yIExhdGluL2FscGhhYmV0IGxhbmd1YWdlczsgYXZvaWRzIHNwYWNlIGZvciBDSksgc2NyaXB0cy4KICAgICIiIgogICAgdDEgPSB0ZXh0MS5zdHJpcCgpCiAgICB0MiA9IHRleHQyLnN0cmlwKCkKICAgIGlmIG5vdCB0MToKICAgICAgICByZXR1cm4gdDIKICAgIGlmIG5vdCB0MjoKICAgICAgICByZXR1cm4gdDEKCiAgICAjIElmIHQxIGVuZHMgd2l0aCBDSksgYW5kIHQyIHN0YXJ0cyB3aXRoIENKSywgbm8gc3BhY2UgbmVlZGVkCiAgICBpZiBpc19jamtfY2hhcih0MVstMV0pIGFuZCBpc19jamtfY2hhcih0MlswXSk6CiAgICAgICAgcmV0dXJuIGYie3QxfXt0Mn0iCgogICAgIyBJZiB0MSBlbmRzIHdpdGggZGFzaCBvciBoeXBoZW4KICAgIGlmIHQxLmVuZHN3aXRoKCItIikgb3IgdDEuZW5kc3dpdGgoIuKAlCIpOgogICAgICAgIHJldHVybiBmInt0MX17dDJ9IgoKICAgIHJldHVybiBmInt0MX0ge3QyfSIKCgpkZWYgbWVyZ2Vfc2hvcnRfc2VnbWVudHMoCiAgICBzZWdtZW50czogTGlzdFtTdWJ0aXRsZVNlZ21lbnRdLAogICAgbWluX2R1cmF0aW9uOiBmbG9hdCA9IDQuMCwKICAgIG1heF9kdXJhdGlvbjogZmxvYXQgPSA4LjUsCiAgICBzaWxlbmNlX2dhcF90aHJlc2hvbGQ6IGZsb2F0ID0gMS41LAopIC0+IExpc3RbU3VidGl0bGVTZWdtZW50XToKICAgICIiIgogICAgTWVyZ2VzIGNvbnNlY3V0aXZlIHNob3J0IHN1YnRpdGxlIHNlZ21lbnRzIGludG8gbmF0dXJhbCwgY29tcGxldGUgc2VudGVuY2VzCiAgICBzaW11bGF0aW5nIEVjaG8gTG9vcCdzICdBdXRvLW1lcmdlIHNob3J0IHNlbnRlbmNlcycgZmVhdHVyZS4KCiAgICBQYXJhbWV0ZXJzOgogICAgLSBzZWdtZW50czogbGlzdCBvZiBpbnB1dCBTdWJ0aXRsZVNlZ21lbnQgb2JqZWN0cy4KICAgIC0gbWluX2R1cmF0aW9uOiBpZGVhbCBtaW5pbXVtIGR1cmF0aW9uIChzZWNvbmRzKSBiZWZvcmUgY2xvc2luZyBhIHNlbnRlbmNlIChkZWZhdWx0IDQuMHMpLgogICAgLSBtYXhfZHVyYXRpb246IHVwcGVyIGxpbWl0IChzZWNvbmRzKSB0byBwcmV2ZW50IG92ZXJseSBsb25nIGNhcHRpb25zIChkZWZhdWx0IDguNXMpLgogICAgLSBzaWxlbmNlX2dhcF90aHJlc2hvbGQ6IGdhcCAoc2Vjb25kcykgYmV0d2VlbiBzZWdtZW50cyBpbmRpY2F0aW5nIGEgc3BlYWtlciBwYXVzZSAoZGVmYXVsdCAxLjVzKS4KCiAgICBSZXR1cm5zOgogICAgLSBNZXJnZWQgbGlzdCBvZiBTdWJ0aXRsZVNlZ21lbnQgb2JqZWN0cy4KICAgICIiIgogICAgaWYgbm90IHNlZ21lbnRzOgogICAgICAgIHJldHVybiBbXQoKICAgIG1lcmdlZDogTGlzdFtTdWJ0aXRsZVNlZ21lbnRdID0gW10KICAgIAogICAgY3VycmVudF9zdGFydCA9IHNlZ21lbnRzWzBdLnN0YXJ0CiAgICBjdXJyZW50X2VuZCA9IHNlZ21lbnRzWzBdLmVuZAogICAgY3VycmVudF90ZXh0ID0gc2VnbWVudHNbMF0udGV4dC5zdHJpcCgpCgogICAgZm9yIGkgaW4gcmFuZ2UoMSwgbGVuKHNlZ21lbnRzKSk6CiAgICAgICAgbmV4dF9zZWcgPSBzZWdtZW50c1tpXQogICAgICAgIG5leHRfdGV4dCA9IG5leHRfc2VnLnRleHQuc3RyaXAoKQogICAgICAgIGlmIG5vdCBuZXh0X3RleHQ6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGdhcCA9IG1heCgwLjAsIG5leHRfc2VnLnN0YXJ0IC0gY3VycmVudF9lbmQpCiAgICAgICAgY3VycmVudF9kdXJhdGlvbiA9IGN1cnJlbnRfZW5kIC0gY3VycmVudF9zdGFydAogICAgICAgIHBvdGVudGlhbF9kdXJhdGlvbiA9IG5leHRfc2VnLmVuZCAtIGN1cnJlbnRfc3RhcnQKICAgICAgICBoYXNfc2VudGVuY2VfZW5kID0gaXNfdHJ1ZV9zZW50ZW5jZV9lbmQoY3VycmVudF90ZXh0KQoKICAgICAgICAjIENvbmRpdGlvbiAxOiBMb25nIHNpbGVuY2UgZ2FwIGJldHdlZW4gc3BlZWNoIGNodW5rcyAtPiBTcGVha2VyIHBhdXNlZCBzaWduaWZpY2FudGx5CiAgICAgICAgaWYgZ2FwID49IHNpbGVuY2VfZ2FwX3RocmVzaG9sZDoKICAgICAgICAgICAgIyBDb21taXQgY3VycmVudCBzZWdtZW50IGFuZCBzdGFydCBmcmVzaAogICAgICAgICAgICBtZXJnZWQuYXBwZW5kKAogICAgICAgICAgICAgICAgU3VidGl0bGVTZWdtZW50KAogICAgICAgICAgICAgICAgICAgIHN0YXJ0PWN1cnJlbnRfc3RhcnQsCiAgICAgICAgICAgICAgICAgICAgZW5kPWN1cnJlbnRfZW5kLAogICAgICAgICAgICAgICAgICAgIHRleHQ9Y3VycmVudF90ZXh0LAogICAgICAgICAgICAgICAgICAgIGluZGV4PWxlbihtZXJnZWQpICsgMSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICBjdXJyZW50X3N0YXJ0ID0gbmV4dF9zZWcuc3RhcnQKICAgICAgICAgICAgY3VycmVudF9lbmQgPSBuZXh0X3NlZy5lbmQKICAgICAgICAgICAgY3VycmVudF90ZXh0ID0gbmV4dF90ZXh0CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgQ29uZGl0aW9uIDI6IEN1cnJlbnQgdGV4dCBoYXMgcmVhY2hlZCBtaW5pbXVtIGR1cmF0aW9uIEFORCBlbmRzIHdpdGggc2VudGVuY2UtZW5kaW5nIHB1bmN0dWF0aW9uCiAgICAgICAgaWYgY3VycmVudF9kdXJhdGlvbiA+PSBtaW5fZHVyYXRpb24gYW5kIGhhc19zZW50ZW5jZV9lbmQ6CiAgICAgICAgICAgIG1lcmdlZC5hcHBlbmQoCiAgICAgICAgICAgICAgICBTdWJ0aXRsZVNlZ21lbnQoCiAgICAgICAgICAgICAgICAgICAgc3RhcnQ9Y3VycmVudF9zdGFydCwKICAgICAgICAgICAgICAgICAgICBlbmQ9Y3VycmVudF9lbmQsCiAgICAgICAgICAgICAgICAgICAgdGV4dD1jdXJyZW50X3RleHQsCiAgICAgICAgICAgICAgICAgICAgaW5kZXg9bGVuKG1lcmdlZCkgKyAxLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIGN1cnJlbnRfc3RhcnQgPSBuZXh0X3NlZy5zdGFydAogICAgICAgICAgICBjdXJyZW50X2VuZCA9IG5leHRfc2VnLmVuZAogICAgICAgICAgICBjdXJyZW50X3RleHQgPSBuZXh0X3RleHQKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgIyBDb25kaXRpb24gMzogQWRkaW5nIG5leHQgc2VnbWVudCB3b3VsZCBleGNlZWQgbWF4X2R1cmF0aW9uCiAgICAgICAgaWYgcG90ZW50aWFsX2R1cmF0aW9uID4gbWF4X2R1cmF0aW9uOgogICAgICAgICAgICAjIElmIGN1cnJlbnQgZHVyYXRpb24gaXMgcmVhc29uYWJsZSAoPj0gMi41cykgb3IgaGFzIHNlbnRlbmNlIGVuZCwgY29tbWl0IG5vdwogICAgICAgICAgICBpZiBjdXJyZW50X2R1cmF0aW9uID49IDIuNSBvciBoYXNfc2VudGVuY2VfZW5kOgogICAgICAgICAgICAgICAgbWVyZ2VkLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBTdWJ0aXRsZVNlZ21lbnQoCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0PWN1cnJlbnRfc3RhcnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGVuZD1jdXJyZW50X2VuZCwKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD1jdXJyZW50X3RleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4PWxlbihtZXJnZWQpICsgMSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBjdXJyZW50X3N0YXJ0ID0gbmV4dF9zZWcuc3RhcnQKICAgICAgICAgICAgICAgIGN1cnJlbnRfZW5kID0gbmV4dF9zZWcuZW5kCiAgICAgICAgICAgICAgICBjdXJyZW50X3RleHQgPSBuZXh0X3RleHQKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgT3RoZXJ3aXNlLCBtZXJnZSBuZXh0IHNlZ21lbnQgaW50byBjdXJyZW50CiAgICAgICAgY3VycmVudF90ZXh0ID0gY29tYmluZV90ZXh0cyhjdXJyZW50X3RleHQsIG5leHRfdGV4dCkKICAgICAgICBjdXJyZW50X2VuZCA9IG1heChjdXJyZW50X2VuZCwgbmV4dF9zZWcuZW5kKQoKICAgICMgQXBwZW5kIHRoZSBsYXN0IGFjY3VtdWxhdGVkIHNlZ21lbnQKICAgIGlmIGN1cnJlbnRfdGV4dDoKICAgICAgICBtZXJnZWQuYXBwZW5kKAogICAgICAgICAgICBTdWJ0aXRsZVNlZ21lbnQoCiAgICAgICAgICAgICAgICBzdGFydD1jdXJyZW50X3N0YXJ0LAogICAgICAgICAgICAgICAgZW5kPWN1cnJlbnRfZW5kLAogICAgICAgICAgICAgICAgdGV4dD1jdXJyZW50X3RleHQsCiAgICAgICAgICAgICAgICBpbmRleD1sZW4obWVyZ2VkKSArIDEsCiAgICAgICAgICAgICkKICAgICAgICApCgogICAgcmV0dXJuIG1lcmdlZAo=
+import re
+from typing import List
+from core.subtitle import SubtitleSegment
+
+# Punctuation marks indicating sentence boundaries across languages
+SENTENCE_ENDINGS = (
+    ".", "?", "!", "…", "...", 
+    "。", "？", "！", "；"
+)
+
+# Common abbreviations to avoid false positive splits on dots
+COMMON_ABBREVIATIONS = {
+    "mr.", "mrs.", "ms.", "dr.", "prof.", "sr.", "jr.", "vs.", 
+    "etc.", "e.g.", "i.e.", "u.s.", "u.k.", "approx.", "dept.",
+    "est.", "gen.", "gov.", "inc.", "ltd.", "no.", "st."
+}
+
+
+def is_true_sentence_end(text: str) -> bool:
+    """
+    Checks if a text string ends with a genuine sentence-ending punctuation,
+    taking into account abbreviations and numbers (e.g. '3.5', 'Dr.').
+    """
+    cleaned = text.strip()
+    if not cleaned:
+        return False
+
+    # Check CJK sentence ends
+    if cleaned[-1] in ("。", "？", "！", "；"):
+        return True
+
+    # Check Western sentence ends
+    if cleaned.endswith(("?", "!", "…", "...")):
+        return True
+
+    if cleaned.endswith("."):
+        # Check if it's a number e.g. "12."
+        words = cleaned.split()
+        if not words:
+            return True
+        last_word = words[-1].lower()
+
+        # If it's a known abbreviation, not a sentence end
+        if last_word in COMMON_ABBREVIATIONS:
+            return False
+
+        # If it's digits followed by dot like '3.', it's likely an item number or version
+        if last_word[:-1].isdigit():
+            return False
+
+        # If single letter followed by dot like 'A.', might be an initial
+        if len(last_word) == 2 and last_word[0].isalpha():
+            return False
+
+        return True
+
+    return False
+
+
+def is_cjk_char(ch: str) -> bool:
+    """Returns True if character belongs to Chinese, Japanese, or Korean script ranges."""
+    code = ord(ch)
+    return (
+        0x4E00 <= code <= 0x9FFF or   # CJK Unified Ideographs
+        0x3400 <= code <= 0x4DBF or   # CJK Unified Ideographs Extension A
+        0x3040 <= code <= 0x309F or   # Hiragana
+        0x30A0 <= code <= 0x30FF or   # Katakana
+        0xAC00 <= code <= 0xD7AF      # Hangul Syllables
+    )
+
+
+def combine_texts(text1: str, text2: str) -> str:
+    """
+    Combines two subtitle text snippets with proper spacing.
+    Adds a space for Latin/alphabet languages; avoids space for CJK scripts.
+    """
+    t1 = text1.strip()
+    t2 = text2.strip()
+    if not t1:
+        return t2
+    if not t2:
+        return t1
+
+    # If t1 ends with CJK and t2 starts with CJK, no space needed
+    if is_cjk_char(t1[-1]) and is_cjk_char(t2[0]):
+        return f"{t1}{t2}"
+
+    # If t1 ends with dash or hyphen
+    if t1.endswith("-") or t1.endswith("—"):
+        return f"{t1}{t2}"
+
+    return f"{t1} {t2}"
+
+
+def merge_short_segments(
+    segments: List[SubtitleSegment],
+    min_duration: float = 4.0,
+    max_duration: float = 8.5,
+    silence_gap_threshold: float = 1.5,
+) -> List[SubtitleSegment]:
+    """
+    Merges consecutive short subtitle segments into natural, complete sentences
+    simulating Echo Loop's 'Auto-merge short sentences' feature.
+
+    Parameters:
+    - segments: list of input SubtitleSegment objects.
+    - min_duration: ideal minimum duration (seconds) before closing a sentence (default 4.0s).
+    - max_duration: upper limit (seconds) to prevent overly long captions (default 8.5s).
+    - silence_gap_threshold: gap (seconds) between segments indicating a speaker pause (default 1.5s).
+
+    Returns:
+    - Merged list of SubtitleSegment objects.
+    """
+    if not segments:
+        return []
+
+    merged: List[SubtitleSegment] = []
+    
+    current_start = segments[0].start
+    current_end = segments[0].end
+    current_text = segments[0].text.strip()
+
+    for i in range(1, len(segments)):
+        next_seg = segments[i]
+        next_text = next_seg.text.strip()
+        if not next_text:
+            continue
+
+        gap = max(0.0, next_seg.start - current_end)
+        current_duration = current_end - current_start
+        potential_duration = next_seg.end - current_start
+        has_sentence_end = is_true_sentence_end(current_text)
+
+        # Condition 1: Long silence gap between speech chunks -> Speaker paused significantly
+        if gap >= silence_gap_threshold:
+            # Commit current segment and start fresh
+            merged.append(
+                SubtitleSegment(
+                    start=current_start,
+                    end=current_end,
+                    text=current_text,
+                    index=len(merged) + 1,
+                )
+            )
+            current_start = next_seg.start
+            current_end = next_seg.end
+            current_text = next_text
+            continue
+
+        # Condition 2: Current text has reached minimum duration AND ends with sentence-ending punctuation
+        if current_duration >= min_duration and has_sentence_end:
+            merged.append(
+                SubtitleSegment(
+                    start=current_start,
+                    end=current_end,
+                    text=current_text,
+                    index=len(merged) + 1,
+                )
+            )
+            current_start = next_seg.start
+            current_end = next_seg.end
+            current_text = next_text
+            continue
+
+        # Condition 3: Adding next segment would exceed max_duration
+        if potential_duration > max_duration:
+            # If current duration is reasonable (>= 2.5s) or has sentence end, commit now
+            if current_duration >= 2.5 or has_sentence_end:
+                merged.append(
+                    SubtitleSegment(
+                        start=current_start,
+                        end=current_end,
+                        text=current_text,
+                        index=len(merged) + 1,
+                    )
+                )
+                current_start = next_seg.start
+                current_end = next_seg.end
+                current_text = next_text
+                continue
+
+        # Otherwise, merge next segment into current
+        current_text = combine_texts(current_text, next_text)
+        current_end = max(current_end, next_seg.end)
+
+    # Append the last accumulated segment
+    if current_text:
+        merged.append(
+            SubtitleSegment(
+                start=current_start,
+                end=current_end,
+                text=current_text,
+                index=len(merged) + 1,
+            )
+        )
+
+    return merged
