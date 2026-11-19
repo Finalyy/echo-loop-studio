@@ -1,1 +1,5 @@
-Z3JhZGlvPj01LjAuMAp5dC1kbHA+PTIwMjQuMC4wCmdyb3E+PTAuOS4wCnB5dGhvbi1kb3RlbnY+PTEuMC4wCnFyY29kZVtwaWxdPj04LjAK
+gradio>=5.0.0
+yt-dlp>=2024.0.0
+groq>=0.9.0
+python-dotenv>=1.0.0
+qrcode[pil]>=8.0
