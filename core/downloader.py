@@ -1,1 +1,222 @@
-aW1wb3J0IGdsb2IKaW1wb3J0IG9zCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHRlbXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgRGljdCwgTGlzdCwgT3B0aW9uYWwsIFR1cGxlCmltcG9ydCB5dF9kbHAKZnJvbSBjb3JlLnN1YnRpdGxlIGltcG9ydCBjbGVhbl9odG1sX3RhZ3MsIHBhcnNlX3NydF9jb250ZW50LCBzZWdtZW50c190b19zcnQKZnJvbSBjb3JlLnV0aWxzIGltcG9ydCBmaW5kX2ZmbXBlZywgc2FuaXRpemVfZmlsZW5hbWUKCiMgTGFuZ3VhZ2UgY29kZSBtYXBwaW5ncyBhbmQgYWxpYXNlcwpMQU5HVUFHRV9NQVAgPSB7CiAgICAiYXV0byI6IFtdLAogICAgImVuIjogWyJlbiIsICJlbi1VUyIsICJlbi1HQiIsICJlbi1DQSIsICJlbi1BVSIsICJlbmciXSwKICAgICJkZSI6IFsiZGUiLCAiZGUtREUiLCAiZGUtQVQiLCAiZGUtQ0giLCAiZ2VyIiwgImRldSJdLAogICAgInZpIjogWyJ2aSIsICJ2aS1WTiIsICJ2aWUiXSwKICAgICJmciI6IFsiZnIiLCAiZnItRlIiLCAiZnItQ0EiLCAiZnJhIiwgImZyZSJdLAogICAgImVzIjogWyJlcyIsICJlcy1FUyIsICJlcy1NWCIsICJzcGEiXSwKICAgICJqYSI6IFsiamEiLCAiamEtSlAiLCAianBuIl0sCiAgICAia28iOiBbImtvIiwgImtvLUtSIiwgImtvciJdLAogICAgInpoIjogWyJ6aCIsICJ6aC1IYW5zIiwgInpoLUhhbnQiLCAiemgtQ04iLCAiemgtVFciLCAiY2hpIiwgInpobyJdLAogICAgInJ1IjogWyJydSIsICJydS1SVSIsICJydXMiXSwKICAgICJpdCI6IFsiaXQiLCAiaXQtSVQiLCAiaXRhIl0sCiAgICAicHQiOiBbInB0IiwgInB0LUJSIiwgInB0LVBUIiwgInBvciJdLAp9CgoKZGVmIGdldF9sYW5ndWFnZV9zdWJfY29kZXMobGFuZzogc3RyKSAtPiBMaXN0W3N0cl06CiAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiBzdWJ0aXRsZSBjb2RlcyB0byBzZWFyY2ggZm9yIGluIHl0LWRscC4iIiIKICAgIGlmIG5vdCBsYW5nIG9yIGxhbmcubG93ZXIoKSA9PSAiYXV0byI6CiAgICAgICAgcmV0dXJuIFsiYWxsIl0KICAgIGxhbmdfY2xlYW4gPSBsYW5nLnN0cmlwKCkubG93ZXIoKQogICAgaWYgbGFuZ19jbGVhbiBpbiBMQU5HVUFHRV9NQVA6CiAgICAgICAgcmV0dXJuIExBTkdVQUdFX01BUFtsYW5nX2NsZWFuXQogICAgcmV0dXJuIFtsYW5nX2NsZWFuXQoKCmRlZiBmaW5kX2Rvd25sb2FkZWRfc3VidGl0bGVzKHdvcmtfZGlyOiBzdHIpIC0+IExpc3Rbc3RyXToKICAgICIiIkZpbmRzIGFsbCBzdWJ0aXRsZSBmaWxlcyAoLnNydCwgLnZ0dCkgaW4gd29ya19kaXIuIiIiCiAgICBzdWJfZmlsZXMgPSBbXQogICAgZm9yIGV4dCBpbiAoIiouc3J0IiwgIioudnR0IiwgIiouc3ViIik6CiAgICAgICAgc3ViX2ZpbGVzLmV4dGVuZChnbG9iLmdsb2Iob3MucGF0aC5qb2luKHdvcmtfZGlyLCBleHQpKSkKICAgIHJldHVybiBzdWJfZmlsZXMKCgpkZWYgcmVhZF9zdWJ0aXRsZV9maWxlKGZpbGVfcGF0aDogc3RyKSAtPiBzdHI6CiAgICAiIiJSZWFkcyBhIHN1YnRpdGxlIGZpbGUgaGFuZGxpbmcgdmFyaW91cyBlbmNvZGluZ3MgKFVURi04LCBVVEYtOC1zaWcsIENQMTI1MiwgZXRjLikuIiIiCiAgICBmb3IgZW5jIGluICgidXRmLTgtc2lnIiwgInV0Zi04IiwgImxhdGluLTEiLCAiY3AxMjUyIik6CiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aXRoIG9wZW4oZmlsZV9wYXRoLCAiciIsIGVuY29kaW5nPWVuYykgYXMgZjoKICAgICAgICAgICAgICAgIHJldHVybiBmLnJlYWQoKQogICAgICAgIGV4Y2VwdCBVbmljb2RlRGVjb2RlRXJyb3I6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICB3aXRoIG9wZW4oZmlsZV9wYXRoLCAiciIsIGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpIGFzIGY6CiAgICAgICAgcmV0dXJuIGYucmVhZCgpCgoKZGVmIGRvd25sb2FkX21lZGlhX2FuZF9zdWJ0aXRsZXMoCiAgICB1cmw6IHN0ciwKICAgIG91dHB1dF9kaXI6IHN0ciwKICAgIGxhbmd1YWdlOiBzdHIgPSAiZW4iLAogICAgc2tpcF9zdWJ0aXRsZXM6IGJvb2wgPSBGYWxzZSwKICAgIGNvb2tpZXNfcGF0aDogT3B0aW9uYWxbc3RyXSA9IE5vbmUsCiAgICBwcm9ncmVzc19jYWxsYmFjaz1Ob25lLAopIC0+IFR1cGxlW3N0ciwgT3B0aW9uYWxbc3RyXSwgc3RyLCBmbG9hdCwgc3RyXToKICAgICIiIgogICAgRG93bmxvYWRzIGF1ZGlvIGFzIE1QMyAoOTZrYnBzKSBhbmQgZXh0cmFjdHMgcGxhdGZvcm0gc3VidGl0bGVzIGlmIGF2YWlsYWJsZS4KCiAgICBQYXJhbWV0ZXJzOgogICAgLSB1cmw6IFZpZGVvIFVSTC4KICAgIC0gb3V0cHV0X2RpcjogRGlyZWN0b3J5IHRvIHNhdmUgZG93bmxvYWRlZCBmaWxlcy4KICAgIC0gbGFuZ3VhZ2U6IERlc2lyZWQgbGFuZ3VhZ2UgY29kZSAoJ2VuJywgJ2RlJywgJ3ZpJywgJ2F1dG8nLCBldGMuKS4KICAgIC0gc2tpcF9zdWJ0aXRsZXM6IElmIFRydWUgKGUuZy4gcHJlZmVyX2FpKSwgc2tpcHMgZG93bmxvYWRpbmcgcGxhdGZvcm0gc3VidGl0bGVzLgogICAgLSBjb29raWVzX3BhdGg6IE9wdGlvbmFsIHBhdGggdG8gY29va2llcy50eHQuCiAgICAtIHByb2dyZXNzX2NhbGxiYWNrOiBPcHRpb25hbCBjYWxsYmFjayBmdW5jdGlvbiBmb3Igc3RhdHVzIHVwZGF0ZXMuCgogICAgUmV0dXJuczoKICAgIC0gYXVkaW9fcGF0aDogUGF0aCB0byB0aGUgZ2VuZXJhdGVkIC5tcDMgZmlsZS4KICAgIC0gc3VidGl0bGVfY29udGVudDogQ2xlYW5lZCByYXcgU1JUIGNvbnRlbnQgKGlmIHN1YnRpdGxlcyB3ZXJlIGZvdW5kKSwgb3IgTm9uZS4KICAgIC0gY2xlYW5fdGl0bGU6IFNhbml0aXplZCB2aWRlbyB0aXRsZS4KICAgIC0gZHVyYXRpb246IFZpZGVvIGR1cmF0aW9uIGluIHNlY29uZHMuCiAgICAtIHN1Yl9zb3VyY2U6ICdtYW51YWwnLCAnYXV0bycsIG9yICdub25lJy4KICAgICIiIgogICAgb3MubWFrZWRpcnMob3V0cHV0X2RpciwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGZmbXBlZ19leGUgPSBmaW5kX2ZmbXBlZygpCgogICAgIyBCYXNlIG91dHB1dCB0ZW1wbGF0ZSB1c2luZyBzYWZlIGZpeGVkIGJhc2VuYW1lIGluc2lkZSBkZWRpY2F0ZWQgb3V0cHV0X2RpcgogICAgYmFzZV9uYW1lID0gImF1ZGlvX2Rvd25sb2FkIgogICAgb3V0X3RlbXBsYXRlID0gb3MucGF0aC5qb2luKG91dHB1dF9kaXIsIGYie2Jhc2VfbmFtZX0uJShleHQpcyIpCgogICAgIyBSZXNvbHZlIGNvb2tpZXMgZmlsZQogICAgYWN0aXZlX2Nvb2tpZXMgPSBOb25lCiAgICBpZiBjb29raWVzX3BhdGggYW5kIG9zLnBhdGguaXNmaWxlKGNvb2tpZXNfcGF0aCk6CiAgICAgICAgYWN0aXZlX2Nvb2tpZXMgPSBjb29raWVzX3BhdGgKICAgIGVsaWYgb3MucGF0aC5pc2ZpbGUoImNvb2tpZXMudHh0Iik6CiAgICAgICAgYWN0aXZlX2Nvb2tpZXMgPSAiY29va2llcy50eHQiCgogICAgc3ViX2xhbmdzID0gZ2V0X2xhbmd1YWdlX3N1Yl9jb2RlcyhsYW5ndWFnZSkKCiAgICAjIHl0LWRscCBjb25maWd1cmF0aW9uCiAgICB5ZGxfb3B0czogRGljdCA9IHsKICAgICAgICAiZm9ybWF0IjogImJlc3RhdWRpby9iZXN0IiwKICAgICAgICAib3V0dG1wbCI6IG91dF90ZW1wbGF0ZSwKICAgICAgICAia2VlcHZpZGVvIjogRmFsc2UsCiAgICAgICAgIm5vcGxheWxpc3QiOiBUcnVlLAogICAgICAgICJxdWlldCI6IFRydWUsCiAgICAgICAgIm5vX3dhcm5pbmdzIjogVHJ1ZSwKICAgICAgICAicG9zdHByb2Nlc3NvcnMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJrZXkiOiAiRkZtcGVnRXh0cmFjdEF1ZGlvIiwKICAgICAgICAgICAgICAgICJwcmVmZXJyZWRjb2RlYyI6ICJtcDMiLAogICAgICAgICAgICAgICAgInByZWZlcnJlZHF1YWxpdHkiOiAiOTYiLAogICAgICAgICAgICB9CiAgICAgICAgXSwKICAgIH0KCiAgICBpZiBmZm1wZWdfZXhlOgogICAgICAgIHlkbF9vcHRzWyJmZm1wZWdfbG9jYXRpb24iXSA9IG9zLnBhdGguZGlybmFtZShmZm1wZWdfZXhlKQoKICAgIGlmIGFjdGl2ZV9jb29raWVzOgogICAgICAgIHlkbF9vcHRzWyJjb29raWVmaWxlIl0gPSBhY3RpdmVfY29va2llcwoKICAgICMgU3VidGl0bGUgZG93bmxvYWQgY29uZmlndXJhdGlvbgogICAgaWYgbm90IHNraXBfc3VidGl0bGVzOgogICAgICAgIHlkbF9vcHRzWyJ3cml0ZXN1YnRpdGxlcyJdID0gVHJ1ZQogICAgICAgIHlkbF9vcHRzWyJ3cml0ZWF1dG9tYXRpY3N1YiJdID0gVHJ1ZQogICAgICAgIHlkbF9vcHRzWyJzdWJ0aXRsZXNsYW5ncyJdID0gc3ViX2xhbmdzCiAgICAgICAgeWRsX29wdHNbInN1YnRpdGxlc2Zvcm1hdCJdID0gInNydC92dHQvYmVzdCIKICAgICAgICAjIEF0dGVtcHQgdG8gY29udmVydCBkb3dubG9hZGVkIHN1YnMgdG8gc3J0CiAgICAgICAgeWRsX29wdHNbInBvc3Rwcm9jZXNzb3JzIl0uYXBwZW5kKAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAia2V5IjogIkZGbXBlZ1N1YnRpdGxlc0NvbnZlcnRvciIsCiAgICAgICAgICAgICAgICAiZm9ybWF0IjogInNydCIsCiAgICAgICAgICAgIH0KICAgICAgICApCgogICAgaWYgcHJvZ3Jlc3NfY2FsbGJhY2s6CiAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2soIsSQYW5nIGvhur90IG7hu5FpIHbDoCB04bqjaSDDom0gdGhhbmggLyBwaOG7pSDEkeG7gS4uLiIpCgogICAgd2l0aCB5dF9kbHAuWW91dHViZURMKHlkbF9vcHRzKSBhcyB5ZGw6CiAgICAgICAgaW5mbyA9IHlkbC5leHRyYWN0X2luZm8odXJsLCBkb3dubG9hZD1UcnVlKQoKICAgIHJhd190aXRsZSA9IGluZm8uZ2V0KCJ0aXRsZSIsICJFY2hvTG9vcF9BdWRpbyIpCiAgICBjbGVhbl90aXRsZSA9IHNhbml0aXplX2ZpbGVuYW1lKHJhd190aXRsZSkKICAgIGR1cmF0aW9uID0gZmxvYXQoaW5mby5nZXQoImR1cmF0aW9uIikgb3IgMC4wKQoKICAgICMgTG9jYXRlIGdlbmVyYXRlZCBNUDMgZmlsZQogICAgZXhwZWN0ZWRfbXAzID0gb3MucGF0aC5qb2luKG91dHB1dF9kaXIsIGYie2Jhc2VfbmFtZX0ubXAzIikKICAgIGZpbmFsX21wMyA9IG9zLnBhdGguam9pbihvdXRwdXRfZGlyLCBmIntjbGVhbl90aXRsZX0ubXAzIikKCiAgICBpZiBvcy5wYXRoLmlzZmlsZShleHBlY3RlZF9tcDMpOgogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKGZpbmFsX21wMykgYW5kIGZpbmFsX21wMyAhPSBleHBlY3RlZF9tcDM6CiAgICAgICAgICAgIG9zLnJlbW92ZShmaW5hbF9tcDMpCiAgICAgICAgb3MucmVuYW1lKGV4cGVjdGVkX21wMywgZmluYWxfbXAzKQogICAgZWxzZToKICAgICAgICAjIEZhbGxiYWNrIHNlYXJjaCBmb3IgYW55IG1wMyBpbiBvdXRwdXRfZGlyCiAgICAgICAgbXAzcyA9IGdsb2IuZ2xvYihvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIioubXAzIikpCiAgICAgICAgaWYgbXAzczoKICAgICAgICAgICAgZmluYWxfbXAzID0gbXAzc1swXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIEZpbGVOb3RGb3VuZEVycm9yKCJLaMO0bmcgdMOsbSB0aOG6pXkgZmlsZSDDom0gdGhhbmggLm1wMyBzYXUga2hpIHjhu60gbMO9LiIpCgogICAgIyBMb2NhdGUgYW5kIHByb2Nlc3Mgc3VidGl0bGVzCiAgICBzdWJ0aXRsZV9jb250ZW50OiBPcHRpb25hbFtzdHJdID0gTm9uZQogICAgc3ViX3NvdXJjZSA9ICJub25lIgoKICAgIGlmIG5vdCBza2lwX3N1YnRpdGxlczoKICAgICAgICBzdWJfZmlsZXMgPSBmaW5kX2Rvd25sb2FkZWRfc3VidGl0bGVzKG91dHB1dF9kaXIpCiAgICAgICAgaWYgc3ViX2ZpbGVzOgogICAgICAgICAgICAjIFNvcnQgdG8gcHJlZmVyIG1hbnVhbCBzdWJ0aXRsZXMgb3ZlciBhdXRvLWNhcHRpb25zCiAgICAgICAgICAgICMgQXV0by1nZW5lcmF0ZWQgY2FwdGlvbnMgb2Z0ZW4gY29udGFpbiAnLmF1dG8uJyBpbiB0aGVpciBmaWxlbmFtZQogICAgICAgICAgICBtYW51YWxfc3VicyA9IFtmIGZvciBmIGluIHN1Yl9maWxlcyBpZiAiLmF1dG8uIiBub3QgaW4gb3MucGF0aC5iYXNlbmFtZShmKV0KICAgICAgICAgICAgY2hvc2VuX3N1Yl9maWxlID0gbWFudWFsX3N1YnNbMF0gaWYgbWFudWFsX3N1YnMgZWxzZSBzdWJfZmlsZXNbMF0KICAgICAgICAgICAgc3ViX3NvdXJjZSA9ICJtYW51YWwiIGlmIG1hbnVhbF9zdWJzIGVsc2UgImF1dG8iCgogICAgICAgICAgICByYXdfc3ViX3RleHQgPSByZWFkX3N1YnRpdGxlX2ZpbGUoY2hvc2VuX3N1Yl9maWxlKQogICAgICAgICAgICBzZWdtZW50cyA9IHBhcnNlX3NydF9jb250ZW50KHJhd19zdWJfdGV4dCkKICAgICAgICAgICAgaWYgc2VnbWVudHM6CiAgICAgICAgICAgICAgICBzdWJ0aXRsZV9jb250ZW50ID0gc2VnbWVudHNfdG9fc3J0KHNlZ21lbnRzKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc3VidGl0bGVfY29udGVudCA9IE5vbmUKICAgICAgICAgICAgICAgIHN1Yl9zb3VyY2UgPSAibm9uZSIKCiAgICByZXR1cm4gZmluYWxfbXAzLCBzdWJ0aXRsZV9jb250ZW50LCBjbGVhbl90aXRsZSwgZHVyYXRpb24sIHN1Yl9zb3VyY2UKCgpkZWYgcHJvY2Vzc191cGxvYWRlZF9tZWRpYSgKICAgIHVwbG9hZGVkX2ZpbGVfcGF0aDogc3RyLAogICAgb3V0cHV0X2Rpcjogc3RyLAogICAgcHJvZ3Jlc3NfY2FsbGJhY2s9Tm9uZSwKKSAtPiBUdXBsZVtzdHIsIHN0ciwgZmxvYXRdOgogICAgIiIiCiAgICBDb252ZXJ0cyBhbnkgdXBsb2FkZWQgYXVkaW8gb3IgdmlkZW8gZmlsZSB0byA5NmticHMgTVAzIGZvciBFY2hvIExvb3AuCiAgICBSZXR1cm5zOiAoZmluYWxfbXAzX3BhdGgsIGNsZWFuX3RpdGxlLCBkdXJhdGlvbl9zZWNvbmRzKQogICAgIiIiCiAgICBmcm9tIGNvcmUuZ3JvcV93aGlzcGVyIGltcG9ydCBnZXRfYXVkaW9fZHVyYXRpb25fc2Vjb25kcwoKICAgIG9zLm1ha2VkaXJzKG91dHB1dF9kaXIsIGV4aXN0X29rPVRydWUpCiAgICBmZm1wZWdfZXhlID0gZmluZF9mZm1wZWcoKSBvciAiZmZtcGVnIgoKICAgIG9yaWdpbmFsX3N0ZW0gPSBQYXRoKHVwbG9hZGVkX2ZpbGVfcGF0aCkuc3RlbQogICAgY2xlYW5fdGl0bGUgPSBzYW5pdGl6ZV9maWxlbmFtZShvcmlnaW5hbF9zdGVtKQogICAgb3V0X21wM19wYXRoID0gb3MucGF0aC5qb2luKG91dHB1dF9kaXIsIGYie2NsZWFuX3RpdGxlfS5tcDMiKQoKICAgIGlmIHByb2dyZXNzX2NhbGxiYWNrOgogICAgICAgIHByb2dyZXNzX2NhbGxiYWNrKCLEkGFuZyBjaHV54buDbiDEkeG7lWkgZmlsZSDDom0gdGhhbmggc2FuZyDEkeG7i25oIGThuqFuZyBNUDMgOTZrYnBzLi4uIikKCiAgICBjbWQgPSBbCiAgICAgICAgZmZtcGVnX2V4ZSwKICAgICAgICAiLXkiLAogICAgICAgICItaSIsIHVwbG9hZGVkX2ZpbGVfcGF0aCwKICAgICAgICAiLXZuIiwKICAgICAgICAiLWNvZGVjOmEiLCAibGlibXAzbGFtZSIsCiAgICAgICAgIi1iOmEiLCAiOTZrIiwKICAgICAgICAiLWFyIiwgIjQ0MTAwIiwKICAgICAgICBvdXRfbXAzX3BhdGgsCiAgICBdCiAgICBzdWJwcm9jZXNzLnJ1bihjbWQsIHN0ZG91dD1zdWJwcm9jZXNzLlBJUEUsIHN0ZGVycj1zdWJwcm9jZXNzLlBJUEUsIGNoZWNrPVRydWUpCgogICAgZHVyYXRpb24gPSBnZXRfYXVkaW9fZHVyYXRpb25fc2Vjb25kcyhvdXRfbXAzX3BhdGgpCiAgICByZXR1cm4gb3V0X21wM19wYXRoLCBjbGVhbl90aXRsZSwgZHVyYXRpb24K
+import glob
+import os
+import shutil
+import subprocess
+import tempfile
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+import yt_dlp
+from core.subtitle import clean_html_tags, parse_srt_content, segments_to_srt
+from core.utils import find_ffmpeg, sanitize_filename
+
+# Language code mappings and aliases
+LANGUAGE_MAP = {
+    "auto": [],
+    "en": ["en", "en-US", "en-GB", "en-CA", "en-AU", "eng"],
+    "de": ["de", "de-DE", "de-AT", "de-CH", "ger", "deu"],
+    "vi": ["vi", "vi-VN", "vie"],
+    "fr": ["fr", "fr-FR", "fr-CA", "fra", "fre"],
+    "es": ["es", "es-ES", "es-MX", "spa"],
+    "ja": ["ja", "ja-JP", "jpn"],
+    "ko": ["ko", "ko-KR", "kor"],
+    "zh": ["zh", "zh-Hans", "zh-Hant", "zh-CN", "zh-TW", "chi", "zho"],
+    "ru": ["ru", "ru-RU", "rus"],
+    "it": ["it", "it-IT", "ita"],
+    "pt": ["pt", "pt-BR", "pt-PT", "por"],
+}
+
+
+def get_language_sub_codes(lang: str) -> List[str]:
+    """Returns a list of subtitle codes to search for in yt-dlp."""
+    if not lang or lang.lower() == "auto":
+        return ["all"]
+    lang_clean = lang.strip().lower()
+    if lang_clean in LANGUAGE_MAP:
+        return LANGUAGE_MAP[lang_clean]
+    return [lang_clean]
+
+
+def find_downloaded_subtitles(work_dir: str) -> List[str]:
+    """Finds all subtitle files (.srt, .vtt) in work_dir."""
+    sub_files = []
+    for ext in ("*.srt", "*.vtt", "*.sub"):
+        sub_files.extend(glob.glob(os.path.join(work_dir, ext)))
+    return sub_files
+
+
+def read_subtitle_file(file_path: str) -> str:
+    """Reads a subtitle file handling various encodings (UTF-8, UTF-8-sig, CP1252, etc.)."""
+    for enc in ("utf-8-sig", "utf-8", "latin-1", "cp1252"):
+        try:
+            with open(file_path, "r", encoding=enc) as f:
+                return f.read()
+        except UnicodeDecodeError:
+            continue
+    with open(file_path, "r", encoding="utf-8", errors="replace") as f:
+        return f.read()
+
+
+def download_media_and_subtitles(
+    url: str,
+    output_dir: str,
+    language: str = "en",
+    skip_subtitles: bool = False,
+    cookies_path: Optional[str] = None,
+    progress_callback=None,
+) -> Tuple[str, Optional[str], str, float, str]:
+    """
+    Downloads audio as MP3 (96kbps) and extracts platform subtitles if available.
+
+    Parameters:
+    - url: Video URL.
+    - output_dir: Directory to save downloaded files.
+    - language: Desired language code ('en', 'de', 'vi', 'auto', etc.).
+    - skip_subtitles: If True (e.g. prefer_ai), skips downloading platform subtitles.
+    - cookies_path: Optional path to cookies.txt.
+    - progress_callback: Optional callback function for status updates.
+
+    Returns:
+    - audio_path: Path to the generated .mp3 file.
+    - subtitle_content: Cleaned raw SRT content (if subtitles were found), or None.
+    - clean_title: Sanitized video title.
+    - duration: Video duration in seconds.
+    - sub_source: 'manual', 'auto', or 'none'.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    ffmpeg_exe = find_ffmpeg()
+
+    # Base output template using safe fixed basename inside dedicated output_dir
+    base_name = "audio_download"
+    out_template = os.path.join(output_dir, f"{base_name}.%(ext)s")
+
+    # Resolve cookies file
+    active_cookies = None
+    if cookies_path and os.path.isfile(cookies_path):
+        active_cookies = cookies_path
+    elif os.path.isfile("cookies.txt"):
+        active_cookies = "cookies.txt"
+
+    sub_langs = get_language_sub_codes(language)
+
+    # yt-dlp configuration
+    ydl_opts: Dict = {
+        "format": "bestaudio/best",
+        "outtmpl": out_template,
+        "keepvideo": False,
+        "noplaylist": True,
+        "quiet": True,
+        "no_warnings": True,
+        "postprocessors": [
+            {
+                "key": "FFmpegExtractAudio",
+                "preferredcodec": "mp3",
+                "preferredquality": "96",
+            }
+        ],
+    }
+
+    if ffmpeg_exe:
+        ydl_opts["ffmpeg_location"] = os.path.dirname(ffmpeg_exe)
+
+    if active_cookies:
+        ydl_opts["cookiefile"] = active_cookies
+
+    # Subtitle download configuration
+    if not skip_subtitles:
+        ydl_opts["writesubtitles"] = True
+        ydl_opts["writeautomaticsub"] = True
+        ydl_opts["subtitleslangs"] = sub_langs
+        ydl_opts["subtitlesformat"] = "srt/vtt/best"
+        # Attempt to convert downloaded subs to srt
+        ydl_opts["postprocessors"].append(
+            {
+                "key": "FFmpegSubtitlesConvertor",
+                "format": "srt",
+            }
+        )
+
+    if progress_callback:
+        progress_callback("Đang kết nối và tải âm thanh / phụ đề...")
+
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=True)
+
+    raw_title = info.get("title", "EchoLoop_Audio")
+    clean_title = sanitize_filename(raw_title)
+    duration = float(info.get("duration") or 0.0)
+
+    # Locate generated MP3 file
+    expected_mp3 = os.path.join(output_dir, f"{base_name}.mp3")
+    final_mp3 = os.path.join(output_dir, f"{clean_title}.mp3")
+
+    if os.path.isfile(expected_mp3):
+        if os.path.exists(final_mp3) and final_mp3 != expected_mp3:
+            os.remove(final_mp3)
+        os.rename(expected_mp3, final_mp3)
+    else:
+        # Fallback search for any mp3 in output_dir
+        mp3s = glob.glob(os.path.join(output_dir, "*.mp3"))
+        if mp3s:
+            final_mp3 = mp3s[0]
+        else:
+            raise FileNotFoundError("Không tìm thấy file âm thanh .mp3 sau khi xử lý.")
+
+    # Locate and process subtitles
+    subtitle_content: Optional[str] = None
+    sub_source = "none"
+
+    if not skip_subtitles:
+        sub_files = find_downloaded_subtitles(output_dir)
+        if sub_files:
+            # Sort to prefer manual subtitles over auto-captions
+            # Auto-generated captions often contain '.auto.' in their filename
+            manual_subs = [f for f in sub_files if ".auto." not in os.path.basename(f)]
+            chosen_sub_file = manual_subs[0] if manual_subs else sub_files[0]
+            sub_source = "manual" if manual_subs else "auto"
+
+            raw_sub_text = read_subtitle_file(chosen_sub_file)
+            segments = parse_srt_content(raw_sub_text)
+            if segments:
+                subtitle_content = segments_to_srt(segments)
+            else:
+                subtitle_content = None
+                sub_source = "none"
+
+    return final_mp3, subtitle_content, clean_title, duration, sub_source
+
+
+def process_uploaded_media(
+    uploaded_file_path: str,
+    output_dir: str,
+    progress_callback=None,
+) -> Tuple[str, str, float]:
+    """
+    Converts any uploaded audio or video file to 96kbps MP3 for Echo Loop.
+    Returns: (final_mp3_path, clean_title, duration_seconds)
+    """
+    from core.groq_whisper import get_audio_duration_seconds
+
+    os.makedirs(output_dir, exist_ok=True)
+    ffmpeg_exe = find_ffmpeg() or "ffmpeg"
+
+    original_stem = Path(uploaded_file_path).stem
+    clean_title = sanitize_filename(original_stem)
+    out_mp3_path = os.path.join(output_dir, f"{clean_title}.mp3")
+
+    if progress_callback:
+        progress_callback("Đang chuyển đổi file âm thanh sang định dạng MP3 96kbps...")
+
+    cmd = [
+        ffmpeg_exe,
+        "-y",
+        "-i", uploaded_file_path,
+        "-vn",
+        "-codec:a", "libmp3lame",
+        "-b:a", "96k",
+        "-ar", "44100",
+        out_mp3_path,
+    ]
+    subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+
+    duration = get_audio_duration_seconds(out_mp3_path)
+    return out_mp3_path, clean_title, duration
