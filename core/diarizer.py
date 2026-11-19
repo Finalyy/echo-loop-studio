@@ -1,1 +1,136 @@
-aW1wb3J0IG9zCmltcG9ydCByZQpmcm9tIHR5cGluZyBpbXBvcnQgTGlzdCwgT3B0aW9uYWwKZnJvbSBncm9xIGltcG9ydCBHcm9xCmZyb20gY29yZS5zdWJ0aXRsZSBpbXBvcnQgU3VidGl0bGVTZWdtZW50CgpTUEVBS0VSX1NUWUxFUyA9IHsKICAgICJ2aWV0bmFtZXNlIjogIk5nxrDhu51pIG7Ds2kiLCAgICMgW05nxrDhu51pIG7Ds2kgQV0sIFtOZ8aw4budaSBuw7NpIEJdCiAgICAiZW5nbGlzaCI6ICJTcGVha2VyIiwgICAgICAgICMgW1NwZWFrZXIgQV0sIFtTcGVha2VyIEJdCiAgICAic2hvcnQiOiAiIiwgICAgICAgICAgICAgICAgICMgW0FdLCBbQl0KfQoKCmRlZiBmb3JtYXRfc3BlYWtlcl9sYWJlbChsZXR0ZXI6IHN0ciwgc3R5bGU6IHN0cikgLT4gc3RyOgogICAgIiIiRm9ybWF0cyBzcGVha2VyIGxhYmVsIGFjY29yZGluZyB0byBjaG9zZW4gc3R5bGUuIiIiCiAgICBwcmVmaXggPSBTUEVBS0VSX1NUWUxFUy5nZXQoc3R5bGUsICJOZ8aw4budaSBuw7NpIikKICAgIGlmIHByZWZpeDoKICAgICAgICByZXR1cm4gZiJbe3ByZWZpeH0ge2xldHRlcn1dIgogICAgcmV0dXJuIGYiW3tsZXR0ZXJ9XSIKCgpkZWYgZGlhcml6ZV9zZWdtZW50c19iYXRjaCgKICAgIGNsaWVudDogR3JvcSwKICAgIGJhdGNoX3NlZ21lbnRzOiBMaXN0W1N1YnRpdGxlU2VnbWVudF0sCiAgICBzdHlsZTogc3RyID0gInZpZXRuYW1lc2UiLAogICAgbW9kZWw6IHN0ciA9ICJxd2VuL3F3ZW4zLjgtMjdiIiwKKSAtPiBMaXN0W3N0cl06CiAgICAiIiIKICAgIFVzZXMgR3JvcSBMTE0gKHF3ZW4vcXdlbjMuOC0yN2IpIHRvIGFuYWx5emUgY29udmVyc2F0aW9uIHR1cm5zIGFuZCBhc3NpZ24gc3BlYWtlciBsYWJlbHMuCiAgICAiIiIKICAgIGlmIG5vdCBiYXRjaF9zZWdtZW50czoKICAgICAgICByZXR1cm4gW10KCiAgICBzcGVha2VyX3Rlcm0gPSBTUEVBS0VSX1NUWUxFUy5nZXQoc3R5bGUsICJOZ8aw4budaSBuw7NpIikKICAgIGV4YW1wbGVfYSA9IGYiW3tzcGVha2VyX3Rlcm19IEFdIiBpZiBzcGVha2VyX3Rlcm0gZWxzZSAiW0FdIgogICAgZXhhbXBsZV9iID0gZiJbe3NwZWFrZXJfdGVybX0gQl0iIGlmIHNwZWFrZXJfdGVybSBlbHNlICJbQl0iCgogICAgIyBCdWlsZCBwcm9tcHQgaW5wdXQKICAgIGxpbmVzID0gW10KICAgIGZvciBpLCBzZWcgaW4gZW51bWVyYXRlKGJhdGNoX3NlZ21lbnRzLCBzdGFydD0xKToKICAgICAgICBsaW5lcy5hcHBlbmQoZiJbe2l9XSB7c2VnLnRleHQuc3RyaXAoKX0iKQoKICAgIHRyYW5zY3JpcHRfdGV4dCA9ICJcbiIuam9pbihsaW5lcykKCiAgICBzeXN0ZW1fcHJvbXB0ID0gZiIiIkLhuqFuIGzDoCBjaHV5w6puIGdpYSBwaMOibiB0w61jaCBuZ+G7ryBj4bqjbmggaOG7mWkgdGhv4bqhaSB2w6AgZ8OhbiBuaMOjbiBuZ8aw4budaSBuw7NpIChTcGVha2VyIERpYXJpemF0aW9uKS4KTmhp4buHbSB24bulOiDEkOG7jWMga+G7uSDEkW/huqFuIGjhu5lpIHRob+G6oWkgZMaw4bubaSDEkcOieSwgcGjDom4gdMOtY2ggc+G7sSB0xrDGoW5nIHTDoWMsIGPDonUgaOG7j2kgLSDEkcOhcCwgbMaw4bujdCDEkeG7kWkgdGhv4bqhaSBnaeG7r2EgY8OhYyBuaMOibiB24bqtdCB2w6AgZ8OhbiBuaMOjbiBuZ8aw4budaSBuw7NpIHtleGFtcGxlX2F9LCB7ZXhhbXBsZV9ifSwuLi4gdsOgbyDEkeG6p3UgbeG7l2kgY8OidS4KClF1eSB04bqvYyBC4bquVCBCVeG7mEM6CjEuIEtIw5RORyDEkcaw4bujYyB0aGF5IMSR4buVaSwgdGjDqm0gaG/hurdjIGLhu5t0IGLhuqV0IGvhu7MgdOG7qyBuw6BvIGPhu6dhIGPDonUgZ+G7kWMuCjIuIFRy4bqjIHbhu4EgxJHDum5nIHPhu5EgbMaw4bujbmcgY8OidSB0aGVvIHRo4bupIHThu7EgdOG7qyBbMV0gxJHhur9uIFt7bGVuKGJhdGNoX3NlZ21lbnRzKX1dLgozLiBN4buXaSBkw7JuZyBi4bqvdCDEkeG6p3UgYuG6sW5nIFtT4buRIHRo4bupIHThu7FdIFtUw6puIG5nxrDhu51pIG7Ds2ldOiBO4buZaSBkdW5nIGPDonUuClbDrSBk4bulOgpbMV0ge2V4YW1wbGVfYX06IFhpbiBjaMOgbyBi4bqhbiEKWzJdIHtleGFtcGxlX2J9OiBDaMOgbyBi4bqhbiwgcuG6pXQgdnVpIMSRxrDhu6NjIGfhurdwIGzhuqFpLgo0LiBDaOG7iSB0cuG6oyB24buBIGRhbmggc8OhY2ggY8OhYyBjw6J1IMSRw6MgZ8OhbiBuaMOjbiwga2jDtG5nIGdp4bqjaSB0aMOtY2ggZ8OsIHRow6ptLiIiIgoKICAgIHJlc3BvbnNlID0gY2xpZW50LmNoYXQuY29tcGxldGlvbnMuY3JlYXRlKAogICAgICAgIG1vZGVsPW1vZGVsLAogICAgICAgIG1lc3NhZ2VzPVsKICAgICAgICAgICAgeyJyb2xlIjogInN5c3RlbSIsICJjb250ZW50Ijogc3lzdGVtX3Byb21wdH0sCiAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB0cmFuc2NyaXB0X3RleHR9LAogICAgICAgIF0sCiAgICAgICAgdGVtcGVyYXR1cmU9MC4xLAogICAgKQoKICAgIGNvbnRlbnQgPSByZXNwb25zZS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCBvciAiIgogICAgbGFiZWxlZF9saW5lcyA9IFtsLnN0cmlwKCkgZm9yIGwgaW4gY29udGVudC5zcGxpdGxpbmVzKCkgaWYgbC5zdHJpcCgpXQoKICAgICMgUGFyc2Ugb3V0cHV0IGxpbmVzIG1hdGNoaW5nIFtpXSAuLi4KICAgIHJlc3VsdF90ZXh0cyA9IFtdCiAgICBsaW5lX21hcCA9IHt9CiAgICBmb3IgbGluZSBpbiBsYWJlbGVkX2xpbmVzOgogICAgICAgIG1hdGNoID0gcmUubWF0Y2gociJeXFsoXGQrKVxdXHMqKC4qKSQiLCBsaW5lKQogICAgICAgIGlmIG1hdGNoOgogICAgICAgICAgICBpZHggPSBpbnQobWF0Y2guZ3JvdXAoMSkpCiAgICAgICAgICAgIHRleHQgPSBtYXRjaC5ncm91cCgyKS5zdHJpcCgpCiAgICAgICAgICAgIGxpbmVfbWFwW2lkeF0gPSB0ZXh0CgogICAgIyBNYXAgYmFjayB0byBvcmlnaW5hbCBzZWdtZW50cwogICAgZm9yIGksIHNlZyBpbiBlbnVtZXJhdGUoYmF0Y2hfc2VnbWVudHMsIHN0YXJ0PTEpOgogICAgICAgIGlmIGkgaW4gbGluZV9tYXA6CiAgICAgICAgICAgIHJlc3VsdF90ZXh0cy5hcHBlbmQobGluZV9tYXBbaV0pCiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyBGYWxsYmFjayBpZiBhbiBpbmRleCBpcyBtaXNzaW5nCiAgICAgICAgICAgIHJlc3VsdF90ZXh0cy5hcHBlbmQoc2VnLnRleHQpCgogICAgcmV0dXJuIHJlc3VsdF90ZXh0cwoKCmRlZiBkaWFyaXplX2FuZF9sYWJlbF9zcGVha2VycygKICAgIHNlZ21lbnRzOiBMaXN0W1N1YnRpdGxlU2VnbWVudF0sCiAgICBhcGlfa2V5OiBPcHRpb25hbFtzdHJdID0gTm9uZSwKICAgIHN0eWxlOiBzdHIgPSAidmlldG5hbWVzZSIsCiAgICBwcm9ncmVzc19jYWxsYmFjaz1Ob25lLAogICAgYmF0Y2hfc2l6ZTogaW50ID0gMzUsCikgLT4gTGlzdFtTdWJ0aXRsZVNlZ21lbnRdOgogICAgIiIiCiAgICBBcHBsaWVzIGNvbnZlcnNhdGlvbmFsIHNwZWFrZXIgZGlhcml6YXRpb24gdG8gYWxsIHN1YnRpdGxlIHNlZ21lbnRzIHVzaW5nIEdyb3EgTExNLgogICAgU3BsaXRzIGludG8gYmF0Y2hlcyB0byBwcmVzZXJ2ZSBjb250ZXh0IHdoaWxlIGF2b2lkaW5nIHRva2VuIGxpbWl0cy4KICAgICIiIgogICAgaWYgbm90IHNlZ21lbnRzOgogICAgICAgIHJldHVybiBbXQoKICAgIGFjdGl2ZV9rZXkgPSAoYXBpX2tleSBvciAiIikuc3RyaXAoKSBvciBvcy5lbnZpcm9uLmdldCgiR1JPUV9BUElfS0VZIiwgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCBhY3RpdmVfa2V5OgogICAgICAgICMgSWYgbm8ga2V5LCByZXR1cm4gc2VnbWVudHMgdW5jaGFuZ2VkCiAgICAgICAgcmV0dXJuIHNlZ21lbnRzCgogICAgY2xpZW50ID0gR3JvcShhcGlfa2V5PWFjdGl2ZV9rZXkpCiAgICBsYWJlbGVkX3NlZ21lbnRzOiBMaXN0W1N1YnRpdGxlU2VnbWVudF0gPSBbXQogICAgdG90YWwgPSBsZW4oc2VnbWVudHMpCgogICAgZm9yIHN0YXJ0X2lkeCBpbiByYW5nZSgwLCB0b3RhbCwgYmF0Y2hfc2l6ZSk6CiAgICAgICAgZW5kX2lkeCA9IG1pbihzdGFydF9pZHggKyBiYXRjaF9zaXplLCB0b3RhbCkKICAgICAgICBiYXRjaCA9IHNlZ21lbnRzW3N0YXJ0X2lkeDplbmRfaWR4XQoKICAgICAgICBpZiBwcm9ncmVzc19jYWxsYmFjazoKICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2soZiLEkGFuZyBwaMOibiBiaeG7h3QgbmfGsOG7nWkgbsOzaSAoQSwgQiwgQy4uLikgY8OidSB7c3RhcnRfaWR4KzF9IMSR4bq/biB7ZW5kX2lkeH0ve3RvdGFsfS4uLiIpCgogICAgICAgIHRyeToKICAgICAgICAgICAgbGFiZWxlZF90ZXh0cyA9IGRpYXJpemVfc2VnbWVudHNfYmF0Y2goY2xpZW50LCBiYXRjaCwgc3R5bGU9c3R5bGUpCiAgICAgICAgICAgIGZvciBzZWcsIG5ld190ZXh0IGluIHppcChiYXRjaCwgbGFiZWxlZF90ZXh0cyk6CiAgICAgICAgICAgICAgICBsYWJlbGVkX3NlZ21lbnRzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBTdWJ0aXRsZVNlZ21lbnQoCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0PXNlZy5zdGFydCwKICAgICAgICAgICAgICAgICAgICAgICAgZW5kPXNlZy5lbmQsCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQ9bmV3X3RleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4PXNlZy5pbmRleCwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAjIE9uIGVycm9yLCBrZWVwIG9yaWdpbmFsIHNlZ21lbnRzCiAgICAgICAgICAgIHByaW50KGYiWyFdIEzhu5dpIGtoaSBwaMOibiBiaeG7h3QgbmfGsOG7nWkgbsOzaSB0aGVvIGJhdGNoOiB7ZX0iKQogICAgICAgICAgICBsYWJlbGVkX3NlZ21lbnRzLmV4dGVuZChiYXRjaCkKCiAgICByZXR1cm4gbGFiZWxlZF9zZWdtZW50cwo=
+import os
+import re
+from typing import List, Optional
+from groq import Groq
+from core.subtitle import SubtitleSegment
+
+SPEAKER_STYLES = {
+    "vietnamese": "Người nói",   # [Người nói A], [Người nói B]
+    "english": "Speaker",        # [Speaker A], [Speaker B]
+    "short": "",                 # [A], [B]
+}
+
+
+def format_speaker_label(letter: str, style: str) -> str:
+    """Formats speaker label according to chosen style."""
+    prefix = SPEAKER_STYLES.get(style, "Người nói")
+    if prefix:
+        return f"[{prefix} {letter}]"
+    return f"[{letter}]"
+
+
+def diarize_segments_batch(
+    client: Groq,
+    batch_segments: List[SubtitleSegment],
+    style: str = "vietnamese",
+    model: str = "qwen/qwen3.8-27b",
+) -> List[str]:
+    """
+    Uses Groq LLM (qwen/qwen3.8-27b) to analyze conversation turns and assign speaker labels.
+    """
+    if not batch_segments:
+        return []
+
+    speaker_term = SPEAKER_STYLES.get(style, "Người nói")
+    example_a = f"[{speaker_term} A]" if speaker_term else "[A]"
+    example_b = f"[{speaker_term} B]" if speaker_term else "[B]"
+
+    # Build prompt input
+    lines = []
+    for i, seg in enumerate(batch_segments, start=1):
+        lines.append(f"[{i}] {seg.text.strip()}")
+
+    transcript_text = "\n".join(lines)
+
+    system_prompt = f"""Bạn là chuyên gia phân tích ngữ cảnh hội thoại và gán nhãn người nói (Speaker Diarization).
+Nhiệm vụ: Đọc kỹ đoạn hội thoại dưới đây, phân tích sự tương tác, câu hỏi - đáp, lượt đối thoại giữa các nhân vật và gán nhãn người nói {example_a}, {example_b},... vào đầu mỗi câu.
+
+Quy tắc BẮT BUỘC:
+1. KHÔNG được thay đổi, thêm hoặc bớt bất kỳ từ nào của câu gốc.
+2. Trả về đúng số lượng câu theo thứ tự từ [1] đến [{len(batch_segments)}].
+3. Mỗi dòng bắt đầu bằng [Số thứ tự] [Tên người nói]: Nội dung câu.
+Ví dụ:
+[1] {example_a}: Xin chào bạn!
+[2] {example_b}: Chào bạn, rất vui được gặp lại.
+4. Chỉ trả về danh sách các câu đã gán nhãn, không giải thích gì thêm."""
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": transcript_text},
+        ],
+        temperature=0.1,
+    )
+
+    content = response.choices[0].message.content or ""
+    labeled_lines = [l.strip() for l in content.splitlines() if l.strip()]
+
+    # Parse output lines matching [i] ...
+    result_texts = []
+    line_map = {}
+    for line in labeled_lines:
+        match = re.match(r"^\[(\d+)\]\s*(.*)$", line)
+        if match:
+            idx = int(match.group(1))
+            text = match.group(2).strip()
+            line_map[idx] = text
+
+    # Map back to original segments
+    for i, seg in enumerate(batch_segments, start=1):
+        if i in line_map:
+            result_texts.append(line_map[i])
+        else:
+            # Fallback if an index is missing
+            result_texts.append(seg.text)
+
+    return result_texts
+
+
+def diarize_and_label_speakers(
+    segments: List[SubtitleSegment],
+    api_key: Optional[str] = None,
+    style: str = "vietnamese",
+    progress_callback=None,
+    batch_size: int = 35,
+) -> List[SubtitleSegment]:
+    """
+    Applies conversational speaker diarization to all subtitle segments using Groq LLM.
+    Splits into batches to preserve context while avoiding token limits.
+    """
+    if not segments:
+        return []
+
+    active_key = (api_key or "").strip() or os.environ.get("GROQ_API_KEY", "").strip()
+    if not active_key:
+        # If no key, return segments unchanged
+        return segments
+
+    client = Groq(api_key=active_key)
+    labeled_segments: List[SubtitleSegment] = []
+    total = len(segments)
+
+    for start_idx in range(0, total, batch_size):
+        end_idx = min(start_idx + batch_size, total)
+        batch = segments[start_idx:end_idx]
+
+        if progress_callback:
+            progress_callback(f"Đang phân biệt người nói (A, B, C...) câu {start_idx+1} đến {end_idx}/{total}...")
+
+        try:
+            labeled_texts = diarize_segments_batch(client, batch, style=style)
+            for seg, new_text in zip(batch, labeled_texts):
+                labeled_segments.append(
+                    SubtitleSegment(
+                        start=seg.start,
+                        end=seg.end,
+                        text=new_text,
+                        index=seg.index,
+                    )
+                )
+        except Exception as e:
+            # On error, keep original segments
+            print(f"[!] Lỗi khi phân biệt người nói theo batch: {e}")
+            labeled_segments.extend(batch)
+
+    return labeled_segments
