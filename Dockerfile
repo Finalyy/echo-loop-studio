@@ -1,1 +1,24 @@
-RlJPTSBweXRob246My4xMS1zbGltCgojIEluc3RhbGwgc3lzdGVtIGRlcGVuZGVuY2llcyBpbmNsdWRpbmcgZmZtcGVnClJVTiBhcHQtZ2V0IHVwZGF0ZSAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgLS1uby1pbnN0YWxsLXJlY29tbWVuZHMgXAogICAgZmZtcGVnIFwKICAgIGN1cmwgXAogICAgJiYgcm0gLXJmIC92YXIvbGliL2FwdC9saXN0cy8qCgpXT1JLRElSIC9hcHAKCiMgQ29weSByZXF1aXJlbWVudHMgYW5kIGluc3RhbGwKQ09QWSByZXF1aXJlbWVudHMudHh0IC4KUlVOIHBpcCBpbnN0YWxsIC0tbm8tY2FjaGUtZGlyIC1yIHJlcXVpcmVtZW50cy50eHQKCiMgQ29weSBhbGwgYXBwbGljYXRpb24gZmlsZXMKQ09QWSAuIC4KCiMgRXhwb3NlIGRlZmF1bHQgcG9ydApFWFBPU0UgNzg2MAoKIyBFbnZpcm9ubWVudCB2YXJpYWJsZXMKRU5WIFBZVEhPTlVOQlVGRkVSRUQ9MQoKQ01EIFsicHl0aG9uIiwgImFwcC5weSJdCg==
+FROM python:3.11-slim
+
+# Install system dependencies including ffmpeg
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy requirements and install
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy all application files
+COPY . .
+
+# Expose default port
+EXPOSE 7860
+
+# Environment variables
+ENV PYTHONUNBUFFERED=1
+
+CMD ["python", "app.py"]
