@@ -1,1 +1,21 @@
-ewogICJuYW1lIjogIkVjaG8gTG9vcCBTdHVkaW8iLAogICJzaG9ydF9uYW1lIjogIkVjaG9Mb29wIiwKICAiZGVzY3JpcHRpb24iOiAiVOG6oW8gQXVkaW8gTVAzIHbDoCBQaOG7pSDEkeG7gSBTUlQgY2h14bqpbiBjaG8g4bupbmcgZOG7pW5nIEVjaG8gTG9vcCIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMGYxNzJhIiwKICAidGhlbWVfY29sb3IiOiAiIzYzNjZmMSIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImh0dHBzOi8vaW1nLmljb25zOC5jb20vZmx1ZW5jeS8xOTIvaGVhZHBob25lcy5wbmciLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiaHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9mbHVlbmN5LzUxMi9oZWFkcGhvbmVzLnBuZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgfQogIF0KfQo=
+{
+  "name": "Echo Loop Studio",
+  "short_name": "EchoLoop",
+  "description": "Tạo Audio MP3 và Phụ đề SRT chuẩn cho ứng dụng Echo Loop",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/fluency/192/headphones.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/fluency/512/headphones.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
