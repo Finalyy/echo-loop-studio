@@ -1,1 +1,3 @@
-IiIiCkNvcmUgcHJvY2Vzc2luZyBtb2R1bGVzIGZvciBFY2hvIExvb3AgQXVkaW8gJiBTdWJ0aXRsZSBHZW5lcmF0b3IuCiIiIgo=
+"""
+Core processing modules for Echo Loop Audio & Subtitle Generator.
+"""
