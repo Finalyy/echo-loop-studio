@@ -1,1 +1,12 @@
-c2VydmljZXM6CiAgLSB0eXBlOiB3ZWIKICAgIG5hbWU6IGVjaG8tbG9vcC1zdHVkaW8KICAgIGVudjogZG9ja2VyCiAgICBwbGFuOiBmcmVlCiAgICBkb2NrZXJmaWxlUGF0aDogRG9ja2VyZmlsZQogICAgaGVhbHRoQ2hlY2tQYXRoOiAvCiAgICBlbnZWYXJzOgogICAgICAtIGtleTogR1JPUV9BUElfS0VZCiAgICAgICAgc3luYzogZmFsc2UKICAgICAgLSBrZXk6IFBPUlQKICAgICAgICB2YWx1ZTogNzg2MAo=
+services:
+  - type: web
+    name: echo-loop-studio
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PORT
+        value: 7860
