@@ -1,1 +1,211 @@
-aW1wb3J0IGh0bWwKaW1wb3J0IHJlCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcwpmcm9tIHR5cGluZyBpbXBvcnQgTGlzdCwgT3B0aW9uYWwKCkBkYXRhY2xhc3MKY2xhc3MgU3VidGl0bGVTZWdtZW50OgogICAgc3RhcnQ6IGZsb2F0ICAjIHNlY29uZHMKICAgIGVuZDogZmxvYXQgICAgIyBzZWNvbmRzCiAgICB0ZXh0OiBzdHIKICAgIGluZGV4OiBpbnQgPSAxCgogICAgQHByb3BlcnR5CiAgICBkZWYgZHVyYXRpb24oc2VsZikgLT4gZmxvYXQ6CiAgICAgICAgcmV0dXJuIG1heCgwLjAsIHNlbGYuZW5kIC0gc2VsZi5zdGFydCkKCgpkZWYgc2Vjb25kc190b19zcnRfdGltZXN0YW1wKHNlY29uZHM6IGZsb2F0KSAtPiBzdHI6CiAgICAiIiIKICAgIENvbnZlcnRzIHNlY29uZHMgKGUuZy4gODMuNDU2KSB0byBTUlQgdGltZXN0YW1wIGZvcm1hdDogMDA6MDE6MjMsNDU2CiAgICAiIiIKICAgIGlmIHNlY29uZHMgPCAwOgogICAgICAgIHNlY29uZHMgPSAwLjAKICAgIGhvdXJzID0gaW50KHNlY29uZHMgLy8gMzYwMCkKICAgIG1pbnV0ZXMgPSBpbnQoKHNlY29uZHMgJSAzNjAwKSAvLyA2MCkKICAgIHNlY3MgPSBpbnQoc2Vjb25kcyAlIDYwKQogICAgbWlsbGlzID0gaW50KHJvdW5kKChzZWNvbmRzIC0gaW50KHNlY29uZHMpKSAqIDEwMDApKQogICAgaWYgbWlsbGlzID49IDEwMDA6CiAgICAgICAgc2VjcyArPSAxCiAgICAgICAgbWlsbGlzIC09IDEwMDAKICAgIGlmIHNlY3MgPj0gNjA6CiAgICAgICAgbWludXRlcyArPSAxCiAgICAgICAgc2VjcyAtPSA2MAogICAgaWYgbWludXRlcyA+PSA2MDoKICAgICAgICBob3VycyArPSAxCiAgICAgICAgbWludXRlcyAtPSA2MAogICAgcmV0dXJuIGYie2hvdXJzOjAyZH06e21pbnV0ZXM6MDJkfTp7c2VjczowMmR9LHttaWxsaXM6MDNkfSIKCgpkZWYgc3J0X3RpbWVzdGFtcF90b19zZWNvbmRzKHRpbWVzdGFtcDogc3RyKSAtPiBmbG9hdDoKICAgICIiIgogICAgUGFyc2VzIHRpbWVzdGFtcCBzdHJpbmcgKFNSVCAnMDA6MDE6MjMsNDU2JyBvciBWVFQgJzAwOjAxOjIzLjQ1Nicgb3IgJzAxOjIzLjQ1NicpIGludG8gc2Vjb25kcy4KICAgICIiIgogICAgdGltZXN0YW1wID0gdGltZXN0YW1wLnN0cmlwKCkucmVwbGFjZSgiLCIsICIuIikKICAgIHBhcnRzID0gdGltZXN0YW1wLnNwbGl0KCI6IikKICAgIGlmIGxlbihwYXJ0cykgPT0gMzoKICAgICAgICBoLCBtLCBzID0gcGFydHMKICAgICAgICByZXR1cm4gaW50KGgpICogMzYwMCArIGludChtKSAqIDYwICsgZmxvYXQocykKICAgIGVsaWYgbGVuKHBhcnRzKSA9PSAyOgogICAgICAgIG0sIHMgPSBwYXJ0cwogICAgICAgIHJldHVybiBpbnQobSkgKiA2MCArIGZsb2F0KHMpCiAgICBlbHNlOgogICAgICAgIHJldHVybiBmbG9hdChwYXJ0c1swXSkKCgpkZWYgY2xlYW5faHRtbF90YWdzKHRleHQ6IHN0cikgLT4gc3RyOgogICAgIiIiCiAgICBUaG9yb3VnaGx5IGNsZWFucyBIVE1MIGFuZCBmb3JtYXR0aW5nIHRhZ3MgZnJvbSBzdWJ0aXRsZSB0ZXh0LgogICAgSGFuZGxlczoKICAgIC0gU3RhbmRhcmQgdGFnczogPGZvbnQgY29sb3I9Ii4uLiI+LCA8aT4sIDwvaT4sIDxiPiwgPC9iPiwgPHU+LCA8L3U+CiAgICAtIFdlYlZUVCB0YWdzOiA8Yy5jb2xvci4uLj4sIDwvYz4sIDx2IFNwZWFrZXI+LCA8bGFuZyBlbj4sIDxydWJ5PiwgPHJ0PgogICAgLSBJbmxpbmUgdGltZXN0YW1wIHRhZ3M6IDwwMDowMDowMS4wMDA+CiAgICAtIEhUTUwgZW50aXR5IGRlY29kaW5nOiAmYW1wOywgJnF1b3Q7LCAmIzM5OywgJm5ic3A7LCAmZ3Q7LCAmbHQ7CiAgICAtIFdlYlZUVCBzdHlsaW5nIGFubm90YXRpb25zICYgbGluZSBicmVha3MKICAgICIiIgogICAgaWYgbm90IHRleHQ6CiAgICAgICAgcmV0dXJuICIiCgogICAgIyBVbmVzY2FwZSBIVE1MIGVudGl0aWVzIGZpcnN0ICgmYW1wOyAtPiAmLCAmcXVvdDsgLT4gIiwgZXRjLikKICAgIGNsZWFuZWQgPSBodG1sLnVuZXNjYXBlKHRleHQpCgogICAgIyBSZW1vdmUgaW5saW5lIHRpbWVzdGFtcCB0YWdzIGUuZy4gPDAwOjAxOjIzLjQ1Nj4KICAgIGNsZWFuZWQgPSByZS5zdWIociI8XGR7Mn06XGR7Mn06XGR7Mn1bXC4sXVxkezN9PiIsICIiLCBjbGVhbmVkKQogICAgY2xlYW5lZCA9IHJlLnN1YihyIjxcZHsyfTpcZHsyfVtcLixdXGR7M30+IiwgIiIsIGNsZWFuZWQpCgogICAgIyBSZW1vdmUgYWxsIEhUTUwvWE1MLWxpa2UgdGFncyAoPGZvbnQgY29sb3I9Li4uPiwgPGM+LCA8L2M+LCA8aT4sIDwvaT4sIDx2IC4uLj4sIGV0Yy4pCiAgICBjbGVhbmVkID0gcmUuc3ViKHIiPFtePl0rPiIsICIiLCBjbGVhbmVkKQoKICAgICMgUmVtb3ZlIEFTUy9TU0Egc3R5bGUgdGFncyBsaWtlIHtcYW44fSwge1xwb3MoMTAwLDIwMCl9CiAgICBjbGVhbmVkID0gcmUuc3ViKHIiXHtbXn1dKlx9IiwgIiIsIGNsZWFuZWQpCgogICAgIyBOb3JtYWxpemUgd2hpdGVzcGFjZTogY29udmVydCBtdWx0aXBsZSBzcGFjZXMgb3IgdGFicyBpbnRvIGEgc2luZ2xlIHNwYWNlCiAgICBsaW5lcyA9IFtyZS5zdWIociJbIFx0XSsiLCAiICIsIGxpbmUpLnN0cmlwKCkgZm9yIGxpbmUgaW4gY2xlYW5lZC5zcGxpdGxpbmVzKCldCiAgICAjIFJlbW92ZSBlbXB0eSBsaW5lcwogICAgbGluZXMgPSBbbGluZSBmb3IgbGluZSBpbiBsaW5lcyBpZiBsaW5lXQoKICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpCgoKZGVmIGRlZHVwbGljYXRlX3JvbGxpbmdfY2FwdGlvbnMoc2VnbWVudHM6IExpc3RbU3VidGl0bGVTZWdtZW50XSkgLT4gTGlzdFtTdWJ0aXRsZVNlZ21lbnRdOgogICAgIiIiCiAgICBBdXRvLWdlbmVyYXRlZCBwbGF0Zm9ybSBjYXB0aW9ucyAobGlrZSBZb3VUdWJlKSBvZnRlbiBwcm9kdWNlIHJvbGxpbmcgbGluZXMsCiAgICB3aGVyZSBjb25zZWN1dGl2ZSBzdWJ0aXRsZSBibG9ja3MgcmVwZWF0IHRoZSBwcmV2aW91cyBsaW5lIHBsdXMgMS0yIG5ldyB3b3Jkcy4KICAgIFRoaXMgZnVuY3Rpb24gZGV0ZWN0cyBhbmQgZGVkdXBsaWNhdGVzIGNvbnNlY3V0aXZlIHJlcGVhdGVkIGxpbmVzLgogICAgIiIiCiAgICBpZiBub3Qgc2VnbWVudHM6CiAgICAgICAgcmV0dXJuIFtdCgogICAgY2xlYW5lZF9zZWdtZW50czogTGlzdFtTdWJ0aXRsZVNlZ21lbnRdID0gW10KICAgIGxhc3RfdGV4dCA9ICIiCgogICAgZm9yIHNlZyBpbiBzZWdtZW50czoKICAgICAgICBjdXJfdGV4dCA9IHNlZy50ZXh0LnN0cmlwKCkKICAgICAgICBpZiBub3QgY3VyX3RleHQ6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgQ2hlY2sgaWYgdGV4dCBpcyBpZGVudGljYWwgdG8gbGFzdCBzZWdtZW50CiAgICAgICAgaWYgY3VyX3RleHQgPT0gbGFzdF90ZXh0OgogICAgICAgICAgICAjIElmIGlkZW50aWNhbCwgZXh0ZW5kIHRoZSBwcmV2aW91cyBzZWdtZW50J3MgZW5kIHRpbWUKICAgICAgICAgICAgaWYgY2xlYW5lZF9zZWdtZW50czoKICAgICAgICAgICAgICAgIGNsZWFuZWRfc2VnbWVudHNbLTFdLmVuZCA9IG1heChjbGVhbmVkX3NlZ21lbnRzWy0xXS5lbmQsIHNlZy5lbmQpCiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgQ2hlY2sgaWYgbGFzdF90ZXh0IGlzIGEgcHJlZml4IG9mIGN1cl90ZXh0IChyb2xsaW5nIGNhcHRpb24pCiAgICAgICAgaWYgbGFzdF90ZXh0IGFuZCBjdXJfdGV4dC5zdGFydHN3aXRoKGxhc3RfdGV4dCk6CiAgICAgICAgICAgICMgRS5nLiBsYXN0OiAiSGVsbG8gZXZlcnlvbmUiLCBjdXI6ICJIZWxsbyBldmVyeW9uZSB3ZWxjb21lIHRvIgogICAgICAgICAgICAjIEluc3RlYWQgb2Yga2VlcGluZyBib3RoLCB3ZSBjYW4gZWl0aGVyIGtlZXAgY3VyIG9yIHVwZGF0ZSBsYXN0LgogICAgICAgICAgICAjIElmIHRoZSB0aW1lc3RhbXAgb3ZlcmxhcHMgb3IgaW1tZWRpYXRlbHkgZm9sbG93cywgdXBkYXRlIHRoZSBsYXN0IHNlZ21lbnQgdGV4dCAmIGVuZC4KICAgICAgICAgICAgaWYgY2xlYW5lZF9zZWdtZW50cyBhbmQgKHNlZy5zdGFydCAtIGNsZWFuZWRfc2VnbWVudHNbLTFdLmVuZCA8PSAwLjgpOgogICAgICAgICAgICAgICAgY2xlYW5lZF9zZWdtZW50c1stMV0udGV4dCA9IGN1cl90ZXh0CiAgICAgICAgICAgICAgICBjbGVhbmVkX3NlZ21lbnRzWy0xXS5lbmQgPSBtYXgoY2xlYW5lZF9zZWdtZW50c1stMV0uZW5kLCBzZWcuZW5kKQogICAgICAgICAgICAgICAgbGFzdF90ZXh0ID0gY3VyX3RleHQKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGNsZWFuZWRfc2VnbWVudHMuYXBwZW5kKAogICAgICAgICAgICBTdWJ0aXRsZVNlZ21lbnQoCiAgICAgICAgICAgICAgICBzdGFydD1zZWcuc3RhcnQsCiAgICAgICAgICAgICAgICBlbmQ9c2VnLmVuZCwKICAgICAgICAgICAgICAgIHRleHQ9Y3VyX3RleHQsCiAgICAgICAgICAgICAgICBpbmRleD1sZW4oY2xlYW5lZF9zZWdtZW50cykgKyAxLAogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGxhc3RfdGV4dCA9IGN1cl90ZXh0CgogICAgcmV0dXJuIGNsZWFuZWRfc2VnbWVudHMKCgpkZWYgcGFyc2Vfc3J0X2NvbnRlbnQoc3J0X2NvbnRlbnQ6IHN0cikgLT4gTGlzdFtTdWJ0aXRsZVNlZ21lbnRdOgogICAgIiIiCiAgICBQYXJzZXMgYSByYXcgU1JUIHN0cmluZyAob3IgVlRUIGNvbnZlcnRlZCBzdHJpbmcpIGludG8gYSBsaXN0IG9mIFN1YnRpdGxlU2VnbWVudCBvYmplY3RzLgogICAgQ2xlYW5zIEhUTUwgdGFncyBhbmQgbm9ybWFsaXplcyB0aW1lc3RhbXBzLgogICAgIiIiCiAgICBpZiBub3Qgc3J0X2NvbnRlbnQ6CiAgICAgICAgcmV0dXJuIFtdCgogICAgIyBTdHJpcCBCT00gYW5kIG5vcm1hbGl6ZSBsaW5lIGVuZGluZ3MKICAgIHNydF9jb250ZW50ID0gc3J0X2NvbnRlbnQubHN0cmlwKCJcdWZlZmYiKS5yZXBsYWNlKCJcclxuIiwgIlxuIikucmVwbGFjZSgiXHIiLCAiXG4iKQoKICAgICMgUmVndWxhciBleHByZXNzaW9uIGZvciB0aW1lc3RhbXAgbGluZToKICAgICMgMDA6MDA6MDEsMDAwIC0tPiAwMDowMDowNCw1MDAKICAgICMgQWxzbyB0b2xlcmF0ZXMgZG90IG5vdGF0aW9uOiAwMDowMDowMS4wMDAgLS0+IDAwOjAwOjA0LjUwMAogICAgdGltZV9wYXR0ZXJuID0gcmUuY29tcGlsZSgKICAgICAgICByIihcZHsxLDJ9OlxkezJ9OlxkezJ9WyxcLl1cZHszfXxcZHsyfTpcZHsyfVssXC5dXGR7M30pXHMqLS0+XHMqKFxkezEsMn06XGR7Mn06XGR7Mn1bLFwuXVxkezN9fFxkezJ9OlxkezJ9WyxcLl1cZHszfSkiCiAgICApCgogICAgYmxvY2tzID0gcmUuc3BsaXQociJcblxzKlxuIiwgc3J0X2NvbnRlbnQuc3RyaXAoKSkKICAgIHNlZ21lbnRzOiBMaXN0W1N1YnRpdGxlU2VnbWVudF0gPSBbXQoKICAgIGZvciBibG9jayBpbiBibG9ja3M6CiAgICAgICAgbGluZXMgPSBbbGluZS5zdHJpcCgpIGZvciBsaW5lIGluIGJsb2NrLnNwbGl0KCJcbiIpIGlmIGxpbmUuc3RyaXAoKV0KICAgICAgICBpZiBub3QgbGluZXM6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIHRpbWVfbGluZV9pZHggPSAtMQogICAgICAgIG1hdGNoID0gTm9uZQogICAgICAgIGZvciBpLCBsaW5lIGluIGVudW1lcmF0ZShsaW5lcyk6CiAgICAgICAgICAgIG1hdGNoID0gdGltZV9wYXR0ZXJuLnNlYXJjaChsaW5lKQogICAgICAgICAgICBpZiBtYXRjaDoKICAgICAgICAgICAgICAgIHRpbWVfbGluZV9pZHggPSBpCiAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBpZiBub3QgbWF0Y2ggb3IgdGltZV9saW5lX2lkeCA9PSAtMToKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgc3RhcnRfc3RyLCBlbmRfc3RyID0gbWF0Y2guZ3JvdXBzKCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHN0YXJ0X3NlYyA9IHNydF90aW1lc3RhbXBfdG9fc2Vjb25kcyhzdGFydF9zdHIpCiAgICAgICAgICAgIGVuZF9zZWMgPSBzcnRfdGltZXN0YW1wX3RvX3NlY29uZHMoZW5kX3N0cikKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAjIFRleHQgaXMgYWxsIGxpbmVzIGZvbGxvd2luZyB0aGUgdGltZXN0YW1wIGxpbmUKICAgICAgICByYXdfdGV4dCA9ICJcbiIuam9pbihsaW5lc1t0aW1lX2xpbmVfaWR4ICsgMSA6XSkKICAgICAgICBjbGVhbmVkX3RleHQgPSBjbGVhbl9odG1sX3RhZ3MocmF3X3RleHQpCgogICAgICAgIGlmIGNsZWFuZWRfdGV4dCBhbmQgZW5kX3NlYyA+IHN0YXJ0X3NlYzoKICAgICAgICAgICAgc2VnbWVudHMuYXBwZW5kKAogICAgICAgICAgICAgICAgU3VidGl0bGVTZWdtZW50KAogICAgICAgICAgICAgICAgICAgIHN0YXJ0PXN0YXJ0X3NlYywKICAgICAgICAgICAgICAgICAgICBlbmQ9ZW5kX3NlYywKICAgICAgICAgICAgICAgICAgICB0ZXh0PWNsZWFuZWRfdGV4dCwKICAgICAgICAgICAgICAgICAgICBpbmRleD1sZW4oc2VnbWVudHMpICsgMSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgIHJldHVybiBkZWR1cGxpY2F0ZV9yb2xsaW5nX2NhcHRpb25zKHNlZ21lbnRzKQoKCmRlZiBzZWdtZW50c190b19zcnQoc2VnbWVudHM6IExpc3RbU3VidGl0bGVTZWdtZW50XSkgLT4gc3RyOgogICAgIiIiCiAgICBDb252ZXJ0cyBhIGxpc3Qgb2YgU3VidGl0bGVTZWdtZW50IG9iamVjdHMgaW50byBzdGFuZGFyZCBTUlQgZmlsZSBmb3JtYXQgc3RyaW5nLgogICAgIiIiCiAgICBzcnRfbGluZXMgPSBbXQogICAgZm9yIGksIHNlZyBpbiBlbnVtZXJhdGUoc2VnbWVudHMsIHN0YXJ0PTEpOgogICAgICAgIHN0YXJ0X3RzID0gc2Vjb25kc190b19zcnRfdGltZXN0YW1wKHNlZy5zdGFydCkKICAgICAgICBlbmRfdHMgPSBzZWNvbmRzX3RvX3NydF90aW1lc3RhbXAoc2VnLmVuZCkKICAgICAgICAjIEZvcm1hdCB0ZXh0LCBlbnN1cmluZyBzaW5nbGUgc3BhY2UgYmV0d2VlbiBsaW5lcyBpZiBtdWx0aXBsZSBsaW5lcyBleGlzdAogICAgICAgIHRleHQgPSBzZWcudGV4dC5zdHJpcCgpCiAgICAgICAgc3J0X2xpbmVzLmFwcGVuZChmIntpfVxue3N0YXJ0X3RzfSAtLT4ge2VuZF90c31cbnt0ZXh0fVxuIikKCiAgICByZXR1cm4gIlxuIi5qb2luKHNydF9saW5lcykK
+import html
+import re
+from dataclasses import dataclass
+from typing import List, Optional
+
+@dataclass
+class SubtitleSegment:
+    start: float  # seconds
+    end: float    # seconds
+    text: str
+    index: int = 1
+
+    @property
+    def duration(self) -> float:
+        return max(0.0, self.end - self.start)
+
+
+def seconds_to_srt_timestamp(seconds: float) -> str:
+    """
+    Converts seconds (e.g. 83.456) to SRT timestamp format: 00:01:23,456
+    """
+    if seconds < 0:
+        seconds = 0.0
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+    millis = int(round((seconds - int(seconds)) * 1000))
+    if millis >= 1000:
+        secs += 1
+        millis -= 1000
+    if secs >= 60:
+        minutes += 1
+        secs -= 60
+    if minutes >= 60:
+        hours += 1
+        minutes -= 60
+    return f"{hours:02d}:{minutes:02d}:{secs:02d},{millis:03d}"
+
+
+def srt_timestamp_to_seconds(timestamp: str) -> float:
+    """
+    Parses timestamp string (SRT '00:01:23,456' or VTT '00:01:23.456' or '01:23.456') into seconds.
+    """
+    timestamp = timestamp.strip().replace(",", ".")
+    parts = timestamp.split(":")
+    if len(parts) == 3:
+        h, m, s = parts
+        return int(h) * 3600 + int(m) * 60 + float(s)
+    elif len(parts) == 2:
+        m, s = parts
+        return int(m) * 60 + float(s)
+    else:
+        return float(parts[0])
+
+
+def clean_html_tags(text: str) -> str:
+    """
+    Thoroughly cleans HTML and formatting tags from subtitle text.
+    Handles:
+    - Standard tags: <font color="...">, <i>, </i>, <b>, </b>, <u>, </u>
+    - WebVTT tags: <c.color...>, </c>, <v Speaker>, <lang en>, <ruby>, <rt>
+    - Inline timestamp tags: <00:00:01.000>
+    - HTML entity decoding: &amp;, &quot;, &#39;, &nbsp;, &gt;, &lt;
+    - WebVTT styling annotations & line breaks
+    """
+    if not text:
+        return ""
+
+    # Unescape HTML entities first (&amp; -> &, &quot; -> ", etc.)
+    cleaned = html.unescape(text)
+
+    # Remove inline timestamp tags e.g. <00:01:23.456>
+    cleaned = re.sub(r"<\d{2}:\d{2}:\d{2}[\.,]\d{3}>", "", cleaned)
+    cleaned = re.sub(r"<\d{2}:\d{2}[\.,]\d{3}>", "", cleaned)
+
+    # Remove all HTML/XML-like tags (<font color=...>, <c>, </c>, <i>, </i>, <v ...>, etc.)
+    cleaned = re.sub(r"<[^>]+>", "", cleaned)
+
+    # Remove ASS/SSA style tags like {\an8}, {\pos(100,200)}
+    cleaned = re.sub(r"\{[^}]*\}", "", cleaned)
+
+    # Normalize whitespace: convert multiple spaces or tabs into a single space
+    lines = [re.sub(r"[ \t]+", " ", line).strip() for line in cleaned.splitlines()]
+    # Remove empty lines
+    lines = [line for line in lines if line]
+
+    return "\n".join(lines)
+
+
+def deduplicate_rolling_captions(segments: List[SubtitleSegment]) -> List[SubtitleSegment]:
+    """
+    Auto-generated platform captions (like YouTube) often produce rolling lines,
+    where consecutive subtitle blocks repeat the previous line plus 1-2 new words.
+    This function detects and deduplicates consecutive repeated lines.
+    """
+    if not segments:
+        return []
+
+    cleaned_segments: List[SubtitleSegment] = []
+    last_text = ""
+
+    for seg in segments:
+        cur_text = seg.text.strip()
+        if not cur_text:
+            continue
+
+        # Check if text is identical to last segment
+        if cur_text == last_text:
+            # If identical, extend the previous segment's end time
+            if cleaned_segments:
+                cleaned_segments[-1].end = max(cleaned_segments[-1].end, seg.end)
+            continue
+
+        # Check if last_text is a prefix of cur_text (rolling caption)
+        if last_text and cur_text.startswith(last_text):
+            # E.g. last: "Hello everyone", cur: "Hello everyone welcome to"
+            # Instead of keeping both, we can either keep cur or update last.
+            # If the timestamp overlaps or immediately follows, update the last segment text & end.
+            if cleaned_segments and (seg.start - cleaned_segments[-1].end <= 0.8):
+                cleaned_segments[-1].text = cur_text
+                cleaned_segments[-1].end = max(cleaned_segments[-1].end, seg.end)
+                last_text = cur_text
+                continue
+
+        cleaned_segments.append(
+            SubtitleSegment(
+                start=seg.start,
+                end=seg.end,
+                text=cur_text,
+                index=len(cleaned_segments) + 1,
+            )
+        )
+        last_text = cur_text
+
+    return cleaned_segments
+
+
+def parse_srt_content(srt_content: str) -> List[SubtitleSegment]:
+    """
+    Parses a raw SRT string (or VTT converted string) into a list of SubtitleSegment objects.
+    Cleans HTML tags and normalizes timestamps.
+    """
+    if not srt_content:
+        return []
+
+    # Strip BOM and normalize line endings
+    srt_content = srt_content.lstrip("\ufeff").replace("\r\n", "\n").replace("\r", "\n")
+
+    # Regular expression for timestamp line:
+    # 00:00:01,000 --> 00:00:04,500
+    # Also tolerates dot notation: 00:00:01.000 --> 00:00:04.500
+    time_pattern = re.compile(
+        r"(\d{1,2}:\d{2}:\d{2}[,\.]\d{3}|\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{1,2}:\d{2}:\d{2}[,\.]\d{3}|\d{2}:\d{2}[,\.]\d{3})"
+    )
+
+    blocks = re.split(r"\n\s*\n", srt_content.strip())
+    segments: List[SubtitleSegment] = []
+
+    for block in blocks:
+        lines = [line.strip() for line in block.split("\n") if line.strip()]
+        if not lines:
+            continue
+
+        time_line_idx = -1
+        match = None
+        for i, line in enumerate(lines):
+            match = time_pattern.search(line)
+            if match:
+                time_line_idx = i
+                break
+
+        if not match or time_line_idx == -1:
+            continue
+
+        start_str, end_str = match.groups()
+        try:
+            start_sec = srt_timestamp_to_seconds(start_str)
+            end_sec = srt_timestamp_to_seconds(end_str)
+        except Exception:
+            continue
+
+        # Text is all lines following the timestamp line
+        raw_text = "\n".join(lines[time_line_idx + 1 :])
+        cleaned_text = clean_html_tags(raw_text)
+
+        if cleaned_text and end_sec > start_sec:
+            segments.append(
+                SubtitleSegment(
+                    start=start_sec,
+                    end=end_sec,
+                    text=cleaned_text,
+                    index=len(segments) + 1,
+                )
+            )
+
+    return deduplicate_rolling_captions(segments)
+
+
+def segments_to_srt(segments: List[SubtitleSegment]) -> str:
+    """
+    Converts a list of SubtitleSegment objects into standard SRT file format string.
+    """
+    srt_lines = []
+    for i, seg in enumerate(segments, start=1):
+        start_ts = seconds_to_srt_timestamp(seg.start)
+        end_ts = seconds_to_srt_timestamp(seg.end)
+        # Format text, ensuring single space between lines if multiple lines exist
+        text = seg.text.strip()
+        srt_lines.append(f"{i}\n{start_ts} --> {end_ts}\n{text}\n")
+
+    return "\n".join(srt_lines)
