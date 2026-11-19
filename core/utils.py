@@ -1,1 +1,95 @@
-aW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc2h1dGlsCmltcG9ydCB6aXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgT3B0aW9uYWwKCmRlZiBmaW5kX2ZmbXBlZygpIC0+IE9wdGlvbmFsW3N0cl06CiAgICAiIiIKICAgIExvY2F0ZXMgdGhlIGZmbXBlZyBleGVjdXRhYmxlIG9uIHRoZSBzeXN0ZW0uCiAgICBDaGVja3MgUEFUSCBmaXJzdCwgdGhlbiB3ZWxsLWtub3duIGxvY2F0aW9ucyBvbiBXaW5kb3dzLgogICAgIiIiCiAgICAjIDEuIFN0YW5kYXJkIFBBVEgKICAgIGZmbXBlZ19wYXRoID0gc2h1dGlsLndoaWNoKCJmZm1wZWciKQogICAgaWYgZmZtcGVnX3BhdGg6CiAgICAgICAgcmV0dXJuIGZmbXBlZ19wYXRoCgogICAgIyAyLiBDaGVjayBXaW5kb3dzIGtub3duIHBhdGhzCiAgICBpZiBvcy5uYW1lID09ICJudCI6CiAgICAgICAgbG9jYWxfYXBwX2RhdGEgPSBvcy5lbnZpcm9uLmdldCgiTE9DQUxBUFBEQVRBIiwgIiIpCiAgICAgICAgY2FuZGlkYXRlcyA9IFsKICAgICAgICAgICAgIyBXaW5nZXQgR3lhbiBGRm1wZWcKICAgICAgICAgICAgb3MucGF0aC5qb2luKAogICAgICAgICAgICAgICAgbG9jYWxfYXBwX2RhdGEsCiAgICAgICAgICAgICAgICAiTWljcm9zb2Z0IiwKICAgICAgICAgICAgICAgICJXaW5HZXQiLAogICAgICAgICAgICAgICAgIlBhY2thZ2VzIiwKICAgICAgICAgICAgICAgICJHeWFuLkZGbXBlZy5Fc3NlbnRpYWxzX01pY3Jvc29mdC5XaW5nZXQuU291cmNlXzh3ZWt5YjNkOGJid2UiLAogICAgICAgICAgICAgICAgImZmbXBlZy05LjAuMS1lc3NlbnRpYWxzX2J1aWxkIiwKICAgICAgICAgICAgICAgICJiaW4iLAogICAgICAgICAgICAgICAgImZmbXBlZy5leGUiLAogICAgICAgICAgICApLAogICAgICAgICAgICAjIFNoYXJlWCBGRm1wZWcKICAgICAgICAgICAgciJDOlxQcm9ncmFtIEZpbGVzXFNoYXJlWFxmZm1wZWcuZXhlIiwKICAgICAgICAgICAgIyBDaG9jb2xhdGV5CiAgICAgICAgICAgIHIiQzpcUHJvZ3JhbURhdGFcY2hvY29sYXRleVxiaW5cZmZtcGVnLmV4ZSIsCiAgICAgICAgICAgICMgU2Nvb3AKICAgICAgICAgICAgb3MucGF0aC5qb2luKG9zLmVudmlyb24uZ2V0KCJVU0VSUFJPRklMRSIsICIiKSwgInNjb29wIiwgInNoaW1zIiwgImZmbXBlZy5leGUiKSwKICAgICAgICBdCiAgICAgICAgZm9yIGNhbmRpZGF0ZSBpbiBjYW5kaWRhdGVzOgogICAgICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZShjYW5kaWRhdGUpOgogICAgICAgICAgICAgICAgIyBFbnN1cmUgdGhlIHBhcmVudCBkaXJlY3RvcnkgaXMgYWRkZWQgdG8gb3MuZW52aXJvblsiUEFUSCJdCiAgICAgICAgICAgICAgICBiaW5fZGlyID0gb3MucGF0aC5kaXJuYW1lKGNhbmRpZGF0ZSkKICAgICAgICAgICAgICAgIGlmIGJpbl9kaXIgbm90IGluIG9zLmVudmlyb24uZ2V0KCJQQVRIIiwgIiIpOgogICAgICAgICAgICAgICAgICAgIG9zLmVudmlyb25bIlBBVEgiXSA9IGJpbl9kaXIgKyBvcy5wYXRoc2VwICsgb3MuZW52aXJvbi5nZXQoIlBBVEgiLCAiIikKICAgICAgICAgICAgICAgIHJldHVybiBjYW5kaWRhdGUKCiAgICByZXR1cm4gTm9uZQoKCmRlZiBzYW5pdGl6ZV9maWxlbmFtZShuYW1lOiBzdHIsIG1heF9sZW5ndGg6IGludCA9IDYwKSAtPiBzdHI6CiAgICAiIiIKICAgIENsZWFucyBhbmQgc2FuaXRpemVzIGEgc3RyaW5nIHRvIG1ha2UgaXQgc2FmZSBmb3IgZmlsZW5hbWVzIGFjcm9zcyBXaW5kb3dzLAogICAgbWFjT1MsIEFuZHJvaWQsIGFuZCBMaW51eCBmaWxlc3lzdGVtcy4KICAgIFJlbW92ZXMgaW52YWxpZCBjaGFyYWN0ZXJzLCB0cmltcyB3aGl0ZXNwYWNlLCBhbmQgbGltaXRzIGxlbmd0aC4KICAgICIiIgogICAgaWYgbm90IG5hbWU6CiAgICAgICAgcmV0dXJuICJFY2hvTG9vcF9BdWRpbyIKCiAgICAjIFJlbW92ZSBpbGxlZ2FsIGZpbGVuYW1lIGNoYXJhY3RlcnM6IDwgPiA6ICIgLyBcIHwgPyAqCiAgICBjbGVhbmVkID0gcmUuc3ViKHInWzw+OiIvXFx8PypceDAwLVx4MWZdJywgIiIsIG5hbWUpCiAgICAjIFJlcGxhY2Ugc2VxdWVuY2VzIG9mIHdoaXRlc3BhY2UsIHVuZGVyc2NvcmVzLCBhbmQgZGFzaGVzIHdpdGggc2luZ2xlIHNwYWNlCiAgICBjbGVhbmVkID0gcmUuc3ViKHIiXHMrIiwgIiAiLCBjbGVhbmVkKS5zdHJpcCgpCiAgICAjIFN0cmlwIGRhbmdlcm91cyBsZWFkaW5nL3RyYWlsaW5nIGNoYXJhY3RlcnMKICAgIGNsZWFuZWQgPSBjbGVhbmVkLnN0cmlwKCIuICIpCgogICAgaWYgbm90IGNsZWFuZWQ6CiAgICAgICAgY2xlYW5lZCA9ICJFY2hvTG9vcF9BdWRpbyIKCiAgICAjIExpbWl0IG1heGltdW0gbGVuZ3RoIHdoaWxlIGtlZXBpbmcgd29yZHMgaW50YWN0IGlmIHBvc3NpYmxlCiAgICBpZiBsZW4oY2xlYW5lZCkgPiBtYXhfbGVuZ3RoOgogICAgICAgIGNsZWFuZWQgPSBjbGVhbmVkWzptYXhfbGVuZ3RoXS5yc3RyaXAoKQoKICAgIHJldHVybiBjbGVhbmVkCgoKZGVmIGNyZWF0ZV9lY2hvbG9vcF96aXAobXAzX3BhdGg6IHN0ciwgc3J0X3BhdGg6IHN0ciwgemlwX3BhdGg6IHN0cikgLT4gc3RyOgogICAgIiIiCiAgICBQYWNrYWdlcyAubXAzIGFuZCAuc3J0IGludG8gYSBzaW5nbGUgWklQIGFyY2hpdmUuCiAgICBCb3RoIGZpbGVzIGFyZSBzdG9yZWQgYXQgdGhlIHJvb3Qgb2YgdGhlIFpJUCB3aXRoIGlkZW50aWNhbCBiYXNlbmFtZXMKICAgIHNvIEVjaG8gTG9vcCBjYW4gYXV0b21hdGljYWxseSBwYWlyIHRoZW0gdXBvbiBpbXBvcnQuCiAgICAiIiIKICAgIG1wM19maWxlID0gUGF0aChtcDNfcGF0aCkKICAgIHNydF9maWxlID0gUGF0aChzcnRfcGF0aCkKCiAgICBpZiBub3QgbXAzX2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgcmFpc2UgRmlsZU5vdEZvdW5kRXJyb3IoZiJBdWRpbyBmaWxlIG5vdCBmb3VuZDoge21wM19wYXRofSIpCiAgICBpZiBub3Qgc3J0X2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgcmFpc2UgRmlsZU5vdEZvdW5kRXJyb3IoZiJTdWJ0aXRsZSBmaWxlIG5vdCBmb3VuZDoge3NydF9wYXRofSIpCgogICAgd2l0aCB6aXBmaWxlLlppcEZpbGUoemlwX3BhdGgsICJ3IiwgY29tcHJlc3Npb249emlwZmlsZS5aSVBfREVGTEFURUQpIGFzIHpmOgogICAgICAgIHpmLndyaXRlKG1wM19wYXRoLCBhcmNuYW1lPW1wM19maWxlLm5hbWUpCiAgICAgICAgemYud3JpdGUoc3J0X3BhdGgsIGFyY25hbWU9c3J0X2ZpbGUubmFtZSkKCiAgICByZXR1cm4gemlwX3BhdGgK
+import os
+import re
+import shutil
+import zipfile
+from pathlib import Path
+from typing import Optional
+
+def find_ffmpeg() -> Optional[str]:
+    """
+    Locates the ffmpeg executable on the system.
+    Checks PATH first, then well-known locations on Windows.
+    """
+    # 1. Standard PATH
+    ffmpeg_path = shutil.which("ffmpeg")
+    if ffmpeg_path:
+        return ffmpeg_path
+
+    # 2. Check Windows known paths
+    if os.name == "nt":
+        local_app_data = os.environ.get("LOCALAPPDATA", "")
+        candidates = [
+            # Winget Gyan FFmpeg
+            os.path.join(
+                local_app_data,
+                "Microsoft",
+                "WinGet",
+                "Packages",
+                "Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe",
+                "ffmpeg-9.0.1-essentials_build",
+                "bin",
+                "ffmpeg.exe",
+            ),
+            # ShareX FFmpeg
+            r"C:\Program Files\ShareX\ffmpeg.exe",
+            # Chocolatey
+            r"C:\ProgramData\chocolatey\bin\ffmpeg.exe",
+            # Scoop
+            os.path.join(os.environ.get("USERPROFILE", ""), "scoop", "shims", "ffmpeg.exe"),
+        ]
+        for candidate in candidates:
+            if os.path.isfile(candidate):
+                # Ensure the parent directory is added to os.environ["PATH"]
+                bin_dir = os.path.dirname(candidate)
+                if bin_dir not in os.environ.get("PATH", ""):
+                    os.environ["PATH"] = bin_dir + os.pathsep + os.environ.get("PATH", "")
+                return candidate
+
+    return None
+
+
+def sanitize_filename(name: str, max_length: int = 60) -> str:
+    """
+    Cleans and sanitizes a string to make it safe for filenames across Windows,
+    macOS, Android, and Linux filesystems.
+    Removes invalid characters, trims whitespace, and limits length.
+    """
+    if not name:
+        return "EchoLoop_Audio"
+
+    # Remove illegal filename characters: < > : " / \ | ? *
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "", name)
+    # Replace sequences of whitespace, underscores, and dashes with single space
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    # Strip dangerous leading/trailing characters
+    cleaned = cleaned.strip(". ")
+
+    if not cleaned:
+        cleaned = "EchoLoop_Audio"
+
+    # Limit maximum length while keeping words intact if possible
+    if len(cleaned) > max_length:
+        cleaned = cleaned[:max_length].rstrip()
+
+    return cleaned
+
+
+def create_echoloop_zip(mp3_path: str, srt_path: str, zip_path: str) -> str:
+    """
+    Packages .mp3 and .srt into a single ZIP archive.
+    Both files are stored at the root of the ZIP with identical basenames
+    so Echo Loop can automatically pair them upon import.
+    """
+    mp3_file = Path(mp3_path)
+    srt_file = Path(srt_path)
+
+    if not mp3_file.exists():
+        raise FileNotFoundError(f"Audio file not found: {mp3_path}")
+    if not srt_file.exists():
+        raise FileNotFoundError(f"Subtitle file not found: {srt_path}")
+
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        zf.write(mp3_path, arcname=mp3_file.name)
+        zf.write(srt_path, arcname=srt_file.name)
+
+    return zip_path
