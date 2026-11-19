@@ -1,1 +1,543 @@
-aW1wb3J0IGJhc2U2NAppbXBvcnQgaW8KaW1wb3J0IG9zCmltcG9ydCBzaHV0aWwKaW1wb3J0IHNvY2tldAppbXBvcnQgdGVtcGZpbGUKaW1wb3J0IHV1aWQKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBncmFkaW8gYXMgZ3IKZnJvbSBkb3RlbnYgaW1wb3J0IGxvYWRfZG90ZW52CmltcG9ydCBxcmNvZGUKCmZyb20gY29uZmlnIGltcG9ydCAoCiAgICBBVURJT19CSVRSQVRFLAogICAgQkFTRV9URU1QX0RJUiwKICAgIERFRkFVTFRfR1JPUV9BUElfS0VZLAogICAgREVGQVVMVF9NQVhfRFVSQVRJT04sCiAgICBERUZBVUxUX01JTl9EVVJBVElPTiwKICAgIERFRkFVTFRfU0lMRU5DRV9HQVAsCiAgICBHUk9RX01PREVMLAogICAgTEFOR1VBR0VTLAopCmZyb20gY29yZS5kaWFyaXplciBpbXBvcnQgZGlhcml6ZV9hbmRfbGFiZWxfc3BlYWtlcnMKZnJvbSBjb3JlLmRvd25sb2FkZXIgaW1wb3J0IGRvd25sb2FkX21lZGlhX2FuZF9zdWJ0aXRsZXMsIHByb2Nlc3NfdXBsb2FkZWRfbWVkaWEKZnJvbSBjb3JlLmdyb3Ffd2hpc3BlciBpbXBvcnQgdHJhbnNjcmliZV93aXRoX2dyb3EKZnJvbSBjb3JlLm1lcmdlciBpbXBvcnQgbWVyZ2Vfc2hvcnRfc2VnbWVudHMKZnJvbSBjb3JlLnN1YnRpdGxlIGltcG9ydCBwYXJzZV9zcnRfY29udGVudCwgc2VnbWVudHNfdG9fc3J0CmZyb20gY29yZS51dGlscyBpbXBvcnQgY3JlYXRlX2VjaG9sb29wX3ppcCwgZmluZF9mZm1wZWcsIHNhbml0aXplX2ZpbGVuYW1lCgojIEVuc3VyZSBlbnZpcm9ubWVudCB2YXJpYWJsZXMgYXJlIGxvYWRlZApsb2FkX2RvdGVudigpCgoKZGVmIGdldF9sb2NhbF9pcCgpIC0+IHN0cjoKICAgICIiIkRldGVjdHMgcHJpbWFyeSBsb2NhbCBuZXR3b3JrIElQIGFkZHJlc3MuIiIiCiAgICB0cnk6CiAgICAgICAgcyA9IHNvY2tldC5zb2NrZXQoc29ja2V0LkFGX0lORVQsIHNvY2tldC5TT0NLX0RHUkFNKQogICAgICAgIHMuY29ubmVjdCgoIjguOC44LjgiLCA4MCkpCiAgICAgICAgaXAgPSBzLmdldHNvY2tuYW1lKClbMF0KICAgICAgICBzLmNsb3NlKCkKICAgICAgICByZXR1cm4gaXAKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuICIxMjcuMC4wLjEiCgoKZGVmIGdlbmVyYXRlX3FyX2Jhc2U2NCh1cmw6IHN0cikgLT4gc3RyOgogICAgIiIiR2VuZXJhdGVzIGEgYmFzZTY0IGVuY29kZWQgUE5HIFFSIGNvZGUuIiIiCiAgICB0cnk6CiAgICAgICAgcXIgPSBxcmNvZGUuUVJDb2RlKGJveF9zaXplPTUsIGJvcmRlcj0xKQogICAgICAgIHFyLmFkZF9kYXRhKHVybCkKICAgICAgICBxci5tYWtlKGZpdD1UcnVlKQogICAgICAgIGltZyA9IHFyLm1ha2VfaW1hZ2UoZmlsbF9jb2xvcj0iIzEwYjk4MSIsIGJhY2tfY29sb3I9IiMwZjE3MmEiKQogICAgICAgIGJ1ZiA9IGlvLkJ5dGVzSU8oKQogICAgICAgIGltZy5zYXZlKGJ1ZiwgZm9ybWF0PSJQTkciKQogICAgICAgIHJldHVybiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LCIgKyBiYXNlNjQuYjY0ZW5jb2RlKGJ1Zi5nZXR2YWx1ZSgpKS5kZWNvZGUoKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICByZXR1cm4gIiIKCgpkZWYgZm9ybWF0X2R1cmF0aW9uKHNlY29uZHM6IGZsb2F0KSAtPiBzdHI6CiAgICAiIiJGb3JtYXRzIHNlY29uZHMgaW50byBtbTpzcyBvciBoaDptbTpzcyBzdHJpbmcuIiIiCiAgICBtLCBzID0gZGl2bW9kKGludChzZWNvbmRzKSwgNjApCiAgICBoLCBtID0gZGl2bW9kKG0sIDYwKQogICAgaWYgaCA+IDA6CiAgICAgICAgcmV0dXJuIGYie2h9aCB7bTowMmR9bSB7czowMmR9cyIKICAgIHJldHVybiBmInttOjAyZH1tIHtzOjAyZH1zIgoKCmRlZiBwcm9jZXNzX2F1ZGlvX29yX3ZpZGVvKAogICAgaW5wdXRfc291cmNlX3R5cGU6IHN0ciwKICAgIHZpZGVvX3VybDogc3RyLAogICAgdXBsb2FkZWRfZmlsZSwKICAgIGxhbmd1YWdlOiBzdHIsCiAgICBwcmVmZXJfYWk6IGJvb2wsCiAgICBhdXRvX21lcmdlOiBib29sLAogICAgZW5hYmxlX2RpYXJpemF0aW9uOiBib29sLAogICAgc3BlYWtlcl9zdHlsZTogc3RyLAogICAgZ3JvcV9hcGlfa2V5OiBzdHIsCiAgICBjb29raWVzX2ZpbGUsCiAgICBtaW5fZHVyYXRpb246IGZsb2F0LAogICAgbWF4X2R1cmF0aW9uOiBmbG9hdCwKICAgIHNpbGVuY2VfZ2FwOiBmbG9hdCwKICAgIHByb2dyZXNzPWdyLlByb2dyZXNzKHRyYWNrX3RxZG09VHJ1ZSksCik6CiAgICAiIiIKICAgIFVuaWZpZWQgcHJvY2Vzc2luZyBwaXBlbGluZSBzdXBwb3J0aW5nIGJvdGggVVJMIGFuZCBkaXJlY3QgZmlsZSB1cGxvYWRzOgogICAgMS4gRG93bmxvYWRzIG9yIGNvbnZlcnRzIG1lZGlhIHRvIDk2a2JwcyBNUDMuCiAgICAyLiBSZXRyaWV2ZXMgb3IgZ2VuZXJhdGVzIHN1YnRpdGxlcyB2aWEgR3JvcSBXaGlzcGVyIFR1cmJvLgogICAgMy4gQXV0by1tZXJnZXMgc2hvcnQgc2VnbWVudHMgKDQtN3MpLgogICAgNC4gTGFiZWxzIHNwZWFrZXJzIEEsIEIsIEMuLi4gaWYgZGlhcml6YXRpb24gaXMgZW5hYmxlZC4KICAgIDUuIE91dHB1dHMgLm1wMywgLnNydCwgYW5kIC56aXAgd2l0aCBpZGVudGljYWwgbmFtZXMuCiAgICAiIiIKICAgIGpvYl9pZCA9IHN0cih1dWlkLnV1aWQ0KCkpWzo4XQogICAgam9iX2RpciA9IG9zLnBhdGguam9pbihCQVNFX1RFTVBfRElSLCBmImpvYl97am9iX2lkfSIpCiAgICBvcy5tYWtlZGlycyhqb2JfZGlyLCBleGlzdF9vaz1UcnVlKQoKICAgICMgUmVzb2x2ZSBHcm9xIEFQSSBLZXkKICAgIGFjdGl2ZV9rZXkgPSAoZ3JvcV9hcGlfa2V5IG9yICIiKS5zdHJpcCgpIG9yIG9zLmVudmlyb24uZ2V0KCJHUk9RX0FQSV9LRVkiLCAiIikuc3RyaXAoKQoKICAgIHRyeToKICAgICAgICBtcDNfcGF0aCA9IE5vbmUKICAgICAgICBzcnRfY29udGVudCA9IE5vbmUKICAgICAgICBjbGVhbl90aXRsZSA9ICIiCiAgICAgICAgZHVyYXRpb24gPSAwLjAKICAgICAgICBzdWJfc291cmNlID0gIm5vbmUiCgogICAgICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgIyBCcmFuY2ggMTogVmlkZW8vQXVkaW8gZnJvbSBVUkwKICAgICAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgIGlmIGlucHV0X3NvdXJjZV90eXBlID09ICJ1cmwiOgogICAgICAgICAgICBpZiBub3QgdmlkZW9fdXJsIG9yIG5vdCB2aWRlb191cmwuc3RyaXAoKToKICAgICAgICAgICAgICAgIHJhaXNlIGdyLkVycm9yKCJWdWkgbMOybmcgZMOhbiBsaW5rIHZpZGVvIChZb3VUdWJlLCBUaWtUb2ssIEJCQy4uLikgdsOgbyDDtCBuaOG6rXAhIikKCiAgICAgICAgICAgIHVybCA9IHZpZGVvX3VybC5zdHJpcCgpCiAgICAgICAgICAgIGNvb2tpZXNfcGF0aCA9IE5vbmUKICAgICAgICAgICAgaWYgY29va2llc19maWxlIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShjb29raWVzX2ZpbGUsIHN0cik6CiAgICAgICAgICAgICAgICAgICAgY29va2llc19wYXRoID0gY29va2llc19maWxlCiAgICAgICAgICAgICAgICBlbGlmIGhhc2F0dHIoY29va2llc19maWxlLCAibmFtZSIpOgogICAgICAgICAgICAgICAgICAgIGNvb2tpZXNfcGF0aCA9IGNvb2tpZXNfZmlsZS5uYW1lCgogICAgICAgICAgICBwcm9ncmVzcygwLjE1LCBkZXNjPSLEkGFuZyBr4bq/dCBu4buRaSAmIHThuqNpIMOibSB0aGFuaCBNUDMgKDk2a2JwcykuLi4iKQogICAgICAgICAgICBtcDNfcGF0aCwgc3J0X2NvbnRlbnQsIGNsZWFuX3RpdGxlLCBkdXJhdGlvbiwgc3ViX3NvdXJjZSA9IGRvd25sb2FkX21lZGlhX2FuZF9zdWJ0aXRsZXMoCiAgICAgICAgICAgICAgICB1cmw9dXJsLAogICAgICAgICAgICAgICAgb3V0cHV0X2Rpcj1qb2JfZGlyLAogICAgICAgICAgICAgICAgbGFuZ3VhZ2U9bGFuZ3VhZ2UsCiAgICAgICAgICAgICAgICBza2lwX3N1YnRpdGxlcz1wcmVmZXJfYWksCiAgICAgICAgICAgICAgICBjb29raWVzX3BhdGg9Y29va2llc19wYXRoLAogICAgICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2s9bGFtYmRhIG1zZzogcHJvZ3Jlc3MoMC4yNSwgZGVzYz1tc2cpLAogICAgICAgICAgICApCgogICAgICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgIyBCcmFuY2ggMjogRmlsZSBVcGxvYWQgKE1QMywgV0FWLCBNNEEsIE1QNCwgZXRjLikKICAgICAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHVwbG9hZGVkX2ZpbGUgaXMgTm9uZToKICAgICAgICAgICAgICAgIHJhaXNlIGdyLkVycm9yKCJWdWkgbMOybmcgY2jhu41uIGhv4bq3YyBrw6lvIHRo4bqjIGZpbGUgw6JtIHRoYW5oIC8gdmlkZW8gY+G6p24gdOG6oW8gcGjhu6UgxJHhu4EhIikKCiAgICAgICAgICAgIGlucHV0X3BhdGggPSB1cGxvYWRlZF9maWxlLm5hbWUgaWYgaGFzYXR0cih1cGxvYWRlZF9maWxlLCAibmFtZSIpIGVsc2Ugc3RyKHVwbG9hZGVkX2ZpbGUpCiAgICAgICAgICAgIHByb2dyZXNzKDAuMiwgZGVzYz0ixJBhbmcgeOG7rSBsw70gZmlsZSB04bqjaSBsw6puIHbDoCBjaHV54buDbiDEkeG7lWkgc2FuZyBNUDMgOTZrYnBzLi4uIikKICAgICAgICAgICAgbXAzX3BhdGgsIGNsZWFuX3RpdGxlLCBkdXJhdGlvbiA9IHByb2Nlc3NfdXBsb2FkZWRfbWVkaWEoCiAgICAgICAgICAgICAgICB1cGxvYWRlZF9maWxlX3BhdGg9aW5wdXRfcGF0aCwKICAgICAgICAgICAgICAgIG91dHB1dF9kaXI9am9iX2RpciwKICAgICAgICAgICAgICAgIHByb2dyZXNzX2NhbGxiYWNrPWxhbWJkYSBtc2c6IHByb2dyZXNzKDAuMywgZGVzYz1tc2cpLAogICAgICAgICAgICApCiAgICAgICAgICAgICMgVXBsb2FkZWQgZmlsZXMgYWx3YXlzIHVzZSBHcm9xIFdoaXNwZXIgQUkgZm9yIHRyYW5zY3JpcHRpb24KICAgICAgICAgICAgc3J0X2NvbnRlbnQgPSBOb25lCiAgICAgICAgICAgIHN1Yl9zb3VyY2UgPSAibm9uZSIKCiAgICAgICAgc2VnbWVudHMgPSBbXQogICAgICAgIGZpbmFsX3NvdXJjZV9sYWJlbCA9ICIiCgogICAgICAgICMgU3RlcCAyOiBFeHRyYWN0IG9yIFRyYW5zY3JpYmUgU3VidGl0bGVzCiAgICAgICAgaWYgc3J0X2NvbnRlbnQgYW5kIG5vdCBwcmVmZXJfYWk6CiAgICAgICAgICAgIHByb2dyZXNzKDAuNSwgZGVzYz0ixJBhbmcgbMOgbSBz4bqhY2ggcGjhu6UgxJHhu4EgZ+G7kWMgdOG7qyB2aWRlby4uLiIpCiAgICAgICAgICAgIHNlZ21lbnRzID0gcGFyc2Vfc3J0X2NvbnRlbnQoc3J0X2NvbnRlbnQpCiAgICAgICAgICAgIGlmIHN1Yl9zb3VyY2UgPT0gIm1hbnVhbCI6CiAgICAgICAgICAgICAgICBmaW5hbF9zb3VyY2VfbGFiZWwgPSAi4pyFIFBo4bulIMSR4buBIGNodeG6qW4gZG8gdMOhYyBnaeG6oyBjdW5nIGPhuqVwIgogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZmluYWxfc291cmNlX2xhYmVsID0gIvCfpJYgUGjhu6UgxJHhu4EgdOG7sSDEkeG7mW5nIHThu6sgbuG7gW4gdOG6o25nICjEkMOjIGzDoG0gc+G6oWNoIHRo4bq7IEhUTUwpIgoKICAgICAgICAjIEZhbGxiYWNrIHRvIEdyb3EgV2hpc3BlciBBSQogICAgICAgIGlmIG5vdCBzZWdtZW50cyBvciBwcmVmZXJfYWk6CiAgICAgICAgICAgIHByb2dyZXNzKDAuNTUsIGRlc2M9ZiLEkGFuZyBwaGnDqm4gw6JtIGLhurFuZyBHcm9xIEFJICh7R1JPUV9NT0RFTH0pLi4uIikKICAgICAgICAgICAgaWYgbm90IGFjdGl2ZV9rZXk6CiAgICAgICAgICAgICAgICByYWlzZSBnci5FcnJvcigKICAgICAgICAgICAgICAgICAgICAiQ+G6p24gY8OzIEdyb3EgQVBJIEtleSDEkeG7gyBwaGnDqm4gw6JtIMOibSB0aGFuaCEgIgogICAgICAgICAgICAgICAgICAgICJWdWkgbMOybmcgbmjhuq1wIEdyb3EgQVBJIEtleSB2w6BvIHBo4bqnbiBDw6BpIMSR4bq3dCBuw6JuZyBjYW8gaG/hurdjIHRoaeG6v3QgbOG6rXAgYmnhur9uIG3DtGkgdHLGsOG7nW5nIEdST1FfQVBJX0tFWS4iCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBzZWdtZW50cyA9IHRyYW5zY3JpYmVfd2l0aF9ncm9xKAogICAgICAgICAgICAgICAgYXVkaW9fcGF0aD1tcDNfcGF0aCwKICAgICAgICAgICAgICAgIGFwaV9rZXk9YWN0aXZlX2tleSwKICAgICAgICAgICAgICAgIGxhbmd1YWdlPWxhbmd1YWdlLAogICAgICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2s9bGFtYmRhIG1zZzogcHJvZ3Jlc3MoMC43LCBkZXNjPW1zZyksCiAgICAgICAgICAgICkKICAgICAgICAgICAgZmluYWxfc291cmNlX2xhYmVsID0gZiLinKggUGhpw6puIMOibSBBSSBHcm9xICh7R1JPUV9NT0RFTH0pIgoKICAgICAgICBpZiBub3Qgc2VnbWVudHM6CiAgICAgICAgICAgIHJhaXNlIGdyLkVycm9yKCJLaMO0bmcgdMOsbSB0aOG6pXkgaG/hurdjIGtow7RuZyB04bqhbyDEkcaw4bujYyBwaOG7pSDEkeG7gSBjaG8gbuG7mWkgZHVuZyBuw6B5ISIpCgogICAgICAgIG9yaWdpbmFsX3NlZ21lbnRzX2NvdW50ID0gbGVuKHNlZ21lbnRzKQoKICAgICAgICAjIFN0ZXAgMzogQXV0by1tZXJnZSBzaG9ydCBzZWdtZW50cwogICAgICAgIGlmIGF1dG9fbWVyZ2U6CiAgICAgICAgICAgIHByb2dyZXNzKDAuOCwgZGVzYz0ixJBhbmcgZ+G7mXAgY8OidSBuZ+G6r24gdGjDoG5oIGPDonUgaG/DoG4gY2jhu4luaCAoNOKAkzdzKS4uLiIpCiAgICAgICAgICAgIHNlZ21lbnRzID0gbWVyZ2Vfc2hvcnRfc2VnbWVudHMoCiAgICAgICAgICAgICAgICBzZWdtZW50cz1zZWdtZW50cywKICAgICAgICAgICAgICAgIG1pbl9kdXJhdGlvbj1taW5fZHVyYXRpb24sCiAgICAgICAgICAgICAgICBtYXhfZHVyYXRpb249bWF4X2R1cmF0aW9uLAogICAgICAgICAgICAgICAgc2lsZW5jZV9nYXBfdGhyZXNob2xkPXNpbGVuY2VfZ2FwLAogICAgICAgICAgICApCgogICAgICAgICMgU3RlcCA0OiBTcGVha2VyIERpYXJpemF0aW9uIChBLCBCLCBDLi4uKQogICAgICAgIGlmIGVuYWJsZV9kaWFyaXphdGlvbjoKICAgICAgICAgICAgcHJvZ3Jlc3MoMC44OCwgZGVzYz0ixJBhbmcgcGjDom4gdMOtY2ggdsOgIGfDoW4gbmjDo24gbmfGsOG7nWkgbsOzaSAoQSwgQiwgQy4uLikuLi4iKQogICAgICAgICAgICBzZWdtZW50cyA9IGRpYXJpemVfYW5kX2xhYmVsX3NwZWFrZXJzKAogICAgICAgICAgICAgICAgc2VnbWVudHM9c2VnbWVudHMsCiAgICAgICAgICAgICAgICBhcGlfa2V5PWFjdGl2ZV9rZXksCiAgICAgICAgICAgICAgICBzdHlsZT1zcGVha2VyX3N0eWxlLAogICAgICAgICAgICAgICAgcHJvZ3Jlc3NfY2FsbGJhY2s9bGFtYmRhIG1zZzogcHJvZ3Jlc3MoMC45LCBkZXNjPW1zZyksCiAgICAgICAgICAgICkKICAgICAgICAgICAgZmluYWxfc291cmNlX2xhYmVsICs9ICIgKyDwn5GlIFBow6JuIGJp4buHdCBuZ8aw4budaSBuw7NpIChBLCBCLCBDKSIKCiAgICAgICAgZmluYWxfc2VnbWVudHNfY291bnQgPSBsZW4oc2VnbWVudHMpCiAgICAgICAgZmluYWxfc3J0X3RleHQgPSBzZWdtZW50c190b19zcnQoc2VnbWVudHMpCgogICAgICAgICMgU3RlcCA1OiBXcml0ZSBmaW5hbCAuc3J0IGZpbGUKICAgICAgICBmaW5hbF9zcnRfcGF0aCA9IG9zLnBhdGguam9pbihqb2JfZGlyLCBmIntjbGVhbl90aXRsZX0uc3J0IikKICAgICAgICB3aXRoIG9wZW4oZmluYWxfc3J0X3BhdGgsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZShmaW5hbF9zcnRfdGV4dCkKCiAgICAgICAgIyBTdGVwIDY6IFBhY2thZ2UgbWF0Y2hpbmcgZmlsZXMgaW50byBFY2hvIExvb3AgWklQCiAgICAgICAgcHJvZ3Jlc3MoMC45NSwgZGVzYz0ixJBhbmcgxJHDs25nIGfDs2kgZmlsZSBaSVAgY2hvIEVjaG8gTG9vcC4uLiIpCiAgICAgICAgZmluYWxfemlwX3BhdGggPSBvcy5wYXRoLmpvaW4oam9iX2RpciwgZiJ7Y2xlYW5fdGl0bGV9X0VjaG9Mb29wLnppcCIpCiAgICAgICAgY3JlYXRlX2VjaG9sb29wX3ppcChtcDNfcGF0aCwgZmluYWxfc3J0X3BhdGgsIGZpbmFsX3ppcF9wYXRoKQoKICAgICAgICBwcm9ncmVzcygxLjAsIGRlc2M9Ikhvw6BuIHThuqV0IHjhu60gbMO9ISIpCgogICAgICAgICMgRmlsZSBzdGF0cwogICAgICAgIG1wM19zaXplX21iID0gb3MucGF0aC5nZXRzaXplKG1wM19wYXRoKSAvICgxMDI0ICogMTAyNCkKICAgICAgICBkdXJhdGlvbl9zdHIgPSBmb3JtYXRfZHVyYXRpb24oZHVyYXRpb24pCgogICAgICAgIHN0YXR1c19odG1sID0gZiIiIgogICAgICAgIDxkaXYgY2xhc3M9InJlc3VsdC1jYXJkIj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0iZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOyBmbGV4LXdyYXA6IHdyYXA7IGdhcDogOHB4OyBtYXJnaW4tYm90dG9tOiA4cHg7Ij4KICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogNzAwOyBmb250LXNpemU6IDEuMXJlbTsgY29sb3I6ICMxMGI5ODE7Ij7wn46JIMSQw6MgdOG6oW8gdGjDoG5oIGPDtG5nITwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJiYWNrZ3JvdW5kOiByZ2JhKDE2LCAxODUsIDEyOSwgMC4yKTsgY29sb3I6ICMxMGI5ODE7IHBhZGRpbmc6IDJweCAxMHB4OyBib3JkZXItcmFkaXVzOiA5OTk5cHg7IGZvbnQtc2l6ZTogMC44cmVtOyBmb250LXdlaWdodDogNjAwOyI+Q2h14bqpbiBFY2hvIExvb3A8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6IDAuOTVyZW07IGZvbnQtd2VpZ2h0OiA2MDA7IG1hcmdpbi1ib3R0b206IDZweDsgd29yZC1icmVhazogYnJlYWstd29yZDsiPvCfk4QgVGnDqnUgxJHhu4E6IHtjbGVhbl90aXRsZX08L2Rpdj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0iZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsIG1pbm1heCgxMzBweCwgMWZyKSk7IGdhcDogOHB4OyBmb250LXNpemU6IDAuODJyZW07IGNvbG9yOiAjY2JkNWUxOyBtYXJnaW4tdG9wOiAxMHB4OyI+CiAgICAgICAgICAgICAgICA8ZGl2PuKPse+4jyBUaOG7nWkgbMaw4bujbmc6IDxiPntkdXJhdGlvbl9zdHJ9PC9iPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj7wn5OKIER1bmcgbMaw4bujbmcgTVAzOiA8Yj57bXAzX3NpemVfbWI6LjJmfSBNQjwvYj48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+8J+OtSBCaXRyYXRlOiA8Yj57QVVESU9fQklUUkFURX1icHM8L2I+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PvCfkqwgU+G7kSBjw6J1OiA8Yj57ZmluYWxfc2VnbWVudHNfY291bnR9PC9iPiAoZ+G7kWM6IHtvcmlnaW5hbF9zZWdtZW50c19jb3VudH0pPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tdG9wOiAxMHB4OyBmb250LXNpemU6IDAuODJyZW07IGNvbG9yOiAjOTRhM2I4OyI+CiAgICAgICAgICAgICAgICBOZ3Xhu5NuOiA8YiBzdHlsZT0iY29sb3I6ICM2ZWU3Yjc7Ij57ZmluYWxfc291cmNlX2xhYmVsfTwvYj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgIiIiCgogICAgICAgIHByZXZpZXdfbGluZXMgPSBmaW5hbF9zcnRfdGV4dC5zcGxpdGxpbmVzKClbOjYwXQogICAgICAgIHByZXZpZXdfdGV4dCA9ICJcbiIuam9pbihwcmV2aWV3X2xpbmVzKQogICAgICAgIGlmIGxlbihmaW5hbF9zcnRfdGV4dC5zcGxpdGxpbmVzKCkpID4gNjA6CiAgICAgICAgICAgIHByZXZpZXdfdGV4dCArPSAiXG5cbi4uLiAodOG6o2kgZmlsZSAuc3J0IMSR4buDIHhlbSB0b8OgbiBi4buZIGRhbmggc8OhY2ggY8OidSkgLi4uIgoKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICBzdGF0dXNfaHRtbCwKICAgICAgICAgICAgbXAzX3BhdGgsICAgICAgICAgIyBBdWRpbyBwcmV2aWV3CiAgICAgICAgICAgIGZpbmFsX3ppcF9wYXRoLCAgICMgWklQIGRvd25sb2FkCiAgICAgICAgICAgIG1wM19wYXRoLCAgICAgICAgICMgTVAzIGRvd25sb2FkCiAgICAgICAgICAgIGZpbmFsX3NydF9wYXRoLCAgICMgU1JUIGRvd25sb2FkCiAgICAgICAgICAgIHByZXZpZXdfdGV4dCwgICAgICMgU3VidGl0bGUgdGV4dCBwcmV2aWV3CiAgICAgICAgICAgIGdyLnVwZGF0ZSh2aXNpYmxlPVRydWUpLCAgIyBTaG93IHJlc3VsdHMgY29udGFpbmVyCiAgICAgICAgKQoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBpbXBvcnQgdHJhY2ViYWNrCiAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCiAgICAgICAgcmFpc2UgZ3IuRXJyb3IoZiJM4buXaSB44butIGzDvToge3N0cihlKX0iKQoKCmRlZiBidWlsZF9hcHAoKToKICAgICIiIkNvbnN0cnVjdHMgdGhlIEdyYWRpbyBhcHBsaWNhdGlvbiBVSS4iIiIKICAgIGNzc19wYXRoID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICJzdGF0aWMiLCAic3R5bGUuY3NzIikKICAgIGN1c3RvbV9jc3MgPSAiIgogICAgaWYgb3MucGF0aC5pc2ZpbGUoY3NzX3BhdGgpOgogICAgICAgIHdpdGggb3Blbihjc3NfcGF0aCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBjdXN0b21fY3NzID0gZi5yZWFkKCkKCiAgICBsb2NhbF9pcCA9IGdldF9sb2NhbF9pcCgpCiAgICBsb2NhbF91cmwgPSBmImh0dHA6Ly97bG9jYWxfaXB9Ojc4NjAiCiAgICBxcl9kYXRhX3VyaSA9IGdlbmVyYXRlX3FyX2Jhc2U2NChsb2NhbF91cmwpCgogICAgaGFzX2Vudl9ncm9xX2tleSA9IGJvb2wob3MuZW52aXJvbi5nZXQoIkdST1FfQVBJX0tFWSIsICIiKS5zdHJpcCgpKQogICAgZ3JvcV9zdGF0dXNfYmFkZ2UgPSAoCiAgICAgICAgIvCfn6IgxJDDoyBuaOG6rW4gZGnhu4duIEdST1FfQVBJX0tFWSB04burIGjhu4cgdGjhu5FuZyIKICAgICAgICBpZiBoYXNfZW52X2dyb3Ffa2V5CiAgICAgICAgZWxzZSAi4pqqIENoxrBhIGPDsyBiaeG6v24gbcO0aSB0csaw4budbmcgKG5o4bqtcCB0aOG7pyBjw7RuZyBiw6puIGTGsOG7m2kgbuG6v3UgY+G6p24pIgogICAgKQoKICAgIHdpdGggZ3IuQmxvY2tzKHRpdGxlPSJFY2hvIExvb3AgU3R1ZGlvIC0gQXVkaW8gJiBTdWJ0aXRsZSBHZW5lcmF0b3IiKSBhcyBkZW1vOgogICAgICAgICMgSW5qZWN0ZWQgQ1NTICYgTW9iaWxlIFZpZXdwb3J0CiAgICAgICAgZ3IuSFRNTCgKICAgICAgICAgICAgZiIiIgogICAgICAgICAgICA8c3R5bGU+e2N1c3RvbV9jc3N9PC9zdHlsZT4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXBwLWhlYWRlciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcHAtdGl0bGUiPvCfjqcgRWNobyBMb29wIFN0dWRpbzwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXBwLWRlc2MiPlThuqFvIGPhurdwIGZpbGUgPGI+Lm1wMzwvYj4gKDk2a2JwcykgKyA8Yj4uc3J0PC9iPiBjaHXhuqluIGNo4buJIHbhu5tpIDEgY8O6IGNsaWNrIMSR4buDIG7huqFwIHRy4buxYyB0aeG6v3AgdsOgbyDhu6luZyBk4bulbmcgPGI+RWNobyBMb29wPC9iPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFkZ2Utcm93Ij4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFkZ2UiPvCfmoAgTmhhbmggJiBOaOG6uSAoOTZrYnBzKTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFkZ2UiPvCfkaUgUGjDom4gYmnhu4d0IG5nxrDhu51pIG7Ds2kgQSwgQjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFkZ2UiPvCfk4EgSOG7lyB0cuG7oyBVcGxvYWQgRmlsZTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFkZ2UiPuKaoSBBdXRvLW1lcmdlIDTigJM3czwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgIiIiCiAgICAgICAgKQoKICAgICAgICAjIFNtb290aCBNb2JpbGUgQWNjZXNzIENhcmQgKFdpLUZpIExvY2FsIElQICsgUVIgQ29kZSkKICAgICAgICB3aXRoIGdyLkFjY29yZGlvbigi8J+TsiBIxrDhu5tuZyBk4bqrbiB0cnV5IGPhuq1wIHRyw6puIMSQaeG7h24gdGhv4bqhaSBtxrDhu6N0IG3DoCAoS2jDtG5nIGxvIG3huqV0IGvhur90IG7hu5FpKSIsIG9wZW49RmFsc2UpOgogICAgICAgICAgICBnci5IVE1MKAogICAgICAgICAgICAgICAgZiIiIgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0iYmFja2dyb3VuZDogcmdiYSgzMCwgNDEsIDU5LCAwLjYpOyBwYWRkaW5nOiAxNnB4OyBib3JkZXItcmFkaXVzOiAxMnB4OyBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDk5LCAxMDIsIDI0MSwgMC4zKTsiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGZsZXgtd3JhcDogd3JhcDsgZ2FwOiAxNnB4OyBhbGlnbi1pdGVtczogY2VudGVyOyI+CiAgICAgICAgICAgICAgICAgICAgICAgIHsiPGltZyBzcmM9JyIgKyBxcl9kYXRhX3VyaSArICInIHN0eWxlPSd3aWR0aDogMTEwcHg7IGhlaWdodDogMTEwcHg7IGJvcmRlci1yYWRpdXM6IDhweDsnIGFsdD0nUVIgQ29kZScgLz4iIGlmIHFyX2RhdGFfdXJpIGVsc2UgIiJ9CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9ImZsZXg6IDE7IG1pbi13aWR0aDogMjAwcHg7Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBzdHlsZT0ibWFyZ2luOiAwIDAgNnB4IDA7IGNvbG9yOiAjMzRkMzk5OyI+8J+TtiBL4bq/dCBu4buRaSBtxrDhu6N0IG3DoCBxdWEgV2ktRmkgbmjDoCBi4bqhbiAoS2h1ecOqbiBkw7luZyk6PC9oND4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPSJtYXJnaW46IDAgMCA4cHggMDsgZm9udC1zaXplOiAwLjg4cmVtOyBjb2xvcjogI2NiZDVlMTsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEtoaSDEkWnhu4duIHRob+G6oWkgdsOgIG3DoXkgdMOtbmgga+G6v3QgbuG7kWkgPGI+Y8O5bmcgbeG6oW5nIFdpLUZpPC9iPiwgaMOjeSBt4bufIGxpbmsgZMaw4bubaSBob+G6t2MgcXXDqXQgbcOjIFFSOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0ie2xvY2FsX3VybH0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBiYWNrZ3JvdW5kOiAjNjM2NmYxOyBjb2xvcjogI2ZmZjsgcGFkZGluZzogNnB4IDE0cHg7IGJvcmRlci1yYWRpdXM6IDZweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC1zaXplOiAwLjk1cmVtOyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg8J+MkCB7bG9jYWxfdXJsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9Im1hcmdpbjogOHB4IDAgMCAwOyBmb250LXNpemU6IDAuNzhyZW07IGNvbG9yOiAjOTRhM2I4OyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4q2QIExpbmsgbsOgeSA8Yj5raMO0bmcgYmFvIGdp4budIGjhur90IGjhuqFuPC9iPiwgdHJ1eSBj4bqtcCBj4buxYyBuaGFuaCB2w6Aga2jDtG5nIGJhbyBnaeG7nSBi4buLIGLDoW8gbOG7l2kgIk5vIGludGVyZmFjZSBpcyBydW5uaW5nIiEKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICApCgogICAgICAgICMgSW5wdXQgVGFiczogVVJMIHZzIEZpbGUgVXBsb2FkCiAgICAgICAgaW5wdXRfdHlwZV9zdGF0ZSA9IGdyLlN0YXRlKHZhbHVlPSJ1cmwiKQoKICAgICAgICB3aXRoIGdyLlRhYnMoKToKICAgICAgICAgICAgd2l0aCBnci5UYWJJdGVtKCLwn5SXIETDoW4gTGluayBWaWRlbyAvIEF1ZGlvIikgYXMgdGFiX3VybDoKICAgICAgICAgICAgICAgIHVybF9pbnB1dCA9IGdyLlRleHRib3goCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IsSQxrDhu51uZyBk4bqrbiBWaWRlbyIsCiAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkTDoW4gbGluayBZb3VUdWJlLCBUaWtUb2ssIEZhY2Vib29rLCBCQkMsIHBvZGNhc3QuLi4iLAogICAgICAgICAgICAgICAgICAgIGxpbmVzPTEsCiAgICAgICAgICAgICAgICAgICAgbWF4X2xpbmVzPTIsCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICB3aXRoIGdyLlRhYkl0ZW0oIvCfk4EgVOG6o2kgRmlsZSDDgm0gVGhhbmggLyBWaWRlbyBU4burIE3DoXkiKSBhcyB0YWJfZmlsZToKICAgICAgICAgICAgICAgIGZpbGVfaW5wdXQgPSBnci5GaWxlKAogICAgICAgICAgICAgICAgICAgIGxhYmVsPSJDaOG7jW4gaG/hurdjIGvDqW8gdGjhuqMgZmlsZSDDom0gdGhhbmggLyB2aWRlbyB04burIG3DoXkgY+G7p2EgYuG6oW4iLAogICAgICAgICAgICAgICAgICAgIGZpbGVfdHlwZXM9WyJhdWRpbyIsICJ2aWRlbyIsICIubXAzIiwgIi53YXYiLCAiLm00YSIsICIuYWFjIiwgIi5mbGFjIiwgIi5vZ2ciLCAiLm1wNCIsICIubW92IiwgIi5ta3YiLCAiLndlYm0iXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGdyLk1hcmtkb3duKCI8c21hbGwgc3R5bGU9J2NvbG9yOiAjOTRhM2I4Oyc+SOG7lyB0cuG7ozogTVAzLCBXQVYsIE00QSwgQUFDLCBGTEFDLCBPR0csIE1QNCwgTU9WLCBNS1YuLi4gSOG7hyB0aOG7kW5nIHPhur0gdOG7sSDEkeG7mW5nIHTDoWNoIHRp4bq/bmcgdsOgIHh14bqldCBmaWxlIDk2a2JwcyBjaHXhuqluIEVjaG8gTG9vcC48L3NtYWxsPiIpCgogICAgICAgICMgVGFiIHN3aXRjaCBjYWxsYmFja3MgdG8ga2VlcCBpbnB1dF90eXBlX3N0YXRlIHVwZGF0ZWQKICAgICAgICB0YWJfdXJsLnNlbGVjdChmbj1sYW1iZGE6ICJ1cmwiLCBvdXRwdXRzPVtpbnB1dF90eXBlX3N0YXRlXSkKICAgICAgICB0YWJfZmlsZS5zZWxlY3QoZm49bGFtYmRhOiAiZmlsZSIsIG91dHB1dHM9W2lucHV0X3R5cGVfc3RhdGVdKQoKICAgICAgICB3aXRoIGdyLlJvdygpOgogICAgICAgICAgICBsYW5ndWFnZV9kcm9wZG93biA9IGdyLkRyb3Bkb3duKAogICAgICAgICAgICAgICAgY2hvaWNlcz1MQU5HVUFHRVMsCiAgICAgICAgICAgICAgICB2YWx1ZT0iZW4iLAogICAgICAgICAgICAgICAgbGFiZWw9IvCfjJAgTmfDtG4gbmfhu68gbmjhuq1uIGRp4buHbiIsCiAgICAgICAgICAgICAgICBzY2FsZT0yLAogICAgICAgICAgICApCiAgICAgICAgICAgIGF1dG9fbWVyZ2VfY2hlY2tib3ggPSBnci5DaGVja2JveCgKICAgICAgICAgICAgICAgIGxhYmVsPSLimqEgR+G7mXAgY8OidSBuZ+G6r24gKDTigJM3cykiLAogICAgICAgICAgICAgICAgdmFsdWU9VHJ1ZSwKICAgICAgICAgICAgICAgIGluZm89Ik3DtCBwaOG7j25nIEF1dG8tbWVyZ2UgRWNobyBMb29wIiwKICAgICAgICAgICAgICAgIHNjYWxlPTEsCiAgICAgICAgICAgICkKICAgICAgICAgICAgcHJlZmVyX2FpX2NoZWNrYm94ID0gZ3IuQ2hlY2tib3goCiAgICAgICAgICAgICAgICBsYWJlbD0i8J+kliDDiXAgZMO5bmcgR3JvcSBBSSIsCiAgICAgICAgICAgICAgICB2YWx1ZT1GYWxzZSwKICAgICAgICAgICAgICAgIGluZm89IkLhu48gcXVhIHN1YiBn4buRYywgZMO5bmcgV2hpc3BlciBBSSIsCiAgICAgICAgICAgICAgICBzY2FsZT0xLAogICAgICAgICAgICApCgogICAgICAgICMgU3BlYWtlciBEaWFyaXphdGlvbiBTZWN0aW9uCiAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgZGlhcml6ZV9jaGVja2JveCA9IGdyLkNoZWNrYm94KAogICAgICAgICAgICAgICAgbGFiZWw9IvCfkaUgUGjDom4gYmnhu4d0IHLDtSBuZ8aw4budaSBuw7NpIChBLCBCLCBDLi4uKSIsCiAgICAgICAgICAgICAgICB2YWx1ZT1UcnVlLAogICAgICAgICAgICAgICAgaW5mbz0iVOG7sSDEkeG7mW5nIG5o4bqtbiBkaeG7h24gxJHhu5FpIHRob+G6oWkgdsOgIGfDoW4gbmjDo24gbmfGsOG7nWkgbsOzaSIsCiAgICAgICAgICAgICAgICBzY2FsZT0yLAogICAgICAgICAgICApCiAgICAgICAgICAgIHNwZWFrZXJfc3R5bGVfZHJvcGRvd24gPSBnci5Ecm9wZG93bigKICAgICAgICAgICAgICAgIGNob2ljZXM9WwogICAgICAgICAgICAgICAgICAgICgiVGnhur9uZyBWaeG7h3Q6IFtOZ8aw4budaSBuw7NpIEFdLCBbTmfGsOG7nWkgbsOzaSBCXSIsICJ2aWV0bmFtZXNlIiksCiAgICAgICAgICAgICAgICAgICAgKCJUaeG6v25nIEFuaDogW1NwZWFrZXIgQV0sIFtTcGVha2VyIEJdIiwgImVuZ2xpc2giKSwKICAgICAgICAgICAgICAgICAgICAoIk5n4bqvbiBn4buNbjogW0FdLCBbQl0iLCAic2hvcnQiKSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICB2YWx1ZT0idmlldG5hbWVzZSIsCiAgICAgICAgICAgICAgICBsYWJlbD0ixJDhu4tuaCBk4bqhbmcgdMOqbiBuZ8aw4budaSBuw7NpIiwKICAgICAgICAgICAgICAgIHNjYWxlPTIsCiAgICAgICAgICAgICkKCiAgICAgICAgIyBBZHZhbmNlZCBTZXR0aW5ncyBBY2NvcmRpb24KICAgICAgICB3aXRoIGdyLkFjY29yZGlvbigi4pqZ77iPIEPDoGkgxJHhurd0IG7Dom5nIGNhbyAmIEdyb3EgQVBJIEtleSIsIG9wZW49RmFsc2UpOgogICAgICAgICAgICBnci5NYXJrZG93bihmIioqVHLhuqFuZyB0aMOhaSBHcm9xIEFQSToqKiBge2dyb3Ffc3RhdHVzX2JhZGdlfWAiKQogICAgICAgICAgICBncm9xX2tleV9pbnB1dCA9IGdyLlRleHRib3goCiAgICAgICAgICAgICAgICBsYWJlbD0iR3JvcSBBUEkgS2V5IChUw7l5IGNo4buNbikiLAogICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Imdza18uLi4gKMSQ4buDIHRy4buRbmcgbuG6v3UgxJHDoyBsxrB1IHRyb25nIGZpbGUgLmVudikiLAogICAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiLAogICAgICAgICAgICApCiAgICAgICAgICAgIHdpdGggZ3IuUm93KCk6CiAgICAgICAgICAgICAgICBtaW5fZHVyX3NsaWRlciA9IGdyLlNsaWRlcigKICAgICAgICAgICAgICAgICAgICBtaW5pbXVtPTIuMCwKICAgICAgICAgICAgICAgICAgICBtYXhpbXVtPTYuMCwKICAgICAgICAgICAgICAgICAgICB2YWx1ZT1ERUZBVUxUX01JTl9EVVJBVElPTiwKICAgICAgICAgICAgICAgICAgICBzdGVwPTAuNSwKICAgICAgICAgICAgICAgICAgICBsYWJlbD0ixJDhu5kgZMOgaSB04buRaSB0aGnhu4N1IG3hu5dpIGPDonUgKGdpw6J5KSIsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBtYXhfZHVyX3NsaWRlciA9IGdyLlNsaWRlcigKICAgICAgICAgICAgICAgICAgICBtaW5pbXVtPTUuMCwKICAgICAgICAgICAgICAgICAgICBtYXhpbXVtPTEyLjAsCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9REVGQVVMVF9NQVhfRFVSQVRJT04sCiAgICAgICAgICAgICAgICAgICAgc3RlcD0wLjUsCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IsSQ4buZIGTDoGkgdOG7kWkgxJFhIG3hu5dpIGPDonUgKGdpw6J5KSIsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBnYXBfc2xpZGVyID0gZ3IuU2xpZGVyKAogICAgICAgICAgICAgICAgICAgIG1pbmltdW09MC44LAogICAgICAgICAgICAgICAgICAgIG1heGltdW09My4wLAogICAgICAgICAgICAgICAgICAgIHZhbHVlPURFRkFVTFRfU0lMRU5DRV9HQVAsCiAgICAgICAgICAgICAgICAgICAgc3RlcD0wLjEsCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9Iktob+G6o25nIGzhurduZyBuZ+G6r3QgY8OidSAoZ2nDonkpIiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgY29va2llc19pbnB1dCA9IGdyLkZpbGUoCiAgICAgICAgICAgICAgICBsYWJlbD0iVOG6o2kgbMOqbiBmaWxlIGNvb2tpZXMudHh0IChUw7l5IGNo4buNbiAtIGtoaSB2aWRlbyBZb3VUdWJlIGLhu4sgY2jhurduIGhv4bq3YyBnaeG7m2kgaOG6oW4gxJHhu5kgdHXhu5VpKSIsCiAgICAgICAgICAgICAgICBmaWxlX3R5cGVzPVsiLnR4dCJdLAogICAgICAgICAgICApCgogICAgICAgICMgQWN0aW9uIFN1Ym1pdCBCdXR0b24KICAgICAgICBzdWJtaXRfYnRuID0gZ3IuQnV0dG9uKAogICAgICAgICAgICAi8J+agCBC4bquVCDEkOG6plUgWOG7rCBMw50gKFThuqBPIEFVRElPICYgUEjhu6QgxJDhu4ApIiwKICAgICAgICAgICAgdmFyaWFudD0icHJpbWFyeSIsCiAgICAgICAgICAgIGVsZW1fY2xhc3Nlcz1bImFjdGlvbi1idG4iXSwKICAgICAgICApCgogICAgICAgICMgT3V0cHV0IFNlY3Rpb24KICAgICAgICB3aXRoIGdyLkNvbHVtbih2aXNpYmxlPUZhbHNlKSBhcyByZXN1bHRzX2NvbnRhaW5lcjoKICAgICAgICAgICAgZ3IuTWFya2Rvd24oIi0tLSIpCiAgICAgICAgICAgIHN0YXR1c19vdXRwdXQgPSBnci5IVE1MKCkKCiAgICAgICAgICAgIHdpdGggZ3IuUm93KCk6CiAgICAgICAgICAgICAgICBhdWRpb19wcmV2aWV3ID0gZ3IuQXVkaW8oCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IvCfjqcgTmdoZSB0aOG7rSBBdWRpbyAoOTZrYnBzKSIsCiAgICAgICAgICAgICAgICAgICAgaW50ZXJhY3RpdmU9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgZWxlbV9pZD0iYXVkaW8tcGxheWVyIiwKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIGdyLk1hcmtkb3duKCIjIyMg8J+TpSBU4bqjaSB24buBIG3DoXkgxJFp4buHbiB0aG/huqFpIikKICAgICAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgICAgIHppcF9kb3dubG9hZCA9IGdyLkZpbGUoCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IvCfk6YgVOG6o2kgRmlsZSBaSVAgdHLhu41uIGLhu5kgKC5tcDMgKyAuc3J0IHRyw7luZyB0w6puIC0gS2h1ecOqbiBkw7luZykiLAogICAgICAgICAgICAgICAgICAgIGVsZW1fY2xhc3Nlcz1bInppcC1kb3dubG9hZC1idG4iXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgICAgIG1wM19kb3dubG9hZCA9IGdyLkZpbGUobGFiZWw9IvCfjrUgVOG6o2kgRmlsZSBBdWRpbyAoLm1wMykiKQogICAgICAgICAgICAgICAgc3J0X2Rvd25sb2FkID0gZ3IuRmlsZShsYWJlbD0i8J+TnSBU4bqjaSBGaWxlIFBo4bulIMSR4buBICguc3J0KSIpCgogICAgICAgICAgICB3aXRoIGdyLkFjY29yZGlvbigi8J+Rge+4jyBYZW0gdHLGsOG7m2MgbuG7mWkgZHVuZyBwaOG7pSDEkeG7gSIsIG9wZW49RmFsc2UpOgogICAgICAgICAgICAgICAgc3J0X3ByZXZpZXdfYm94ID0gZ3IuVGV4dGJveCgKICAgICAgICAgICAgICAgICAgICBsYWJlbD0iTuG7mWkgZHVuZyBwaOG7pSDEkeG7gSAoLnNydCkiLAogICAgICAgICAgICAgICAgICAgIGxpbmVzPTEyLAogICAgICAgICAgICAgICAgICAgIGludGVyYWN0aXZlPUZhbHNlLAogICAgICAgICAgICAgICAgKQoKICAgICAgICAjIEluc3RydWN0aW9ucyBTZWN0aW9uCiAgICAgICAgd2l0aCBnci5BY2NvcmRpb24oIvCfk5YgSMaw4bubbmcgZOG6q24gbuG6oXAgdsOgbyBFY2hvIExvb3AgJiBT4butIGThu6VuZyIsIG9wZW49RmFsc2UpOgogICAgICAgICAgICBnci5NYXJrZG93bigKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3VpZGUtY29udGVudCI+CiAgICAgICAgICAgICAgICAgICAgPGg0IHN0eWxlPSJtYXJnaW4tdG9wOiA2cHg7IGNvbG9yOiAjYTViNGZjOyI+8J+TsSBDw6FjaCBu4bqhcCB2w6BvIOG7qW5nIGThu6VuZyBFY2hvIExvb3A6PC9oND4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJndWlkZS1zdGVwIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InN0ZXAtbnVtIj4xPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5OaOG6pW4gbsO6dCA8Yj7wn5OmIFThuqNpIEZpbGUgWklQIHRy4buNbiBi4buZPC9iPiDhu58gdHLDqm4gKGNo4bupYSBj4bqjIDIgZmlsZSB0csO5bmcgdMOqbiAxMDAlKS48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3VpZGUtc3RlcCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJzdGVwLW51bSI+Mjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+TeG7nyDhu6luZyBk4bulbmcgPGI+RWNobyBMb29wPC9iPiB0csOqbiDEkWnhu4duIHRob+G6oWkgLT4gQ2jhu41uIDxiPkxvY2FsIFVwbG9hZDwvYj4uPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imd1aWRlLXN0ZXAiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ic3RlcC1udW0iPjM8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPkNo4buNbiBmaWxlIHThuqNpIHbhu4EuIEVjaG8gTG9vcCBz4bq9IHThu7EgxJHhu5luZyBraOG7m3AgYXVkaW8gdsOgIHBo4bulIMSR4buBIHRoZW8gbeG7kWMgdGjhu51pIGdpYW4gdsOgIGhp4buDbiB0aOG7iyB0w6puIHThu6tuZyBuZ8aw4budaSBuw7NpIChOZ8aw4budaSBuw7NpIEEsIE5nxrDhu51pIG7Ds2kgQi4uLikgxJHhu4MgYuG6oW4gbHV54buHbiB04bqtcCE8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICApCgogICAgICAgICMgQ29ubmVjdCBjbGljayBldmVudAogICAgICAgIHN1Ym1pdF9idG4uY2xpY2soCiAgICAgICAgICAgIGZuPXByb2Nlc3NfYXVkaW9fb3JfdmlkZW8sCiAgICAgICAgICAgIGlucHV0cz1bCiAgICAgICAgICAgICAgICBpbnB1dF90eXBlX3N0YXRlLAogICAgICAgICAgICAgICAgdXJsX2lucHV0LAogICAgICAgICAgICAgICAgZmlsZV9pbnB1dCwKICAgICAgICAgICAgICAgIGxhbmd1YWdlX2Ryb3Bkb3duLAogICAgICAgICAgICAgICAgcHJlZmVyX2FpX2NoZWNrYm94LAogICAgICAgICAgICAgICAgYXV0b19tZXJnZV9jaGVja2JveCwKICAgICAgICAgICAgICAgIGRpYXJpemVfY2hlY2tib3gsCiAgICAgICAgICAgICAgICBzcGVha2VyX3N0eWxlX2Ryb3Bkb3duLAogICAgICAgICAgICAgICAgZ3JvcV9rZXlfaW5wdXQsCiAgICAgICAgICAgICAgICBjb29raWVzX2lucHV0LAogICAgICAgICAgICAgICAgbWluX2R1cl9zbGlkZXIsCiAgICAgICAgICAgICAgICBtYXhfZHVyX3NsaWRlciwKICAgICAgICAgICAgICAgIGdhcF9zbGlkZXIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIG91dHB1dHM9WwogICAgICAgICAgICAgICAgc3RhdHVzX291dHB1dCwKICAgICAgICAgICAgICAgIGF1ZGlvX3ByZXZpZXcsCiAgICAgICAgICAgICAgICB6aXBfZG93bmxvYWQsCiAgICAgICAgICAgICAgICBtcDNfZG93bmxvYWQsCiAgICAgICAgICAgICAgICBzcnRfZG93bmxvYWQsCiAgICAgICAgICAgICAgICBzcnRfcHJldmlld19ib3gsCiAgICAgICAgICAgICAgICByZXN1bHRzX2NvbnRhaW5lciwKICAgICAgICAgICAgXSwKICAgICAgICApCgogICAgcmV0dXJuIGRlbW8KCgojIENyZWF0ZSBhcHAgaW5zdGFuY2UKYXBwID0gYnVpbGRfYXBwKCkKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBmZm1wZWdfZm91bmQgPSBmaW5kX2ZmbXBlZygpCiAgICBsb2NhbF9pcCA9IGdldF9sb2NhbF9pcCgpCiAgICBwb3J0ID0gaW50KG9zLmVudmlyb24uZ2V0KCJQT1JUIiwgNzg2MCkpCiAgICBsb2NhbF91cmwgPSBmImh0dHA6Ly97bG9jYWxfaXB9Ontwb3J0fSIKICAgIGlzX2Nsb3VkID0gYm9vbChvcy5lbnZpcm9uLmdldCgiUkVOREVSIikgb3Igb3MuZW52aXJvbi5nZXQoIlNQQUNFX0lEIikpCgogICAgcHJpbnQoIj0iICogNjUpCiAgICBwcmludCgiICAgICAg8J+OpyBFQ0hPIExPT1AgU1RVRElPIC0gQVVESU8gJiBTVUJUSVRMRSBHRU5FUkFUT1IiKQogICAgcHJpbnQoIj0iICogNjUpCiAgICBwcmludChmIlsqXSBGRm1wZWcgZGV0ZWN0ZWQgYXQ6IHtmZm1wZWdfZm91bmR9IikKICAgIHByaW50KGYiWypdIFNlcnZlciBQb3J0OiB7cG9ydH0iKQogICAgaWYgbm90IGlzX2Nsb3VkOgogICAgICAgIHByaW50KGYiWypdIExvY2FsIFdpLUZpIFVSTCAoTeG7nyB0csOqbiDEkWnhu4duIHRob+G6oWkgY8O5bmcgbeG6oW5nIFdpLUZpKToge2xvY2FsX3VybH0iKQogICAgICAgIHByaW50KCJbKl0gUXXDqXQgbcOjIFFSIGTGsOG7m2kgxJHDonkgYuG6sW5nIGNhbWVyYSDEkWnhu4duIHRob+G6oWkgxJHhu4MgbeG7nyDhu6luZyBk4bulbmc6IikKICAgICAgICBwcmludCgiPSIgKiA2NSkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHFyID0gcXJjb2RlLlFSQ29kZSgpCiAgICAgICAgICAgIHFyLmFkZF9kYXRhKGxvY2FsX3VybCkKICAgICAgICAgICAgcXIucHJpbnRfYXNjaWkoaW52ZXJ0PVRydWUpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgcHJpbnQoIj0iICogNjUpCgogICAgYXBwLmxhdW5jaCgKICAgICAgICBzZXJ2ZXJfbmFtZT0iMC4wLjAuMCIsCiAgICAgICAgc2VydmVyX3BvcnQ9cG9ydCwKICAgICAgICBzaGFyZT1ub3QgaXNfY2xvdWQsCiAgICApCg==
+import base64
+import io
+import os
+import shutil
+import socket
+import tempfile
+import uuid
+from pathlib import Path
+import gradio as gr
+from dotenv import load_dotenv
+import qrcode
+
+from config import (
+    AUDIO_BITRATE,
+    BASE_TEMP_DIR,
+    DEFAULT_GROQ_API_KEY,
+    DEFAULT_MAX_DURATION,
+    DEFAULT_MIN_DURATION,
+    DEFAULT_SILENCE_GAP,
+    GROQ_MODEL,
+    LANGUAGES,
+)
+from core.diarizer import diarize_and_label_speakers
+from core.downloader import download_media_and_subtitles, process_uploaded_media
+from core.groq_whisper import transcribe_with_groq
+from core.merger import merge_short_segments
+from core.subtitle import parse_srt_content, segments_to_srt
+from core.utils import create_echoloop_zip, find_ffmpeg, sanitize_filename
+
+# Ensure environment variables are loaded
+load_dotenv()
+
+
+def get_local_ip() -> str:
+    """Detects primary local network IP address."""
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except Exception:
+        return "127.0.0.1"
+
+
+def generate_qr_base64(url: str) -> str:
+    """Generates a base64 encoded PNG QR code."""
+    try:
+        qr = qrcode.QRCode(box_size=5, border=1)
+        qr.add_data(url)
+        qr.make(fit=True)
+        img = qr.make_image(fill_color="#10b981", back_color="#0f172a")
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+    except Exception:
+        return ""
+
+
+def format_duration(seconds: float) -> str:
+    """Formats seconds into mm:ss or hh:mm:ss string."""
+    m, s = divmod(int(seconds), 60)
+    h, m = divmod(m, 60)
+    if h > 0:
+        return f"{h}h {m:02d}m {s:02d}s"
+    return f"{m:02d}m {s:02d}s"
+
+
+def process_audio_or_video(
+    input_source_type: str,
+    video_url: str,
+    uploaded_file,
+    language: str,
+    prefer_ai: bool,
+    auto_merge: bool,
+    enable_diarization: bool,
+    speaker_style: str,
+    groq_api_key: str,
+    cookies_file,
+    min_duration: float,
+    max_duration: float,
+    silence_gap: float,
+    progress=gr.Progress(track_tqdm=True),
+):
+    """
+    Unified processing pipeline supporting both URL and direct file uploads:
+    1. Downloads or converts media to 96kbps MP3.
+    2. Retrieves or generates subtitles via Groq Whisper Turbo.
+    3. Auto-merges short segments (4-7s).
+    4. Labels speakers A, B, C... if diarization is enabled.
+    5. Outputs .mp3, .srt, and .zip with identical names.
+    """
+    job_id = str(uuid.uuid4())[:8]
+    job_dir = os.path.join(BASE_TEMP_DIR, f"job_{job_id}")
+    os.makedirs(job_dir, exist_ok=True)
+
+    # Resolve Groq API Key
+    active_key = (groq_api_key or "").strip() or os.environ.get("GROQ_API_KEY", "").strip()
+
+    try:
+        mp3_path = None
+        srt_content = None
+        clean_title = ""
+        duration = 0.0
+        sub_source = "none"
+
+        # ---------------------------------------------------------
+        # Branch 1: Video/Audio from URL
+        # ---------------------------------------------------------
+        if input_source_type == "url":
+            if not video_url or not video_url.strip():
+                raise gr.Error("Vui lòng dán link video (YouTube, TikTok, BBC...) vào ô nhập!")
+
+            url = video_url.strip()
+            cookies_path = None
+            if cookies_file is not None:
+                if isinstance(cookies_file, str):
+                    cookies_path = cookies_file
+                elif hasattr(cookies_file, "name"):
+                    cookies_path = cookies_file.name
+
+            progress(0.15, desc="Đang kết nối & tải âm thanh MP3 (96kbps)...")
+            mp3_path, srt_content, clean_title, duration, sub_source = download_media_and_subtitles(
+                url=url,
+                output_dir=job_dir,
+                language=language,
+                skip_subtitles=prefer_ai,
+                cookies_path=cookies_path,
+                progress_callback=lambda msg: progress(0.25, desc=msg),
+            )
+
+        # ---------------------------------------------------------
+        # Branch 2: File Upload (MP3, WAV, M4A, MP4, etc.)
+        # ---------------------------------------------------------
+        else:
+            if uploaded_file is None:
+                raise gr.Error("Vui lòng chọn hoặc kéo thả file âm thanh / video cần tạo phụ đề!")
+
+            input_path = uploaded_file.name if hasattr(uploaded_file, "name") else str(uploaded_file)
+            progress(0.2, desc="Đang xử lý file tải lên và chuyển đổi sang MP3 96kbps...")
+            mp3_path, clean_title, duration = process_uploaded_media(
+                uploaded_file_path=input_path,
+                output_dir=job_dir,
+                progress_callback=lambda msg: progress(0.3, desc=msg),
+            )
+            # Uploaded files always use Groq Whisper AI for transcription
+            srt_content = None
+            sub_source = "none"
+
+        segments = []
+        final_source_label = ""
+
+        # Step 2: Extract or Transcribe Subtitles
+        if srt_content and not prefer_ai:
+            progress(0.5, desc="Đang làm sạch phụ đề gốc từ video...")
+            segments = parse_srt_content(srt_content)
+            if sub_source == "manual":
+                final_source_label = "✅ Phụ đề chuẩn do tác giả cung cấp"
+            else:
+                final_source_label = "🤖 Phụ đề tự động từ nền tảng (Đã làm sạch thẻ HTML)"
+
+        # Fallback to Groq Whisper AI
+        if not segments or prefer_ai:
+            progress(0.55, desc=f"Đang phiên âm bằng Groq AI ({GROQ_MODEL})...")
+            if not active_key:
+                raise gr.Error(
+                    "Cần có Groq API Key để phiên âm âm thanh! "
+                    "Vui lòng nhập Groq API Key vào phần Cài đặt nâng cao hoặc thiết lập biến môi trường GROQ_API_KEY."
+                )
+
+            segments = transcribe_with_groq(
+                audio_path=mp3_path,
+                api_key=active_key,
+                language=language,
+                progress_callback=lambda msg: progress(0.7, desc=msg),
+            )
+            final_source_label = f"✨ Phiên âm AI Groq ({GROQ_MODEL})"
+
+        if not segments:
+            raise gr.Error("Không tìm thấy hoặc không tạo được phụ đề cho nội dung này!")
+
+        original_segments_count = len(segments)
+
+        # Step 3: Auto-merge short segments
+        if auto_merge:
+            progress(0.8, desc="Đang gộp câu ngắn thành câu hoàn chỉnh (4–7s)...")
+            segments = merge_short_segments(
+                segments=segments,
+                min_duration=min_duration,
+                max_duration=max_duration,
+                silence_gap_threshold=silence_gap,
+            )
+
+        # Step 4: Speaker Diarization (A, B, C...)
+        if enable_diarization:
+            progress(0.88, desc="Đang phân tích và gán nhãn người nói (A, B, C...)...")
+            segments = diarize_and_label_speakers(
+                segments=segments,
+                api_key=active_key,
+                style=speaker_style,
+                progress_callback=lambda msg: progress(0.9, desc=msg),
+            )
+            final_source_label += " + 👥 Phân biệt người nói (A, B, C)"
+
+        final_segments_count = len(segments)
+        final_srt_text = segments_to_srt(segments)
+
+        # Step 5: Write final .srt file
+        final_srt_path = os.path.join(job_dir, f"{clean_title}.srt")
+        with open(final_srt_path, "w", encoding="utf-8") as f:
+            f.write(final_srt_text)
+
+        # Step 6: Package matching files into Echo Loop ZIP
+        progress(0.95, desc="Đang đóng gói file ZIP cho Echo Loop...")
+        final_zip_path = os.path.join(job_dir, f"{clean_title}_EchoLoop.zip")
+        create_echoloop_zip(mp3_path, final_srt_path, final_zip_path)
+
+        progress(1.0, desc="Hoàn tất xử lý!")
+
+        # File stats
+        mp3_size_mb = os.path.getsize(mp3_path) / (1024 * 1024)
+        duration_str = format_duration(duration)
+
+        status_html = f"""
+        <div class="result-card">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+                <span style="font-weight: 700; font-size: 1.1rem; color: #10b981;">🎉 Đã tạo thành công!</span>
+                <span style="background: rgba(16, 185, 129, 0.2); color: #10b981; padding: 2px 10px; border-radius: 9999px; font-size: 0.8rem; font-weight: 600;">Chuẩn Echo Loop</span>
+            </div>
+            <div style="font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; word-break: break-word;">📄 Tiêu đề: {clean_title}</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; font-size: 0.82rem; color: #cbd5e1; margin-top: 10px;">
+                <div>⏱️ Thời lượng: <b>{duration_str}</b></div>
+                <div>📊 Dung lượng MP3: <b>{mp3_size_mb:.2f} MB</b></div>
+                <div>🎵 Bitrate: <b>{AUDIO_BITRATE}bps</b></div>
+                <div>💬 Số câu: <b>{final_segments_count}</b> (gốc: {original_segments_count})</div>
+            </div>
+            <div style="margin-top: 10px; font-size: 0.82rem; color: #94a3b8;">
+                Nguồn: <b style="color: #6ee7b7;">{final_source_label}</b>
+            </div>
+        </div>
+        """
+
+        preview_lines = final_srt_text.splitlines()[:60]
+        preview_text = "\n".join(preview_lines)
+        if len(final_srt_text.splitlines()) > 60:
+            preview_text += "\n\n... (tải file .srt để xem toàn bộ danh sách câu) ..."
+
+        return (
+            status_html,
+            mp3_path,         # Audio preview
+            final_zip_path,   # ZIP download
+            mp3_path,         # MP3 download
+            final_srt_path,   # SRT download
+            preview_text,     # Subtitle text preview
+            gr.update(visible=True),  # Show results container
+        )
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise gr.Error(f"Lỗi xử lý: {str(e)}")
+
+
+def build_app():
+    """Constructs the Gradio application UI."""
+    css_path = os.path.join(os.path.dirname(__file__), "static", "style.css")
+    custom_css = ""
+    if os.path.isfile(css_path):
+        with open(css_path, "r", encoding="utf-8") as f:
+            custom_css = f.read()
+
+    local_ip = get_local_ip()
+    local_url = f"http://{local_ip}:7860"
+    qr_data_uri = generate_qr_base64(local_url)
+
+    has_env_groq_key = bool(os.environ.get("GROQ_API_KEY", "").strip())
+    groq_status_badge = (
+        "🟢 Đã nhận diện GROQ_API_KEY từ hệ thống"
+        if has_env_groq_key
+        else "⚪ Chưa có biến môi trường (nhập thủ công bên dưới nếu cần)"
+    )
+
+    with gr.Blocks(title="Echo Loop Studio - Audio & Subtitle Generator") as demo:
+        # Injected CSS & Mobile Viewport
+        gr.HTML(
+            f"""
+            <style>{custom_css}</style>
+            <div class="app-header">
+                <div class="app-title">🎧 Echo Loop Studio</div>
+                <div class="app-desc">Tạo cặp file <b>.mp3</b> (96kbps) + <b>.srt</b> chuẩn chỉ với 1 cú click để nạp trực tiếp vào ứng dụng <b>Echo Loop</b></div>
+                <div class="badge-row">
+                    <span class="badge">🚀 Nhanh & Nhẹ (96kbps)</span>
+                    <span class="badge">👥 Phân biệt người nói A, B</span>
+                    <span class="badge">📁 Hỗ trợ Upload File</span>
+                    <span class="badge">⚡ Auto-merge 4–7s</span>
+                </div>
+            </div>
+            """
+        )
+
+        # Smooth Mobile Access Card (Wi-Fi Local IP + QR Code)
+        with gr.Accordion("📲 Hướng dẫn truy cập trên Điện thoại mượt mà (Không lo mất kết nối)", open=False):
+            gr.HTML(
+                f"""
+                <div style="background: rgba(30, 41, 59, 0.6); padding: 16px; border-radius: 12px; border: 1px solid rgba(99, 102, 241, 0.3);">
+                    <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                        {"<img src='" + qr_data_uri + "' style='width: 110px; height: 110px; border-radius: 8px;' alt='QR Code' />" if qr_data_uri else ""}
+                        <div style="flex: 1; min-width: 200px;">
+                            <h4 style="margin: 0 0 6px 0; color: #34d399;">📶 Kết nối mượt mà qua Wi-Fi nhà bạn (Khuyên dùng):</h4>
+                            <p style="margin: 0 0 8px 0; font-size: 0.88rem; color: #cbd5e1;">
+                                Khi điện thoại và máy tính kết nối <b>cùng mạng Wi-Fi</b>, hãy mở link dưới hoặc quét mã QR:
+                            </p>
+                            <a href="{local_url}" target="_blank" style="display: inline-block; background: #6366f1; color: #fff; padding: 6px 14px; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 0.95rem;">
+                                🌐 {local_url}
+                            </a>
+                            <p style="margin: 8px 0 0 0; font-size: 0.78rem; color: #94a3b8;">
+                                ⭐ Link này <b>không bao giờ hết hạn</b>, truy cập cực nhanh và không bao giờ bị báo lỗi "No interface is running"!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                """
+            )
+
+        # Input Tabs: URL vs File Upload
+        input_type_state = gr.State(value="url")
+
+        with gr.Tabs():
+            with gr.TabItem("🔗 Dán Link Video / Audio") as tab_url:
+                url_input = gr.Textbox(
+                    label="Đường dẫn Video",
+                    placeholder="Dán link YouTube, TikTok, Facebook, BBC, podcast...",
+                    lines=1,
+                    max_lines=2,
+                )
+
+            with gr.TabItem("📁 Tải File Âm Thanh / Video Từ Máy") as tab_file:
+                file_input = gr.File(
+                    label="Chọn hoặc kéo thả file âm thanh / video từ máy của bạn",
+                    file_types=["audio", "video", ".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg", ".mp4", ".mov", ".mkv", ".webm"],
+                )
+                gr.Markdown("<small style='color: #94a3b8;'>Hỗ trợ: MP3, WAV, M4A, AAC, FLAC, OGG, MP4, MOV, MKV... Hệ thống sẽ tự động tách tiếng và xuất file 96kbps chuẩn Echo Loop.</small>")
+
+        # Tab switch callbacks to keep input_type_state updated
+        tab_url.select(fn=lambda: "url", outputs=[input_type_state])
+        tab_file.select(fn=lambda: "file", outputs=[input_type_state])
+
+        with gr.Row():
+            language_dropdown = gr.Dropdown(
+                choices=LANGUAGES,
+                value="en",
+                label="🌐 Ngôn ngữ nhận diện",
+                scale=2,
+            )
+            auto_merge_checkbox = gr.Checkbox(
+                label="⚡ Gộp câu ngắn (4–7s)",
+                value=True,
+                info="Mô phỏng Auto-merge Echo Loop",
+                scale=1,
+            )
+            prefer_ai_checkbox = gr.Checkbox(
+                label="🤖 Ép dùng Groq AI",
+                value=False,
+                info="Bỏ qua sub gốc, dùng Whisper AI",
+                scale=1,
+            )
+
+        # Speaker Diarization Section
+        with gr.Row():
+            diarize_checkbox = gr.Checkbox(
+                label="👥 Phân biệt rõ người nói (A, B, C...)",
+                value=True,
+                info="Tự động nhận diện đối thoại và gán nhãn người nói",
+                scale=2,
+            )
+            speaker_style_dropdown = gr.Dropdown(
+                choices=[
+                    ("Tiếng Việt: [Người nói A], [Người nói B]", "vietnamese"),
+                    ("Tiếng Anh: [Speaker A], [Speaker B]", "english"),
+                    ("Ngắn gọn: [A], [B]", "short"),
+                ],
+                value="vietnamese",
+                label="Định dạng tên người nói",
+                scale=2,
+            )
+
+        # Advanced Settings Accordion
+        with gr.Accordion("⚙️ Cài đặt nâng cao & Groq API Key", open=False):
+            gr.Markdown(f"**Trạng thái Groq API:** `{groq_status_badge}`")
+            groq_key_input = gr.Textbox(
+                label="Groq API Key (Tùy chọn)",
+                placeholder="gsk_... (Để trống nếu đã lưu trong file .env)",
+                type="password",
+            )
+            with gr.Row():
+                min_dur_slider = gr.Slider(
+                    minimum=2.0,
+                    maximum=6.0,
+                    value=DEFAULT_MIN_DURATION,
+                    step=0.5,
+                    label="Độ dài tối thiểu mỗi câu (giây)",
+                )
+                max_dur_slider = gr.Slider(
+                    minimum=5.0,
+                    maximum=12.0,
+                    value=DEFAULT_MAX_DURATION,
+                    step=0.5,
+                    label="Độ dài tối đa mỗi câu (giây)",
+                )
+                gap_slider = gr.Slider(
+                    minimum=0.8,
+                    maximum=3.0,
+                    value=DEFAULT_SILENCE_GAP,
+                    step=0.1,
+                    label="Khoảng lặng ngắt câu (giây)",
+                )
+            cookies_input = gr.File(
+                label="Tải lên file cookies.txt (Tùy chọn - khi video YouTube bị chặn hoặc giới hạn độ tuổi)",
+                file_types=[".txt"],
+            )
+
+        # Action Submit Button
+        submit_btn = gr.Button(
+            "🚀 BẮT ĐẦU XỬ LÝ (TẠO AUDIO & PHỤ ĐỀ)",
+            variant="primary",
+            elem_classes=["action-btn"],
+        )
+
+        # Output Section
+        with gr.Column(visible=False) as results_container:
+            gr.Markdown("---")
+            status_output = gr.HTML()
+
+            with gr.Row():
+                audio_preview = gr.Audio(
+                    label="🎧 Nghe thử Audio (96kbps)",
+                    interactive=False,
+                    elem_id="audio-player",
+                )
+
+            gr.Markdown("### 📥 Tải về máy điện thoại")
+            with gr.Row():
+                zip_download = gr.File(
+                    label="📦 Tải File ZIP trọn bộ (.mp3 + .srt trùng tên - Khuyên dùng)",
+                    elem_classes=["zip-download-btn"],
+                )
+            with gr.Row():
+                mp3_download = gr.File(label="🎵 Tải File Audio (.mp3)")
+                srt_download = gr.File(label="📝 Tải File Phụ đề (.srt)")
+
+            with gr.Accordion("👁️ Xem trước nội dung phụ đề", open=False):
+                srt_preview_box = gr.Textbox(
+                    label="Nội dung phụ đề (.srt)",
+                    lines=12,
+                    interactive=False,
+                )
+
+        # Instructions Section
+        with gr.Accordion("📖 Hướng dẫn nạp vào Echo Loop & Sử dụng", open=False):
+            gr.Markdown(
+                """
+                <div class="guide-content">
+                    <h4 style="margin-top: 6px; color: #a5b4fc;">📱 Cách nạp vào ứng dụng Echo Loop:</h4>
+                    <div class="guide-step">
+                        <span class="step-num">1</span>
+                        <span>Nhấn nút <b>📦 Tải File ZIP trọn bộ</b> ở trên (chứa cả 2 file trùng tên 100%).</span>
+                    </div>
+                    <div class="guide-step">
+                        <span class="step-num">2</span>
+                        <span>Mở ứng dụng <b>Echo Loop</b> trên điện thoại -> Chọn <b>Local Upload</b>.</span>
+                    </div>
+                    <div class="guide-step">
+                        <span class="step-num">3</span>
+                        <span>Chọn file tải về. Echo Loop sẽ tự động khớp audio và phụ đề theo mốc thời gian và hiển thị tên từng người nói (Người nói A, Người nói B...) để bạn luyện tập!</span>
+                    </div>
+                </div>
+                """
+            )
+
+        # Connect click event
+        submit_btn.click(
+            fn=process_audio_or_video,
+            inputs=[
+                input_type_state,
+                url_input,
+                file_input,
+                language_dropdown,
+                prefer_ai_checkbox,
+                auto_merge_checkbox,
+                diarize_checkbox,
+                speaker_style_dropdown,
+                groq_key_input,
+                cookies_input,
+                min_dur_slider,
+                max_dur_slider,
+                gap_slider,
+            ],
+            outputs=[
+                status_output,
+                audio_preview,
+                zip_download,
+                mp3_download,
+                srt_download,
+                srt_preview_box,
+                results_container,
+            ],
+        )
+
+    return demo
+
+
+# Create app instance
+app = build_app()
+
+if __name__ == "__main__":
+    ffmpeg_found = find_ffmpeg()
+    local_ip = get_local_ip()
+    port = int(os.environ.get("PORT", 7860))
+    local_url = f"http://{local_ip}:{port}"
+    is_cloud = bool(os.environ.get("RENDER") or os.environ.get("SPACE_ID"))
+
+    print("=" * 65)
+    print("      🎧 ECHO LOOP STUDIO - AUDIO & SUBTITLE GENERATOR")
+    print("=" * 65)
+    print(f"[*] FFmpeg detected at: {ffmpeg_found}")
+    print(f"[*] Server Port: {port}")
+    if not is_cloud:
+        print(f"[*] Local Wi-Fi URL (Mở trên điện thoại cùng mạng Wi-Fi): {local_url}")
+        print("[*] Quét mã QR dưới đây bằng camera điện thoại để mở ứng dụng:")
+        print("=" * 65)
+        try:
+            qr = qrcode.QRCode()
+            qr.add_data(local_url)
+            qr.print_ascii(invert=True)
+        except Exception:
+            pass
+    print("=" * 65)
+
+    app.launch(
+        server_name="0.0.0.0",
+        server_port=port,
+        share=not is_cloud,
+    )
