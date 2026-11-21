@@ -84,12 +84,18 @@ def transcribe_single_audio(
     with open(audio_path, "rb") as f:
         file_bytes = f.read()
 
+    prompt_text = (
+        "Xin chào, đây là một đoạn hội thoại rõ ràng. "
+        "Please transcribe accurately with complete sentences, proper punctuation, and natural pauses."
+    )
+
     transcription = client.audio.transcriptions.create(
         file=(os.path.basename(audio_path), file_bytes),
         model="whisper-large-v3-turbo",
         response_format="verbose_json",
         language=language if language and language != "auto" else None,
         temperature=0.0,
+        prompt=prompt_text,
     )
 
     # Extract segments
