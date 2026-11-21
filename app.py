@@ -20,6 +20,7 @@ from config import (
     GROQ_MODEL,
     LANGUAGES,
 )
+from core.ai_segmenter import ai_optimize_sentences
 from core.diarizer import diarize_and_label_speakers
 from core.downloader import download_media_and_subtitles, process_uploaded_media
 from core.groq_whisper import transcribe_with_groq
@@ -72,6 +73,7 @@ def process_audio_or_video(
     uploaded_file,
     language: str,
     prefer_ai: bool,
+    ai_sentence_split: bool,
     auto_merge: bool,
     enable_diarization: bool,
     speaker_style: str,
@@ -181,9 +183,20 @@ def process_audio_or_video(
 
         original_segments_count = len(segments)
 
-        # Step 3: Auto-merge short segments
+        # Step 3: AI Smart Sentence Optimization (Phân tích chia câu trọn vẹn, không ngắt nửa chừng)
+        if ai_sentence_split and active_key:
+            progress(0.75, desc="🧠 AI đang phân tích ngữ cảnh và chia câu trọn vẹn (không ngắt nghỉ nửa chừng)...")
+            segments = ai_optimize_sentences(
+                segments=segments,
+                api_key=active_key,
+                language=language,
+                progress_callback=lambda msg: progress(0.78, desc=msg),
+            )
+            final_source_label += " + 🧠 AI chia câu trọn vẹn"
+
+        # Step 4: Auto-merge short segments (Cân chỉnh thời lượng và nhịp điệu 4–7s)
         if auto_merge:
-            progress(0.8, desc="Đang gộp câu ngắn thành câu hoàn chỉnh (4–7s)...")
+            progress(0.82, desc="Đang cân chỉnh thời lượng câu hoàn chỉnh (4–7s)...")
             segments = merge_short_segments(
                 segments=segments,
                 min_duration=min_duration,
@@ -191,14 +204,14 @@ def process_audio_or_video(
                 silence_gap_threshold=silence_gap,
             )
 
-        # Step 4: Speaker Diarization (A, B, C...)
+        # Step 5: Speaker Diarization (A, B, C...)
         if enable_diarization:
             progress(0.88, desc="Đang phân tích và gán nhãn người nói (A, B, C...)...")
             segments = diarize_and_label_speakers(
                 segments=segments,
                 api_key=active_key,
                 style=speaker_style,
-                progress_callback=lambda msg: progress(0.9, desc=msg),
+                progress_callback=lambda msg: progress(0.92, desc=msg),
             )
             final_source_label += " + 👥 Phân biệt người nói (A, B, C)"
 
@@ -290,6 +303,7 @@ def build_app():
                 <div class="app-desc">Tạo cặp file <b>.mp3</b> (96kbps) + <b>.srt</b> chuẩn chỉ với 1 cú click để nạp trực tiếp vào ứng dụng <b>Echo Loop</b></div>
                 <div class="badge-row">
                     <span class="badge">🚀 Nhanh & Nhẹ (96kbps)</span>
+                    <span class="badge">🧠 AI chia câu trọn vẹn</span>
                     <span class="badge">👥 Phân biệt người nói A, B</span>
                     <span class="badge">📁 Hỗ trợ Upload File</span>
                     <span class="badge">⚡ Auto-merge 4–7s</span>
@@ -352,8 +366,14 @@ def build_app():
                 label="🌐 Ngôn ngữ nhận diện",
                 scale=2,
             )
+            ai_sentence_split_checkbox = gr.Checkbox(
+                label="🧠 AI chia câu trọn vẹn (Không ngắt nửa chừng)",
+                value=True,
+                info="Phân tích ngữ cảnh, điểm ngắt nghỉ hợp lý, giữ câu hoàn chỉnh",
+                scale=2,
+            )
             auto_merge_checkbox = gr.Checkbox(
-                label="⚡ Gộp câu ngắn (4–7s)",
+                label="⚡ Cân chỉnh nhịp (4–7s)",
                 value=True,
                 info="Mô phỏng Auto-merge Echo Loop",
                 scale=1,
@@ -486,6 +506,7 @@ def build_app():
                 file_input,
                 language_dropdown,
                 prefer_ai_checkbox,
+                ai_sentence_split_checkbox,
                 auto_merge_checkbox,
                 diarize_checkbox,
                 speaker_style_dropdown,
